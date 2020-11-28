@@ -1,0 +1,76 @@
+body {
+    background-color: #111;
+}
+.page {
+    width: 50%;
+    max-width: 800px;
+    min-width: 600px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 34px;
+    padding-right: 34px;
+    background-color: #444;
+    font-family: Book Antiqua;
+    color: #ccc;
+}
+a:link, a:visited {
+    color: #68f;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #fff;
+}
+.pagehead {
+    background-color: #80C0FF;
+    background-color: #333;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.pagefoot {
+    background-color: #80C0FF;
+    background-color: #333;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.title {
+    display: block;
+    margin-top: 10px;
+}
+.date {
+    display: block;
+    font-style: italic;
+}
+.pagenav {
+    background-color: transparent;
+    background-color: #345;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.pagenav ul {
+    list-style-type: none;
+    margin-left: -34px;
+    margin-right: -34px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.pagenav li {
+    background-color: #234;
+    display: inline;
+    margin: 0;
+    padding: 20px;
+    border: 10px solid #111;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.pagefilter {
+}
+img {
+    max-width:100%;
+}
