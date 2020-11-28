@@ -66,6 +66,8 @@ a:hover, a:active {
 }
 .navitem:last-of-type {
     margin-right: -34px;
+}
+.navpadding {
     background-color: #345;
     flex: 1;
 }
