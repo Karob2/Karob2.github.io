@@ -1,0 +1,3 @@
+- replace embeds with thumbnail blocks
+- maybe have separate pages for each project type
+- maybe have main page with sub-selections from each sub-page.
