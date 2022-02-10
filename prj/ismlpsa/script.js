@@ -85,7 +85,8 @@ var tags = {
     'strike': 'strike',
     'italic': 'i',
     'italic2': 'i',
-    'code': 'span class="code"'
+    'code': 'pre class="code"',
+    'codeblock': 'pre class="codeblock"'
 }
 
 var restoration = {
@@ -94,7 +95,8 @@ var restoration = {
     'strike': '~~',
     'italic': '*',
     'italic2': '_',
-    'code': '`'
+    'code': '`',
+    'codeblock': '```'
 }
 
 var charConversions = {
@@ -125,6 +127,7 @@ function updatePreview() {
         nextChar = message.charAt(i + 1)
         prevChar = message.charAt(i - 1)
         dbl = message.slice(i, i + 2)
+        tpl = message.slice(i, i + 3)
         tag = ''
         canOpen = true
         canClose = true
@@ -133,36 +136,41 @@ function updatePreview() {
             i++
             continue
         }
-        if (dbl === '**') tag = 'bold'
-        if (dbl === '__') tag = 'underline'
-        if (dbl === '~~') tag = 'strike'
-        if (dbl === '!n') {
-            formatted[formatted.length - 1] += '<br/>'
-            i++
-            continue
-        }
+        if (tpl === '```') tag = 'codeblock'
         if (tag === '') {
-            if (char === '*') {
-                if (nextChar !== ' ') {
-                    if (prevChar !== ' ') {
-                        tag = 'italic'
-                    } else {
-                        tag = 'italic'
-                        canClose = false
-                    }
-                } else if (prevChar !== ' ') {
-                    tag = 'italic'
-                    canOpen = false
-                }
+            if (dbl === '**') tag = 'bold'
+            if (dbl === '__') tag = 'underline'
+            if (dbl === '~~') tag = 'strike'
+            if (dbl === '!n') {
+                formatted[formatted.length - 1] += '<br/>'
+                i++
+                continue
             }
-            if (char === '_') tag = 'italic2'
-            if (char === '`') tag = 'code'
-            // if (char === '\n') {
-            //     formatted[formatted.length - 1] += '<br/>'
-            //     continue
-            // }
+            if (tag === '') {
+                if (char === '*') {
+                    if (nextChar !== ' ') {
+                        if (prevChar !== ' ') {
+                            tag = 'italic'
+                        } else {
+                            tag = 'italic'
+                            canClose = false
+                        }
+                    } else if (prevChar !== ' ') {
+                        tag = 'italic'
+                        canOpen = false
+                    }
+                }
+                if (char === '_') tag = 'italic2'
+                if (char === '`') tag = 'code'
+                // if (char === '\n') {
+                //     formatted[formatted.length - 1] += '<br/>'
+                //     continue
+                // }
+            } else {
+                i++
+            }
         } else {
-            i++
+            i += 2
         }
         if (tag === '') {
             if (char in charConversions) char = charConversions[char]
@@ -209,6 +217,40 @@ function updatePreview() {
     //     imageLink = outputImageLink.value
     // }
     preview.innerHTML = `<h3>${outputTitle.value}</h3>${formatted.join('')}<br/><br/><img src="${imageLink}">`
+    codeBlocks = document.getElementsByClassName('codeblock')
+    for (codeBlock of codeBlocks) {
+        console.log(codeBlock.innerHTML)
+        working = codeBlock.innerHTML
+        while (true) {
+            if (working.charAt(0) === ' ') {
+                working = working.slice(1, working.length)
+                continue
+            }
+            if (working.slice(0, 4) === '<br>') {
+                working = working.slice(4, working.length)
+                continue
+            }
+            if (working.slice(0, 5) === '<br/>') {
+                working = working.slice(5, working.length)
+                continue
+            }
+            if (working.slice(working.length - 1, working.length) === ' ') {
+                working = working.slice(0, working.length - 1)
+                continue
+            }
+            if (working.slice(working.length - 4, working.length) === '<br>') {
+                working = working.slice(0, working.length - 4)
+                continue
+            }
+            if (working.slice(working.length - 5, working.length) === '<br/>') {
+                working = working.slice(0, working.length - 5)
+                continue
+            }
+            break
+        }
+        console.log(working)
+        codeBlock.innerHTML = working
+    }
 }
 
 function resetAll() {

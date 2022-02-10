@@ -114,4 +114,12 @@ input[type=submit].warning:hover, input[type=button].warning:hover {
 .code {
     font-family: monospace;
     background-color: #222;
+    display: inline;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.codeblock {
+    font-family: monospace;
+    background-color: #222;
 }
