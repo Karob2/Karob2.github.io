@@ -101,6 +101,7 @@ var bannerTypes = [
     'Shop'
 ]
 
+// TODO: Character escaping. \
 function updatePreview() {
     // Format: bold, italic, underscore, strikethrough,
     //     code block, emoji, links
@@ -151,6 +152,9 @@ function updatePreview() {
             stack.push([tag, formatted.length])
             formatted.push('')
         }
+    }
+    for (i = stack.length - 1; i > 0; i--) {
+        if (stack[i][0] === 'bold') formatted[stack[i][1]] = `**` + formatted[stack[i][1]]
     }
     let imageLink = ''
     if (outputType.value === "Custom" || outputImageLink.value !== '') {
