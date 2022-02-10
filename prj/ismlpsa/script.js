@@ -153,11 +153,16 @@ function updatePreview() {
         }
     }
     let imageLink = ''
-    if (bannerTypes.includes(outputType.value)) {
-        imageLink = `img/${outputType.value.toLowerCase()}.png`
-    } else if (outputType.value === "Custom") {
+    if (outputType.value === "Custom" || outputImageLink.value !== '') {
         imageLink = outputImageLink.value
+    } else {
+        imageLink = `img/${outputType.value.toLowerCase()}.png`
     }
+    // if (bannerTypes.includes(outputType.value)) {
+    //     imageLink = `img/${outputType.value.toLowerCase()}.png`
+    // } else if (outputType.value === "Custom") {
+    //     imageLink = outputImageLink.value
+    // }
     preview.innerHTML = `<h3>${outputTitle.value}</h3>${formatted.join('')}<br/><br/><img src="${imageLink}">`
 }
 
