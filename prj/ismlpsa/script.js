@@ -111,7 +111,6 @@ var bannerTypes = [
     'Shop'
 ]
 
-// TODO: Character escaping. \
 // TODO: multiline code ```
 // TODO: preserve space in code areas
 function updatePreview() {
@@ -129,6 +128,11 @@ function updatePreview() {
         tag = ''
         canOpen = true
         canClose = true
+        if (char === '\\' && nextChar.length > 0) {
+            formatted[formatted.length - 1] += nextChar
+            i++
+            continue
+        }
         if (dbl === '**') tag = 'bold'
         if (dbl === '__') tag = 'underline'
         if (dbl === '~~') tag = 'strike'
