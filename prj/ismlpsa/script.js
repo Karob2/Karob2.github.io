@@ -84,7 +84,17 @@ var tags = {
     'underline': 'u',
     'strike': 'strike',
     'italic': 'i',
+    'italic2': 'i',
     'code': 'span class="code"'
+}
+
+var restoration = {
+    'bold': '**',
+    'underline': '__',
+    'strike': '~~',
+    'italic': '*',
+    'italic2': '_',
+    'code': '`'
 }
 
 var charConversions = {
@@ -102,6 +112,8 @@ var bannerTypes = [
 ]
 
 // TODO: Character escaping. \
+// TODO: multiline code ```
+// TODO: preserve space in code areas
 function updatePreview() {
     // Format: bold, italic, underscore, strikethrough,
     //     code block, emoji, links
@@ -122,7 +134,8 @@ function updatePreview() {
             continue
         }
         if (tag === '') {
-            if (char === '*' || char == '_') tag = 'italic'
+            if (char === '*') tag = 'italic'
+            if (char === '_') tag = 'italic2'
             if (char === '`') tag = 'code'
             // if (char === '\n') {
             //     formatted[formatted.length - 1] += '<br/>'
@@ -154,7 +167,8 @@ function updatePreview() {
         }
     }
     for (i = stack.length - 1; i > 0; i--) {
-        if (stack[i][0] === 'bold') formatted[stack[i][1]] = `**` + formatted[stack[i][1]]
+        rstr = restoration[stack[i][0]]
+        formatted[stack[i][1]] = rstr + formatted[stack[i][1]]
     }
     let imageLink = ''
     if (outputType.value === "Custom" || outputImageLink.value !== '') {
