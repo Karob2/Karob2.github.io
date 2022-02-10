@@ -123,8 +123,12 @@ function updatePreview() {
     formatted = ['']
     for (i = 0; i < message.length; i++) {
         char = message.charAt(i)
+        nextChar = message.charAt(i + 1)
+        prevChar = message.charAt(i - 1)
         dbl = message.slice(i, i + 2)
         tag = ''
+        canOpen = true
+        canClose = true
         if (dbl === '**') tag = 'bold'
         if (dbl === '__') tag = 'underline'
         if (dbl === '~~') tag = 'strike'
@@ -134,7 +138,19 @@ function updatePreview() {
             continue
         }
         if (tag === '') {
-            if (char === '*') tag = 'italic'
+            if (char === '*') {
+                if (nextChar !== ' ') {
+                    if (prevChar !== ' ') {
+                        tag = 'italic'
+                    } else {
+                        tag = 'italic'
+                        canClose = false
+                    }
+                } else if (prevChar !== ' ') {
+                    tag = 'italic'
+                    canOpen = false
+                }
+            }
             if (char === '_') tag = 'italic2'
             if (char === '`') tag = 'code'
             // if (char === '\n') {
@@ -150,20 +166,27 @@ function updatePreview() {
             continue
         }
         closedTag = false
-        for (j = stack.length - 1; j >= 0; j--) {
-            if (stack[j][0] === tag) {
-                // formatted.splice(stack[j][1], 0, `%${tags[tag]}>`)
-                formatted[stack[j][1]] = `<${tags[tag]}>` + formatted[stack[j][1]]
-                formatted.push(`</${tags[tag].split(' ')[0]}>`)
-                formatted.push('')
-                stack.splice(j, 1)
-                closedTag = true
-                break
+        if (canClose) {
+            for (j = stack.length - 1; j >= 0; j--) {
+                if (stack[j][0] === tag) {
+                    // formatted.splice(stack[j][1], 0, `%${tags[tag]}>`)
+                    formatted[stack[j][1]] = `<${tags[tag]}>` + formatted[stack[j][1]]
+                    formatted.push(`</${tags[tag].split(' ')[0]}>`)
+                    formatted.push('')
+                    stack.splice(j, 1)
+                    closedTag = true
+                    break
+                }
             }
         }
         if (!closedTag) {
-            stack.push([tag, formatted.length])
-            formatted.push('')
+            if (canOpen) {
+                stack.push([tag, formatted.length])
+                formatted.push('')
+            } else {
+                formatted[formatted.length - 1] += restoration[tag]
+                continue
+            }
         }
     }
     for (i = stack.length - 1; i > 0; i--) {
