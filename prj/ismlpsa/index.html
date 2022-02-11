@@ -27,7 +27,7 @@
                     <input type="text" id="psaTitle" name="psaTitle" size="40" class="middle">
                 </div>
                 <div class="container">
-                    <label for="psaMessage" class="left col1">Message</label><br/>
+                    <label for="psaMessage" class="left col1">Message:</label><br/>
                     <textarea id="psaMessage" name="psaMessage" rows="12" cols="50" class="middle"></textarea>
                 </div>
                 <div class="container">
@@ -36,14 +36,15 @@
                 </div>
                 <div class="container2">
                     <!-- <input type="button" id="psaTest" value="Test" class="left"> -->
-                    <input type="button" id="psaCopy" value="Copy" class="left">
+                    <input type="button" id="psaCopy" value="Copy Message Code" class="left">
+                    <input type="button" id="psaView" value="View Code" class="left grayed">
                     <input type="button" id="psaReset" value="Reset" class="warning">
                 </div>
                 <!-- <input type="submit" value="Submit"> -->
             </form>
         </div>
         <div id="outputDiv">
-            <h2>Copying</h2>
+            <h2>Code</h2>
             <form id="outputForm" class="section">
                 <div class="container">
                     <label for="outputType" class="left col1">Type:</label>
@@ -52,21 +53,21 @@
                 </div>
                 <div class="container">
                     <label for="outputTitle" class="left col1">Title:</label>
-                    <input type="text" id="outputTitle" name="outputTitle" class="middle" disabled>
+                    <input type="text" id="outputTitle" name="outputTitle" class="middle">
                     <input type="button" id="copyTitle" value="Copy" class="right">
                 </div>
                 <div class="container">
                     <label for="outputMessage" class="left col1">Message:</label>
-                    <textarea id="outputMessage" name="outputMessage" rows="4" cols="50" class="middle" disabled></textarea>
+                    <textarea id="outputMessage" name="outputMessage" rows="4" cols="50" class="middle"></textarea>
                     <input type="button" id="copyMessage" value="Copy" class="right">
                 </div>
                 <div class="container">
                     <label for="outputImageLink" class="left col1">Image Link:</label>
-                    <input type="text" id="outputImageLink" name="outputImageLink" class="middle" disabled>
+                    <input type="text" id="outputImageLink" name="outputImageLink" class="middle">
                     <input type="button" id="copyImageLink" value="Copy" class="right">
                 </div>
                 <div class="container2">
-                    <input type="button" id="outputEdit" value="Edit" class="left">
+                    <input type="button" id="outputEdit" value="Return" class="left grayed">
                 </div>
             </form>
         </div>

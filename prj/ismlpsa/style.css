@@ -39,17 +39,22 @@ input[type=submit], input[type=button] {
   border-radius: 4px;
   cursor: pointer;
 }
-
-input[type=submit].warning, input[type=button].warning {
-  background-color: #AF504C;
-}
-
 input[type=submit]:hover, input[type=button]:hover {
   background-color: #45a049;
 }
 
-input[type=submit].warning:hover, input[type=button].warning:hover {
+input[type=button].warning {
+  background-color: #AF504C;
+}
+input[type=button].warning:hover {
   background-color: #a04945;
+}
+
+input[type=button].grayed {
+  background-color: #606060;
+}
+input[type=button].grayed:hover {
+  background-color: #6a6a6a;
 }
 
 .button {

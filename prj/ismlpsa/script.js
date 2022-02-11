@@ -6,6 +6,7 @@ function onPageLoad() {
 
     // var psaTest = document.getElementById('psaTest');
     var psaCopy = document.getElementById('psaCopy');
+    var psaView = document.getElementById('psaView');
     var psaReset = document.getElementById('psaReset');
 
     var preview = document.getElementById('preview');
@@ -31,10 +32,18 @@ function onPageLoad() {
         outputTitle.value = psaTitle.value
         updatePreview()
     });
+    outputTitle.addEventListener('input', () => {
+        psaTitle.value = outputTitle.value
+        updatePreview()
+    });
 
     outputMessage.value = psaMessage.value.replaceAll('\n','!n')
     psaMessage.addEventListener('input', () => {
         outputMessage.value = psaMessage.value.replaceAll('\n','!n')
+        updatePreview()
+    });
+    outputMessage.addEventListener('input', () => {
+        psaMessage.value = outputMessage.value.replaceAll('!n','\n')
         updatePreview()
     });
 
@@ -43,13 +52,21 @@ function onPageLoad() {
         outputImageLink.value = psaImageLink.value
         updatePreview()
     });
+    outputImageLink.addEventListener('input', () => {
+        psaImageLink.value = outputImageLink.value
+        updatePreview()
+    });
 
     // psaTest.addEventListener('click', () => {
     //     updatePreview()
     // });
 
-    outputDiv.style.display = 'none'
     psaCopy.addEventListener('click', () => {
+        copy(outputMessage.value)
+    });
+
+    outputDiv.style.display = 'none'
+    psaView.addEventListener('click', () => {
         // copyImageLink.scrollIntoView();
         psaDiv.style.display = 'none'
         // previewDiv.style.display = 'none'
@@ -153,8 +170,6 @@ function markdownUrlForward(message, index) {
 }
 
 // TODO: Example button.
-// TODO: Put copy buttons on input page, and change bottom copy button into view code or something.
-// TODO: emoji (including image uploads?)
 // TODO: timestamps
 function updatePreview() {
     // Format: bold, italic, underscore, strikethrough,
@@ -327,7 +342,7 @@ function updatePreview() {
     codeBlocks = document.getElementsByClassName('codeblock')
     for (codeBlockOuter of codeBlocks) {
         codeBlock = codeBlockOuter.children[0]
-        console.log(codeBlock.innerHTML)
+        // console.log(codeBlock.innerHTML)
         working = codeBlock.innerHTML
         while (true) {
             if (working.charAt(0) === ' ') {
@@ -356,7 +371,7 @@ function updatePreview() {
             }
             break
         }
-        console.log(working)
+        // console.log(working)
         codeBlock.innerHTML = working
     }
 }
@@ -380,9 +395,9 @@ function resetAll() {
 function copy(input) {
     if (navigator.clipboard) {
         navigator.clipboard.writeText(input).then(() => {
-            console.log('Copied to clipboard successfully.');
+            // console.log('Copied to clipboard successfully.');
         }, (err) => {
-            console.log('Failed to copy the text to clipboard.', err);
+            // console.log('Failed to copy the text to clipboard.', err);
         });
     } else if (window.clipboardData) {
         window.clipboardData.setData("Text", input);
