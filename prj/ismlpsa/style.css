@@ -1,71 +1,69 @@
 .section {
-  border-radius: 5px;
-  background-color: #2f2f2f;
-  padding: 20px;
-  width: 40em;
-  /*min-width: 50%;*/
-  max-width: 100%;
-  min-height: 30em;
+    border-radius: 5px;
+    background-color: #2f2f2f;
+    padding: 20px;
+    width: 40em;
+    /*min-width: 50%;*/
+    max-width: 100%;
+    min-height: 30em;
 }
 
 input[type=text], textarea, select {
-  /*width: 100%;*/
-  background-color: #444;
-  color: white;
-  padding: 12px 20px;
-  /*margin: 8px 0;*/
-  /*display: inline-block;*/
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+    /*width: 100%;*/
+    background-color: #444;
+    color: white;
+    padding: 12px 20px;
+    /*margin: 8px 0;*/
+    /*display: inline-block;*/
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 textarea {
-   font-family: inherit;
-   font-size: inherit;
-}
-
-textarea {
+    /*font-family: inherit;*/
+    font-family: monospace;
+    font-size: inherit;
     resize: vertical;
 }
 
 input[type=submit], input[type=button] {
-  /*width: 100%;*/
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  /*margin: 8px 0;*/
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+    /*width: 100%;*/
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    /*margin: 8px 0;*/
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 input[type=submit]:hover, input[type=button]:hover {
-  background-color: #45a049;
+    background-color: #45a049;
 }
 
 input[type=button].warning {
-  background-color: #AF504C;
+    background-color: #AF504C;
 }
 input[type=button].warning:hover {
-  background-color: #a04945;
+    background-color: #a04945;
 }
 
 input[type=button].grayed {
-  background-color: #606060;
+    background-color: #606060;
 }
 input[type=button].grayed:hover {
-  background-color: #6a6a6a;
+    background-color: #6a6a6a;
 }
 
 .button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .container {

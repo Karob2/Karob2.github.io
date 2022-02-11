@@ -8,6 +8,8 @@ function onPageLoad() {
     var psaCopy = document.getElementById('psaCopy');
     var psaView = document.getElementById('psaView');
     var psaReset = document.getElementById('psaReset');
+    var psaExample = document.getElementById('psaExample');
+    var psaUndo = document.getElementById('psaUndo');
 
     var preview = document.getElementById('preview');
 
@@ -20,6 +22,11 @@ function onPageLoad() {
     var psaDiv = document.getElementById('psaDiv');
     var previewDiv = document.getElementById('previewDiv');
     var outputDiv = document.getElementById('outputDiv');
+
+    var typeStorage = 0
+    var titleStorage = ''
+    var messageStorage = ''
+    var imageLinkStorage = ''
 
     outputType.value = psaType.options[psaType.selectedIndex].text;
     psaType.addEventListener('input', () => {
@@ -50,10 +57,14 @@ function onPageLoad() {
     outputImageLink.value = psaImageLink.value
     psaImageLink.addEventListener('input', () => {
         outputImageLink.value = psaImageLink.value
+        psaType.selectedIndex = 0
+        outputType.value = psaType.options[psaType.selectedIndex].text
         updatePreview()
     });
     outputImageLink.addEventListener('input', () => {
         psaImageLink.value = outputImageLink.value
+        psaType.selectedIndex = 0
+        outputType.value = psaType.options[psaType.selectedIndex].text
         updatePreview()
     });
 
@@ -83,6 +94,18 @@ function onPageLoad() {
         if (result) resetAll()
     });
 
+    psaUndo.style.display = 'none'
+    psaExample.addEventListener('click', () => {
+        psaExample.style.display = 'none'
+        psaUndo.style.display = 'block'
+        showExample()
+    });
+    psaUndo.addEventListener('click', () => {
+        psaExample.style.display = 'block'
+        psaUndo.style.display = 'none'
+        undoExample()
+    });
+
     copyTitle.addEventListener('click', () => {
         copy(outputTitle.value)
     });
@@ -93,6 +116,51 @@ function onPageLoad() {
         copy(outputImageLink.value)
     });
 
+    updatePreview()
+}
+
+function resetAll() {
+    psaType.selectedIndex = 0;
+    psaTitle.value = ''
+    psaMessage.value = ''
+    psaImageLink.value = ''
+
+    outputType.value = psaType.options[psaType.selectedIndex].text
+    outputTitle.value = psaTitle.value
+    outputMessage.value = psaMessage.value
+    outputImageLink.value = psaImageLink.value
+
+    psaExample.style.display = 'block'
+    psaUndo.style.display = 'none'
+
+    preview.innerHTML = ''
+}
+
+function showExample() {
+    typeStorage = psaType.selectedIndex
+    titleStorage = psaTitle.value
+    messageStorage = psaMessage.value
+    imageLinkStorage = psaImageLink.value
+    psaType.selectedIndex = 0
+    psaTitle.value = 'Happy Birthday :tada:'
+    psaMessage.value = ':heart: It\'s been a *wonderful* year.\n\nWriting\'s not easy. That\'s why `Grammarly` can help. This sentence is grammatically correct, but it\'s wordy, and hard to read. It undermines the writer\'s message and the word choice is bland. `Grammarly`\'s cutting edge technology helps you craft compelling, understandable writing that makes an impact on your reader. Much better. Are you ready to give it a try? Installation is simple and free. Visit `Grammarly`.com today!\n\nWishing you many :melonpan: and ~~pity breaks~~,\n__The Undersigned__\n\n> Leap years are years where **an extra day is added** to the end of the shortest month, [February](https://www.timeanddate.com/calendar/months/february.html). This so-called intercalary day, February 29, is commonly referred to as [leap day](https://www.timeanddate.com/date/leap-day.html).\nSource: https://www.timeanddate.com/date/leapyear.html\n```\n1000\n 850\n   7             touhou_hijack_lol\n```'
+    psaImageLink.value = 'https://i.ytimg.com/vi/em88JdiM8bM/maxresdefault.jpg'
+    outputType.value = psaType.options[psaType.selectedIndex].text
+    outputTitle.value = psaTitle.value
+    outputMessage.value = psaMessage.value.replaceAll('\n','!n')
+    outputImageLink.value = psaImageLink.value
+    updatePreview()
+}
+
+function undoExample() {
+    psaType.selectedIndex = typeStorage
+    psaTitle.value = titleStorage
+    psaMessage.value = messageStorage
+    psaImageLink.value = imageLinkStorage
+    outputType.value = psaType.options[psaType.selectedIndex].text
+    outputTitle.value = psaTitle.value
+    outputMessage.value = psaMessage.value
+    outputImageLink.value = psaImageLink.value
     updatePreview()
 }
 
@@ -144,7 +212,8 @@ function lookForward(message, index, match, multiLine = true, spaces = true) {
 }
 
 function urlForward(message, index) {
-    for (var i = index; i <= message.length - 1; i++) {
+    let i
+    for (i = index; i <= message.length - 1; i++) {
         if (message.slice(i, i + 1) === ' ') return i
         if (message.slice(i, i + 2) === '!n') return i
     }
@@ -152,7 +221,8 @@ function urlForward(message, index) {
 }
 
 function quoteForward(message, index) {
-    for (var i = index + 2; i <= message.length - 1; i++) {
+    let i
+    for (i = index + 2; i <= message.length - 1; i++) {
         if (message.slice(i, i + 2) === '!n') return i
     }
     return i
@@ -176,9 +246,7 @@ function markdownUrlForward(message, index) {
     return null
 }
 
-// TODO: Example button.
 // TODO: timestamps
-// TODO: code block language specifier ignore
 // TODO: disable nested quotes and advanced title formatting
 function updatePreview() {
     let title = formatMessage(outputTitle.value)
@@ -253,7 +321,7 @@ function formatMessage(message) {
         if (message.slice(i, i + 7) === 'http://' || message.slice(i, i + 8) === 'https://' || message.slice(i, i + 7) === 'file://') {
             let fwd = urlForward(message, i)
             let msg = message.slice(i, fwd)
-            formatted.push(`<a href="${msg}">${msg}</a>`)
+            formatted.push(`<a href="${msg}" target="_blank">${msg}</a>`)
             formatted.push('')
             i = fwd - 1
             continue
@@ -290,9 +358,10 @@ function formatMessage(message) {
             if (dbl === '> ') {
                 let fwd = quoteForward(message, i)
                 let msg = message.slice(i + 2, fwd)
-                formatted.push(`<span class="quote">${formatMessage(msg)}</span>`)
+                formatted.push(`<div class="quote">${formatMessage(msg)}</div>`)
                 formatted.push('')
                 i = fwd - 1
+                if (message.slice(i + 1, i + 3) === '!n') i += 2
                 continue
             }
             if (tag === '') {
@@ -355,7 +424,7 @@ function formatMessage(message) {
                     if (fwd !== null) {
                         let name = message.slice(i + 1, fwd[0] - 1)
                         let url = message.slice(fwd[0] + 1, fwd[1])
-                        formatted.push(`<a href="${url}">${name}</a>`)
+                        formatted.push(`<a href="${url}" target="_blank">${name}</a>`)
                         formatted.push('')
                         i = fwd[1]
                         continue
@@ -405,22 +474,6 @@ function formatMessage(message) {
         formatted[stack[i][1]] = rstr + formatted[stack[i][1]]
     }
     return formatted.join('').replaceAll('!n','<br/>')
-}
-
-function resetAll() {
-    psaType.selectedIndex = 0;
-    outputType.value = psaType.options[psaType.selectedIndex].text
-
-    psaTitle.value = ''
-    outputTitle.value = ''
-
-    psaMessage.value = ''
-    outputMessage.value = ''
-
-    psaImageLink.value = ''
-    outputImageLink.value = ''
-
-    preview.innerHTML = ''
 }
 
 function copy(input) {
