@@ -154,7 +154,6 @@ function markdownUrlForward(message, index) {
 
 // TODO: Example button.
 // TODO: Put copy buttons on input page, and change bottom copy button into view code or something.
-// TODO: links
 // TODO: emoji (including image uploads?)
 // TODO: timestamps
 function updatePreview() {
@@ -247,7 +246,14 @@ function updatePreview() {
                 if (char === ':') {
                     fwd = lookForward(message, i, ':', multiLine = false, spaces = false)
                     if (fwd >= 0) {
-                        formatted.push(`<pre class="special">${message.slice(i, fwd + 1)}</pre>`)
+                        let code = message.slice(i + 1, fwd)
+                        if (emoteLookup.has(code)) formatted.push(`<img src="img/emote/${code}.webp" style="width:1em; max-height:1em;">`)
+                        else if (twaLookup.has(code)) formatted.push(`<i class="twa twa-${code.replaceAll('_','-')}"></i>`)
+                        else formatted.push(`<img src="img/emote/unknown.png" title=":${code}:" alt=":${code}:" style="width:1em; max-height:1em;">`)
+                        // formatted.push(`<pre class="special">:${code}:</pre>`)
+                        // formatted.push(`❤`)
+                        // formatted.push(`<img src="img/emote/unknown.png" title=":${code}:" alt=":${code}:" style="width:1em">`)
+                        // formatted.push(`<i class="twa twa-heart"></i>`)
                         formatted.push('')
                         i = fwd
                         continue
