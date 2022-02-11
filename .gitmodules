@@ -1,0 +1,3 @@
+[submodule "prj/ismlpsa"]
+	path = prj/ismlpsa
+	url = https://github.com/Karob2/isml-psa-helper
