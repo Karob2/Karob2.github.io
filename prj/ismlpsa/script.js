@@ -172,10 +172,57 @@ function markdownUrlForward(message, index) {
 // TODO: Example button.
 // TODO: timestamps
 function updatePreview() {
-    // Format: bold, italic, underscore, strikethrough,
-    //     code block, emoji, links
-    // preview.innerHTML = psaMessage.value.replaceAll('\n', '<br/>')
-    message = outputMessage.value
+    let title = formatMessage(outputTitle.value)
+    let message = formatMessage(outputMessage.value)
+    let imageLink = ''
+    if (outputType.value === "Custom" || outputImageLink.value !== '') {
+        imageLink = outputImageLink.value
+    } else {
+        imageLink = `img/${outputType.value.toLowerCase()}.png`
+    }
+    // if (bannerTypes.includes(outputType.value)) {
+    //     imageLink = `img/${outputType.value.toLowerCase()}.png`
+    // } else if (outputType.value === "Custom") {
+    //     imageLink = outputImageLink.value
+    // }
+    preview.innerHTML = `<h3>${title}</h3>${message}<br/><br/><img src="${imageLink}">`
+    codeBlocks = document.getElementsByClassName('codeblock')
+    for (codeBlockOuter of codeBlocks) {
+        codeBlock = codeBlockOuter.children[0]
+        // console.log(codeBlock.innerHTML)
+        working = codeBlock.innerHTML
+        while (true) {
+            if (working.charAt(0) === ' ') {
+                working = working.slice(1, working.length)
+                continue
+            }
+            if (working.slice(0, 4) === '<br>') {
+                working = working.slice(4, working.length)
+                continue
+            }
+            if (working.slice(0, 5) === '<br/>') {
+                working = working.slice(5, working.length)
+                continue
+            }
+            if (working.slice(working.length - 1, working.length) === ' ') {
+                working = working.slice(0, working.length - 1)
+                continue
+            }
+            if (working.slice(working.length - 4, working.length) === '<br>') {
+                working = working.slice(0, working.length - 4)
+                continue
+            }
+            if (working.slice(working.length - 5, working.length) === '<br/>') {
+                working = working.slice(0, working.length - 5)
+                continue
+            }
+            break
+        }
+        // console.log(working)
+        codeBlock.innerHTML = working
+    }
+}
+function formatMessage(message) {
     stack = [['base', 0]]
     formatted = ['']
     for (let i = 0; i < message.length; i++) {
@@ -327,53 +374,7 @@ function updatePreview() {
         rstr = restoration[stack[i][0]]
         formatted[stack[i][1]] = rstr + formatted[stack[i][1]]
     }
-    let imageLink = ''
-    if (outputType.value === "Custom" || outputImageLink.value !== '') {
-        imageLink = outputImageLink.value
-    } else {
-        imageLink = `img/${outputType.value.toLowerCase()}.png`
-    }
-    // if (bannerTypes.includes(outputType.value)) {
-    //     imageLink = `img/${outputType.value.toLowerCase()}.png`
-    // } else if (outputType.value === "Custom") {
-    //     imageLink = outputImageLink.value
-    // }
-    preview.innerHTML = `<h3>${outputTitle.value}</h3>${formatted.join('').replaceAll('!n','<br/>')}<br/><br/><img src="${imageLink}">`
-    codeBlocks = document.getElementsByClassName('codeblock')
-    for (codeBlockOuter of codeBlocks) {
-        codeBlock = codeBlockOuter.children[0]
-        // console.log(codeBlock.innerHTML)
-        working = codeBlock.innerHTML
-        while (true) {
-            if (working.charAt(0) === ' ') {
-                working = working.slice(1, working.length)
-                continue
-            }
-            if (working.slice(0, 4) === '<br>') {
-                working = working.slice(4, working.length)
-                continue
-            }
-            if (working.slice(0, 5) === '<br/>') {
-                working = working.slice(5, working.length)
-                continue
-            }
-            if (working.slice(working.length - 1, working.length) === ' ') {
-                working = working.slice(0, working.length - 1)
-                continue
-            }
-            if (working.slice(working.length - 4, working.length) === '<br>') {
-                working = working.slice(0, working.length - 4)
-                continue
-            }
-            if (working.slice(working.length - 5, working.length) === '<br/>') {
-                working = working.slice(0, working.length - 5)
-                continue
-            }
-            break
-        }
-        // console.log(working)
-        codeBlock.innerHTML = working
-    }
+    return formatted.join('').replaceAll('!n','<br/>')
 }
 
 function resetAll() {
