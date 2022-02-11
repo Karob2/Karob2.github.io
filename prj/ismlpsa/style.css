@@ -141,3 +141,12 @@ input[type=submit].warning:hover, input[type=button].warning:hover {
     margin-left: 2px;
     margin-right: 2px;
 }
+
+a {
+    color: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
+    text-decoration: none;
+}
+a:hover {
+    color: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
+    text-decoration: underline;
+}

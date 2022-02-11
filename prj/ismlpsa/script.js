@@ -126,6 +126,32 @@ function lookForward(message, index, match, multiLine = true, spaces = true) {
     return -1
 }
 
+function urlForward(message, index) {
+    for (let i = index; i <= message.length - 1; i++) {
+        if (message.slice(i, i + 1) === ' ') return i
+        if (message.slice(i, i + 2) === '!n') return i
+    }
+    return i
+}
+
+function markdownUrlForward(message, index) {
+    let index2 = -1
+    for (let i = index + 1; i <= message.length - 1; i++) {
+        if (message.slice(i, i + 1) === ']') {
+            index2 = i + 1
+            break
+        }
+        if (message.slice(i, i + 2) === '!n') return null
+    }
+    if (index2 === -1) return null
+    if (message.slice(index2, index2 + 1) !== '(') return null
+    for (let i = index2 + 1; i <= message.length - 1; i++) {
+        if (message.slice(i, i + 1) === ')') return [index2, i]
+        if (message.slice(i, i + 2) === '!n') return null
+    }
+    return null
+}
+
 // TODO: Example button.
 // TODO: Put copy buttons on input page, and change bottom copy button into view code or something.
 // TODO: links
@@ -150,6 +176,14 @@ function updatePreview() {
         if (char === '\\' && nextChar.length > 0) {
             formatted[formatted.length - 1] += nextChar
             i++
+            continue
+        }
+        if (message.slice(i, i + 7) === 'http://' || message.slice(i, i + 8) === 'https://' || message.slice(i, i + 7) === 'file://') {
+            let fwd = urlForward(message, i)
+            let msg = message.slice(i, fwd)
+            formatted.push(`<a href="${msg}">${msg}</a>`)
+            formatted.push('')
+            i = fwd - 1
             continue
         }
         // if (tpl === '```') tag = 'codeblock'
@@ -199,7 +233,12 @@ function updatePreview() {
                 if (char === '<') {
                     fwd = lookForward(message, i, '>', multiLine = false, spaces = false)
                     if (fwd >= 0) {
-                        formatted.push(`<pre class="special">&lt;${message.slice(i + 1, fwd)}&gt;</pre>`)
+                        let msg = message.slice(i + 1, fwd)
+                        if (msg.slice(3, 6) === '://' || msg.slice(4, 7) === '://' || msg.slice(5, 8) === '://') {
+                            formatted.push(`<a href="${msg}" target="_blank">${msg}</a>`)
+                        } else {
+                            formatted.push(`<pre class="special">&lt;${message.slice(i + 1, fwd)}&gt;</pre>`)
+                        }
                         formatted.push('')
                         i = fwd
                         continue
@@ -214,7 +253,17 @@ function updatePreview() {
                         continue
                     }
                 }
-                // if (char === '\n') {
+                if (char === '[') {
+                    fwd = markdownUrlForward(message, i, ':', multiLine = false, spaces = false)
+                    if (fwd !== null) {
+                        let name = message.slice(i + 1, fwd[0] - 1)
+                        let url = message.slice(fwd[0] + 1, fwd[1])
+                        formatted.push(`<a href="${url}">${name}</a>`)
+                        formatted.push('')
+                        i = fwd[1]
+                        continue
+                    }
+                }                // if (char === '\n') {
                 //     formatted[formatted.length - 1] += '<br/>'
                 //     continue
                 // }
