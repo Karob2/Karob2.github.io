@@ -113,8 +113,22 @@ var bannerTypes = [
     'Shop'
 ]
 
-// TODO: multiline code ```
-// TODO: preserve space in code areas
+function lookForward(message, index, match) {
+    // console.log(`index: ${index}`)
+    for (let i = index + match.length; i <= message.length - match.length; i++) {
+        // console.log(`i: ${i}`)
+        check = message.slice(i, i + match.length)
+        if (check !== match) continue
+        return i
+    }
+    return -1
+}
+
+// TODO: Example button.
+// TODO: Put copy buttons on input page, and change bottom copy button into view code or something.
+// TODO: links
+// TODO: emoji (including image uploads?)
+// TODO: timestamps
 function updatePreview() {
     // Format: bold, italic, underscore, strikethrough,
     //     code block, emoji, links
@@ -122,7 +136,7 @@ function updatePreview() {
     message = outputMessage.value
     stack = [['base', 0]]
     formatted = ['']
-    for (i = 0; i < message.length; i++) {
+    for (let i = 0; i < message.length; i++) {
         char = message.charAt(i)
         nextChar = message.charAt(i + 1)
         prevChar = message.charAt(i - 1)
@@ -136,16 +150,25 @@ function updatePreview() {
             i++
             continue
         }
-        if (tpl === '```') tag = 'codeblock'
+        // if (tpl === '```') tag = 'codeblock'
+        if (tpl === '```') {
+            fwd = lookForward(message, i, '```')
+            if (fwd >= 0) {
+                formatted.push(`<pre class="codeblock">${message.slice(i + 3, fwd)}</pre>`)
+                formatted.push('')
+                i = fwd + 2
+                continue
+            }
+        }
         if (tag === '') {
             if (dbl === '**') tag = 'bold'
             if (dbl === '__') tag = 'underline'
             if (dbl === '~~') tag = 'strike'
-            if (dbl === '!n') {
-                formatted[formatted.length - 1] += '<br/>'
-                i++
-                continue
-            }
+            // if (dbl === '!n') {
+            //     formatted[formatted.length - 1] += '<br/>'
+            //     i++
+            //     continue
+            // }
             if (tag === '') {
                 if (char === '*') {
                     if (nextChar !== ' ') {
@@ -161,7 +184,16 @@ function updatePreview() {
                     }
                 }
                 if (char === '_') tag = 'italic2'
-                if (char === '`') tag = 'code'
+                // if (char === '`') tag = 'code'
+                if (char === '`') {
+                    fwd = lookForward(message, i, '`')
+                    if (fwd >= 0) {
+                        formatted.push(`<pre class="code">${message.slice(i + 1, fwd)}</pre>`)
+                        formatted.push('')
+                        i = fwd
+                        continue
+                    }
+                }
                 // if (char === '\n') {
                 //     formatted[formatted.length - 1] += '<br/>'
                 //     continue
@@ -216,7 +248,7 @@ function updatePreview() {
     // } else if (outputType.value === "Custom") {
     //     imageLink = outputImageLink.value
     // }
-    preview.innerHTML = `<h3>${outputTitle.value}</h3>${formatted.join('')}<br/><br/><img src="${imageLink}">`
+    preview.innerHTML = `<h3>${outputTitle.value}</h3>${formatted.join('').replaceAll('!n','<br/>')}<br/><br/><img src="${imageLink}">`
     codeBlocks = document.getElementsByClassName('codeblock')
     for (codeBlock of codeBlocks) {
         console.log(codeBlock.innerHTML)
