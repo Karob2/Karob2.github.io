@@ -252,7 +252,7 @@ function updatePreview() {
     let title = formatMessage(outputTitle.value)
     let message = formatMessage(outputMessage.value)
     let imageLink = ''
-    if (outputType.value === "Custom" || outputImageLink.value !== '') {
+    if (outputType.value === "Custom") {
         imageLink = outputImageLink.value
     } else {
         imageLink = `img/${outputType.value.toLowerCase()}.png`
