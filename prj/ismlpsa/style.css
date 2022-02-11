@@ -111,9 +111,15 @@ input[type=submit].warning:hover, input[type=button].warning:hover {
     width: 100%;
 }
 
+.codeblock>pre {
+    font-family: monospace;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .code {
     font-family: monospace;
-    background-color: #222;
+    background-color: #242424;
     display: inline;
     margin-left: 2px;
     margin-right: 2px;
@@ -121,5 +127,17 @@ input[type=submit].warning:hover, input[type=button].warning:hover {
 
 .codeblock {
     font-family: monospace;
-    background-color: #222;
+    background-color: #242424;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #111;
+    border-radius: 6px;
+}
+
+.special {
+    font-family: monospace;
+    display: inline;
+    margin-left: 2px;
+    margin-right: 2px;
 }

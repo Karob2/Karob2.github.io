@@ -85,8 +85,8 @@ var tags = {
     'strike': 'strike',
     'italic': 'i',
     'italic2': 'i',
-    'code': 'pre class="code"',
-    'codeblock': 'pre class="codeblock"'
+    // 'code': 'pre class="code"',
+    // 'codeblock': 'pre class="codeblock"'
 }
 
 var restoration = {
@@ -95,8 +95,8 @@ var restoration = {
     'strike': '~~',
     'italic': '*',
     'italic2': '_',
-    'code': '`',
-    'codeblock': '```'
+    // 'code': '`',
+    // 'codeblock': '```'
 }
 
 var charConversions = {
@@ -113,9 +113,11 @@ var bannerTypes = [
     'Shop'
 ]
 
-function lookForward(message, index, match) {
+function lookForward(message, index, match, multiLine = true, spaces = true) {
     // console.log(`index: ${index}`)
     for (let i = index + match.length; i <= message.length - match.length; i++) {
+        if (multiLine === false && message.slice(i, i + 2) === '!n') return -1
+        if (spaces === false && message.slice(i, i + 1) === ' ') return -1
         // console.log(`i: ${i}`)
         check = message.slice(i, i + match.length)
         if (check !== match) continue
@@ -154,7 +156,7 @@ function updatePreview() {
         if (tpl === '```') {
             fwd = lookForward(message, i, '```')
             if (fwd >= 0) {
-                formatted.push(`<pre class="codeblock">${message.slice(i + 3, fwd)}</pre>`)
+                formatted.push(`<div class="codeblock"><pre>${message.slice(i + 3, fwd)}</pre></div>`)
                 formatted.push('')
                 i = fwd + 2
                 continue
@@ -189,6 +191,24 @@ function updatePreview() {
                     fwd = lookForward(message, i, '`')
                     if (fwd >= 0) {
                         formatted.push(`<pre class="code">${message.slice(i + 1, fwd)}</pre>`)
+                        formatted.push('')
+                        i = fwd
+                        continue
+                    }
+                }
+                if (char === '<') {
+                    fwd = lookForward(message, i, '>', multiLine = false, spaces = false)
+                    if (fwd >= 0) {
+                        formatted.push(`<pre class="special">&lt;${message.slice(i + 1, fwd)}&gt;</pre>`)
+                        formatted.push('')
+                        i = fwd
+                        continue
+                    }
+                }
+                if (char === ':') {
+                    fwd = lookForward(message, i, ':', multiLine = false, spaces = false)
+                    if (fwd >= 0) {
+                        formatted.push(`<pre class="special">${message.slice(i, fwd + 1)}</pre>`)
                         formatted.push('')
                         i = fwd
                         continue
@@ -250,7 +270,8 @@ function updatePreview() {
     // }
     preview.innerHTML = `<h3>${outputTitle.value}</h3>${formatted.join('').replaceAll('!n','<br/>')}<br/><br/><img src="${imageLink}">`
     codeBlocks = document.getElementsByClassName('codeblock')
-    for (codeBlock of codeBlocks) {
+    for (codeBlockOuter of codeBlocks) {
+        codeBlock = codeBlockOuter.children[0]
         console.log(codeBlock.innerHTML)
         working = codeBlock.innerHTML
         while (true) {
