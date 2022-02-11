@@ -195,6 +195,7 @@ function updatePreview() {
     //     imageLink = outputImageLink.value
     // }
     preview.innerHTML = `<h3>${title}</h3>${message}<br/><br/><img src="${imageLink}">`
+    /*
     codeBlocks = document.getElementsByClassName('codeblock')
     for (codeBlockOuter of codeBlocks) {
         codeBlock = codeBlockOuter.children[0]
@@ -230,6 +231,7 @@ function updatePreview() {
         // console.log(working)
         codeBlock.innerHTML = working
     }
+    */
 }
 function formatMessage(message) {
     let stack = [['base', 0]]
@@ -260,7 +262,17 @@ function formatMessage(message) {
         if (tpl === '```') {
             let fwd = lookForward(message, i, '```')
             if (fwd >= 0) {
-                formatted.push(`<div class="codeblock"><pre>${message.slice(i + 3, fwd)}</pre></div>`)
+                let msg = message.slice(i + 3, fwd)
+                let parts = msg.split('!n')
+                if (parts.length > 1) msg = parts.splice(1).join('!n')
+                while (true) {
+                    if (msg.slice(0, 1) === ' ') msg = msg.slice(1)
+                    else if (msg.slice(0, 2) === '!n') msg = msg.slice(2)
+                    else if (msg.slice(msg.length - 1) === ' ') msg = msg.slice(0, msg.length - 1)
+                    else if (msg.slice(msg.length - 2) === '!n') msg = msg.slice(0, msg.length - 2)
+                    else break
+                }
+                formatted.push(`<div class="codeblock"><pre>${msg}</pre></div>`)
                 formatted.push('')
                 i = fwd + 2
                 continue
