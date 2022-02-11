@@ -155,3 +155,8 @@ a:hover {
     color: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
     text-decoration: underline;
 }
+
+.quote {
+    border-left: 4px solid #666;
+    padding-left: 8px;
+}

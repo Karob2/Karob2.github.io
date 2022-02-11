@@ -144,8 +144,15 @@ function lookForward(message, index, match, multiLine = true, spaces = true) {
 }
 
 function urlForward(message, index) {
-    for (let i = index; i <= message.length - 1; i++) {
+    for (var i = index; i <= message.length - 1; i++) {
         if (message.slice(i, i + 1) === ' ') return i
+        if (message.slice(i, i + 2) === '!n') return i
+    }
+    return i
+}
+
+function quoteForward(message, index) {
+    for (var i = index + 2; i <= message.length - 1; i++) {
         if (message.slice(i, i + 2) === '!n') return i
     }
     return i
@@ -171,6 +178,8 @@ function markdownUrlForward(message, index) {
 
 // TODO: Example button.
 // TODO: timestamps
+// TODO: code block language specifier ignore
+// TODO: disable nested quotes and advanced title formatting
 function updatePreview() {
     let title = formatMessage(outputTitle.value)
     let message = formatMessage(outputMessage.value)
@@ -223,17 +232,17 @@ function updatePreview() {
     }
 }
 function formatMessage(message) {
-    stack = [['base', 0]]
-    formatted = ['']
+    let stack = [['base', 0]]
+    let formatted = ['']
     for (let i = 0; i < message.length; i++) {
-        char = message.charAt(i)
-        nextChar = message.charAt(i + 1)
-        prevChar = message.charAt(i - 1)
-        dbl = message.slice(i, i + 2)
-        tpl = message.slice(i, i + 3)
-        tag = ''
-        canOpen = true
-        canClose = true
+        let char = message.charAt(i)
+        let nextChar = message.charAt(i + 1)
+        let prevChar = message.charAt(i - 1)
+        let dbl = message.slice(i, i + 2)
+        let tpl = message.slice(i, i + 3)
+        let tag = ''
+        let canOpen = true
+        let canClose = true
         if (char === '\\' && nextChar.length > 0) {
             formatted[formatted.length - 1] += nextChar
             i++
@@ -249,7 +258,7 @@ function formatMessage(message) {
         }
         // if (tpl === '```') tag = 'codeblock'
         if (tpl === '```') {
-            fwd = lookForward(message, i, '```')
+            let fwd = lookForward(message, i, '```')
             if (fwd >= 0) {
                 formatted.push(`<div class="codeblock"><pre>${message.slice(i + 3, fwd)}</pre></div>`)
                 formatted.push('')
@@ -266,6 +275,14 @@ function formatMessage(message) {
             //     i++
             //     continue
             // }
+            if (dbl === '> ') {
+                let fwd = quoteForward(message, i)
+                let msg = message.slice(i + 2, fwd)
+                formatted.push(`<span class="quote">${formatMessage(msg)}</span>`)
+                formatted.push('')
+                i = fwd - 1
+                continue
+            }
             if (tag === '') {
                 if (char === '*') {
                     if (nextChar !== ' ') {
@@ -283,7 +300,7 @@ function formatMessage(message) {
                 if (char === '_') tag = 'italic2'
                 // if (char === '`') tag = 'code'
                 if (char === '`') {
-                    fwd = lookForward(message, i, '`')
+                    let fwd = lookForward(message, i, '`')
                     if (fwd >= 0) {
                         formatted.push(`<pre class="code">${message.slice(i + 1, fwd)}</pre>`)
                         formatted.push('')
@@ -292,7 +309,7 @@ function formatMessage(message) {
                     }
                 }
                 if (char === '<') {
-                    fwd = lookForward(message, i, '>', multiLine = false, spaces = false)
+                    let fwd = lookForward(message, i, '>', multiLine = false, spaces = false)
                     if (fwd >= 0) {
                         let msg = message.slice(i + 1, fwd)
                         if (msg.slice(3, 6) === '://' || msg.slice(4, 7) === '://' || msg.slice(5, 8) === '://') {
@@ -306,7 +323,7 @@ function formatMessage(message) {
                     }
                 }
                 if (char === ':') {
-                    fwd = lookForward(message, i, ':', multiLine = false, spaces = false)
+                    let fwd = lookForward(message, i, ':', multiLine = false, spaces = false)
                     if (fwd >= 0) {
                         let code = message.slice(i + 1, fwd)
                         if (emoteLookup.has(code)) formatted.push(`<img src="img/emote/${code}.webp" style="width:1em; max-height:1em;">`)
@@ -322,7 +339,7 @@ function formatMessage(message) {
                     }
                 }
                 if (char === '[') {
-                    fwd = markdownUrlForward(message, i, ':', multiLine = false, spaces = false)
+                    let fwd = markdownUrlForward(message, i, ':', multiLine = false, spaces = false)
                     if (fwd !== null) {
                         let name = message.slice(i + 1, fwd[0] - 1)
                         let url = message.slice(fwd[0] + 1, fwd[1])
@@ -331,7 +348,8 @@ function formatMessage(message) {
                         i = fwd[1]
                         continue
                     }
-                }                // if (char === '\n') {
+                }
+                // if (char === '\n') {
                 //     formatted[formatted.length - 1] += '<br/>'
                 //     continue
                 // }
@@ -371,7 +389,7 @@ function formatMessage(message) {
         }
     }
     for (i = stack.length - 1; i > 0; i--) {
-        rstr = restoration[stack[i][0]]
+        let rstr = restoration[stack[i][0]]
         formatted[stack[i][1]] = rstr + formatted[stack[i][1]]
     }
     return formatted.join('').replaceAll('!n','<br/>')
