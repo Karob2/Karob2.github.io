@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BaniraCards</title>
+    <meta charset="UTF-8">
+    <script src="script.js" type="text/javascript"></script> 
+    <link rel="stylesheet" href="style.css" title="style">
+    <style title="overrides"></style>
+</head>
+<body onload="onPageLoad()" style="background-color: #444; color: #ccc;">
+    <div id="main" class="board">
+        <div class="slot field" id="slot-aquamarine"><br/>Aquamarine</div>
+        <div class="slot field" id="slot-amethyst"><br/>Amethyst</div>
+        <div class="slot field" id="slot-ruby"><br/>Ruby</div>
+        <div class="slot field" id="slot-topaz"><br/>Topaz</div>
+        <div class="slot field" id="slot-emerald"><br/>Emerald</div>
+        <div class="slot field" id="slot-sapphire"><br/>Sapphire</div>
+        <div class="slot field" id="slot-diamond"><br/>Diamond</div>
+        <div class="cost field-cost">0</div>
+        <div class="cost field-cost">0</div>
+        <div class="cost field-cost">0</div>
+        <div class="cost field-cost">0</div>
+        <div class="cost field-cost">0</div>
+        <div class="cost field-cost">0</div>
+        <div class="cost field-cost">0</div>
+        <br/>
+        <div class="slot field" id="slot-sun"><br/>Sun</div>
+        <div class="slot field" id="slot-moon"><br/>Moon</div>
+        <div class="slot field" id="slot-free"><br/>Any</div>
+        <!-- <div class="slot field" id="slot-special"><br/>???</div> -->
+        <div class="cost field-cost">0</div>
+        <div class="cost field-cost">0</div>
+        <div class="cost field-cost">0</div>
+        <!-- <div class="cost field-cost">0</div> -->
+        <div class="slot discard" id="slot-discard"><br/>Discard</div>
+        <div class="slot deck" id="slot-deck"><br/>Deck</div>
+        <br/>
+        <div class="slot hand"></div>
+        <div class="slot hand"></div>
+        <div class="slot hand"></div>
+        <div class="slot hand"></div>
+        <div class="slot hand"></div>
+        <div class="slot hand"></div>
+        <div class="slot hand"></div>
+        <div class="cost hand-cost">0</div>
+        <div class="cost hand-cost">0</div>
+        <div class="cost hand-cost">0</div>
+        <div class="cost hand-cost">0</div>
+        <div class="cost hand-cost">0</div>
+        <div class="cost hand-cost">0</div>
+        <div class="cost hand-cost">0</div>
+        <br/>
+        <div class="scoreboard" id="score-points">Points</div>
+        <div class="scoreboard" id="score-stamina">Stamina</div>
+        <div class="scoreboard" id="score-turn">Turn</div>
+        <div class="addon" id="hand-surplus">+0</div>
+        <div class="command" id="end-turn">⚠ Boost ⚠</div>
+        <!-- <div class="command" id="draw-card">Draw</div> -->
+        <div class="command" id="show-rules">Rules</div>
+        <div class="slot hidden" id="slot-drag"></div>
+        <br/>
+        <div class="hidden" id="rules">
+            <h1>Rules</h1>
+            <div class="scrollbox">
+                <h2>TL;DR</h2>
+                <p><ul>
+                    <li>Use ⭐points to unlock increasingly expensive slots.</li>
+                    <li>Use 🟦stamina to play cards onto matching slots. Try to fill all the slots.</li>
+                    <li>Cards can be played onto higher rarity cards, with cost depending on the rarity. Shiny counts as any rarity.</li>
+                    <li>Playing a card gives you the ⭐points, ♻️card draws, and 🟦stamina listed on the card.</li>
+                    <li>You can boost for ⭐points and 🟦stamina, draw more cards, and discard, but all of these decrease your score.</li>
+                </ul></p>
+
+                <h2>Intro & Goal</h2>
+                <p>In this game, you draw and play cards to try to cover up all ten field slots. As each slot only matches certain cards, and the cost of play increases over time, you have to carefully manage your resources. Once you have covered the field, the game presents your final score and the last card you played.</p>
+                <p>The game board is split into field (at the top), hand (at the bottom), and draw and discard to the right. You start with a deck of 50 cards, 4 of which are dealt into your hand. You also start with 1 ⭐point, 1 🟦stamina, and a score of 50.</p>
+                <div class="tnote">The mechanics are significantly adjusted from Woody's proposal as I was basically balancing the game as I was building it and kind of just kept going lol. In these notes, I provide reasoning for the changes and features present in this version. We can also experiment with something closer to the original.<br/><br/>My biggest concern about this game is that people will not want to engage with all the numbers management. I tried to make the visual presentation more intuitive and less Microsoft Excel the Game, but it's still kind of annoying all the numbers popping up all over the place.</div>
+
+                <h2>Scoring Summary</h2>
+                <p>You start the game with a 🍡score of 50. Each action you take affects your score, and you cannot perform an action that would make your score go negative. Try and have the highest score you can when you reach the goal!
+                <ul>
+                    <li>Unlocking Slots - nothing</li>
+                    <li>Playing Cards - gain 4 score for shiny, 8 score for other rarities</li>
+                    <li>Manually Drawing Cards - lose 2 score</li>
+                    <li>Discarding - lose 1 score</li>
+                    <li>Boosting - lose 10 score</li>
+                </ul></p>
+                <div class="tnote">Woody's idea was for score to be the number of turns taken. I thought if we want this to be competitive, then the score could be more granular. The scoring system I have here rewards you for playing more cards and for doing more with less. It seems like an expected range for final score of good play is between 50 and 100, but that could be wrong.<br/><br/>Shinies give less score than other rarities because they act as wild cards, helping you stack more and get more score from other cards. They needed a downside or else you would always want to put all your shinies in every deck, and you'd have a big advantage for it.</div>
+
+                <h2>Unlocking Slots</h2>
+                <p>Before you can play cards onto the field, slots have to be unlocked. The first time costs 1 ⭐point, and the cost increases by 1 each time.</p>
+                <div class="tnote">Slot unlocking cost increase is linear instead of quadratic. The cost rises above the resources granted from cards plenty quickly enough.</div>
+
+                <h2>Playing Cards</h2>
+                <p>Cards can be played onto field slots that match their element (e.g. Amethyst) or type (e.g. Sun). There is also a free slot that any card can be played on. When you play a card from your hand onto a field slot, you gain all the ⭐points, 🟦stamina, and ♻️card draws shown on the card you played. Playing cards onto the field increases your 🍡score by 4 for shinies, and 8 for all other rarities.</p>
+                <p><i>*You may notice there is no slot for Star type cards. Sun and Moon cards have stats totaling to 8. Star cards are less versatile to play, but have stats totaling to 10, so their rewards are greater.</i></p>
+                <p><i>*You may come across cards with negative stats. These remove those resources instead of giving them! You cannot play a card that would make your ⭐points or 🟦stamina go negative. When ♻️card draws is negative, cards are removed from your hand (right to left) and then your deck as needed.</i></p>
+                <div class="tnote">In this version, there is no special slot and pets are not used.</div>
+
+                <h3>Empty Slot</h3>
+                <p>Playing a card on an empty slot costs 1 🟦stamina the first time, and 1 more each time after.</p>
+                <div class="tnote">This idea has no "turns", and there is no way to reset the cost to play in an empty slot, so it gets pretty expensive. This makes stacking on top of other cards all the more important for building up resources, as stacking onto high rarity cards is pretty cheap.</div>
+
+                <h3>Stacking</h3>
+                <p>You can also play a card onto an occupied field slot. Sometimes this is the best way to get more ⭐points, 🟦stamina, or ♻️card draws. A card can only be stacked onto a lower rarity card. Shiny cards are wild cards that can act as any rarity. The 🟦stamina cost to stack onto a card depends on the rarity of that card:
+                <ul>
+                    <li>Rainbow - 0🟦 (free!)</li>
+                    <li>Gold - 3🟦</li>
+                    <li>Silver - 6🟦</li>
+                    <li>Bronze - 9🟦</li>
+                    <li>Shiny - 4🟦</li>
+                </ul></p>
+                <div class="tnote">This is opposite to the suggested rarity order because I wanted rainbows to feel powerful. Stacks starting with higher rarities have more potential for growth and more rewarding followup plays. Stacks kind of dead-end at bronze, but you can start them all over if you have a shiny, which is pretty powerful.<br/><br/>The cost of rainbow's power is that you need lower rarities to make use of that power, and that rainbows can only be played on empty slots or stacked onto shiny cards. The cost of shiny's power is that they directly give less score.</div>
+
+                <h2>Drawing</h2>
+                <p>You have a deck of 50 cards to play the game with, with 4 automatically drawn at the start. Drawn cards go into your hand. Your hand can hold 7 cards. Any cards you draw while your hand is full go into overflow, and will automatically enter your hand whenever there is free space.</p>
+                <p>Cards are automatically drawn when you play cards that have ♻️draw stats. If you aren't getting enough cards normally, you can manually draw cards from the deck, but this reduces your 🍡score by 2.</p>
+                <div class="tnote">The overflow system exists because, with current card stats and game balance, it's pretty easy to just keep getting more and more cards past a hand size of seven. Some cards even have a draw stat of eight! Another option would be for draw stat to give you draw points instead of directly giving you cards. And you can use draw points to manually draw without penalty. But that's more work for the player with no practical difference in the end.</div>
+
+                <h2>Discarding</h2>
+                <p>Cards in the hand may be freely discarded. This reduces your 🍡score by 1.</p>
+                <div class="tnote">Discarding is very important for you to rummage through your hand/deck and find cards more suited to the current board.</div>
+
+                <h2>Boosting</h2>
+                <p>Sometimes you may have trouble keeping up with the increasing costs to unlock slots and play cards. For this, you can use the boost, which will grant you 2 ⭐points and 2 🟦stamina. Beware that boosting reduces your 🍡score by 10!</p>
+                <div class="tnote">The reward and penalty for boosting might need to be adjusted, though this is meant as a last resort when you run out of valid moves. This is basically the replacement for the original "end turn" idea, substituting the stamina cost reduction with a stamina bonus. In the old system, you could guarantee yourself a score of 10 by ending the turn after every move to reset the stamina cost.</div>
+
+                <h2>Game Over</h2>
+                <p>There is no game over event, but it is possible to get stuck unable to play if you don't have enough points, stamina, cards, or even score.</p>
+                <div class="tnote">I was designing this while imagining a system where players could do endless practice runs of the game, but only one (or maybe up to three retries) real run per week. If they game over, their final score is zero, but they still get participation credit. The weekly prizes could be (1) top ranked places prizes, (2) prizes for anybody who scored above a certain score or at least won the game, (3) participation prizes for anyone who won or gamed over.</div>
+            </div>
+            <br/>
+            <button onclick="document.getElementById('rules').classList.add('hidden');">Close</button>
+        </div>
+    </div>
+</body>
+</html>
