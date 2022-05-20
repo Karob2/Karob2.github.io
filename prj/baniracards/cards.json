@@ -1,63 +1,15 @@
 [{
-  "id": "TF16",
-  "atk": "7",
-  "atype": "Moon",
-  "batch": "2",
-  "category": "TF",
-  "ctr": "1",
-  "def": "0",
-  "name": "Yuuki Asuna",
-  "rarity": "Rainbow",
-  "skill": "Flashing Penetrator",
-  "type": "Topaz"
-},{
-  "id": "TF6",
-  "atk": "1",
+  "id": "FM1",
+  "atk": "2",
   "atype": "Star",
   "batch": "1",
-  "category": "TF",
-  "ctr": "0",
-  "def": "9",
-  "name": "Akiyama Mio",
-  "rarity": "Rainbow",
-  "skill": "Fuwa Fuwa Time!",
-  "type": "Emerald"
-},{
-  "id": "TF4",
-  "atk": "3",
-  "atype": "Moon",
-  "batch": "2",
-  "category": "TF",
-  "ctr": "0",
-  "def": "5",
-  "name": "Tachibana Kanade",
-  "rarity": "Rainbow",
-  "skill": "Harmonics",
-  "type": "Aquamarine"
-},{
-  "id": "TF21",
-  "atk": "4",
-  "atype": "Moon",
-  "batch": "2",
-  "category": "TF",
+  "category": "FM",
   "ctr": "1",
-  "def": "3",
-  "name": "Saber",
+  "def": "7",
+  "name": "Hatsune Miku",
   "rarity": "Rainbow",
-  "skill": "Excalibur",
-  "type": "Diamond"
-},{
-  "id": "TF11",
-  "atk": "5",
-  "atype": "Sun",
-  "batch": "2",
-  "category": "TF",
-  "ctr": "0",
-  "def": "3",
-  "name": "Itsuka Kotori",
-  "rarity": "Rainbow",
-  "skill": "Camael",
-  "type": "Ruby"
+  "skill": "Crisu's Leekspin",
+  "type": "Aquamarine"
 },{
   "id": "TF1",
   "atk": "5",
@@ -71,857 +23,41 @@
   "skill": "Railgun",
   "type": "Amethyst"
 },{
-  "id": "TF20",
-  "atk": "5",
+  "id": "PK1",
+  "atk": "P",
   "atype": "Star",
   "batch": "1",
-  "category": "TF",
-  "ctr": "1",
-  "def": "4",
-  "name": "Takanashi Rikka",
-  "rarity": "Rainbow",
-  "skill": "Reality Banishment",
-  "type": "Sapphire"
-},{
-  "id": "TF31",
-  "atk": "6",
-  "atype": "Star",
-  "batch": "2",
-  "category": "TF",
-  "ctr": "2",
-  "def": "2",
-  "name": "Suzumiya Haruhi",
-  "rarity": "Gold",
-  "skill": "Heisa Kuukan",
-  "type": "Sapphire"
-},{
-  "id": "TF35",
-  "atk": "3",
-  "atype": "Sun",
-  "batch": "1",
-  "category": "TF",
-  "ctr": "2",
-  "def": "3",
-  "name": "Illyasviel von Einzbern",
-  "rarity": "Gold",
-  "skill": "Angel's Poem",
-  "type": "Diamond"
-},{
-  "id": "TF38",
-  "atk": "4",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "TF",
-  "ctr": "1",
-  "def": "3",
-  "name": "Kirisaki Chitoge",
-  "rarity": "Gold",
-  "skill": "Glorious Jumpkick",
-  "type": "Topaz"
-},{
-  "id": "TF32",
-  "atk": "7",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TF",
+  "category": "PK",
   "ctr": "0",
-  "def": "3",
-  "name": "Kuroyukihime",
-  "rarity": "Gold",
-  "skill": "Wandering Wings",
-  "type": "Ruby"
+  "def": "0",
+  "name": "Bulbasaur",
+  "rarity": "Metal",
+  "skill": "Vine Whip",
+  "type": "Emerald"
 },{
-  "id": "TF28",
+  "id": "IM2",
   "atk": "6",
   "atype": "Star",
   "batch": "1",
-  "category": "TF",
-  "ctr": "2",
-  "def": "2",
-  "name": "Nakano Azusa",
-  "rarity": "Gold",
-  "skill": "Youthful Melody",
-  "type": "Emerald"
-},{
-  "id": "TF36",
-  "atk": "6",
-  "atype": "Star",
-  "batch": "2",
-  "category": "TF",
-  "ctr": "0",
-  "def": "4",
-  "name": "Tomori Nao",
-  "rarity": "Gold",
-  "skill": "Playback",
-  "type": "Diamond"
-},{
-  "id": "TF33",
-  "atk": "4",
-  "atype": "Sun",
-  "batch": "2",
-  "category": "TF",
-  "ctr": "2",
-  "def": "2",
-  "name": "Chtholly Nota Seniorious",
-  "rarity": "Gold",
-  "skill": "Fairy Gratitude",
-  "type": "Sapphire"
-},{
-  "id": "TF22",
-  "atk": "1",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TF",
-  "ctr": "4",
-  "def": "5",
-  "name": "Nagato Yuki",
+  "category": "IM",
+  "ctr": "1",
+  "def": "3",
+  "name": "Nishikino Maki",
   "rarity": "Rainbow",
-  "skill": "Data Compassion",
-  "type": "Aquamarine"
-},{
-  "id": "TF62",
-  "atk": "0",
-  "atype": "Star",
-  "batch": "2",
-  "category": "TF",
-  "ctr": "1",
-  "def": "9",
-  "name": "Kafuu Chino",
-  "rarity": "Silver",
-  "skill": "Timid Libation",
-  "type": "Aquamarine"
-},{
-  "id": "TF61",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TF",
-  "ctr": "2",
-  "def": "4",
-  "name": "Fujiwara Chika",
-  "rarity": "Silver",
-  "skill": "Flower Mayhem",
-  "type": "Topaz"
-},{
-  "id": "TF64",
-  "atk": "7",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TF",
-  "ctr": "1",
-  "def": "2",
-  "name": "Hirasawa Yui",
-  "rarity": "Silver",
-  "skill": "Happy Go Lucky",
-  "type": "Diamond"
-},{
-  "id": "TF66",
-  "atk": "2",
-  "atype": "Star",
-  "batch": "2",
-  "category": "TF",
-  "ctr": "2",
-  "def": "6",
-  "name": "C.C.",
-  "rarity": "Silver",
-  "skill": "Code of Immortality",
-  "type": "Emerald"
-},{
-  "id": "TF48",
-  "atk": "3",
-  "atype": "Sun",
-  "batch": "2",
-  "category": "TF",
-  "ctr": "2",
-  "def": "3",
-  "name": "Himekawa Yoshino",
-  "rarity": "Gold",
-  "skill": "Zadkiel",
-  "type": "Aquamarine"
-},{
-  "id": "TF59",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TF",
-  "ctr": "1",
-  "def": "5",
-  "name": "Izumi Konata",
-  "rarity": "Silver",
-  "skill": "Otaku Break",
-  "type": "Sapphire"
-},{
-  "id": "TF57",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "2",
-  "category": "TF",
-  "ctr": "2",
-  "def": "5",
-  "name": "Ichinose Kotomi",
-  "rarity": "Silver",
-  "skill": "Final Verse",
-  "type": "Amethyst"
-},{
-  "id": "TF42",
-  "atk": "4",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "TF",
-  "ctr": "2",
-  "def": "2",
-  "name": "Fujibayashi Kyou",
-  "rarity": "Gold",
-  "skill": "Go Botan!",
-  "type": "Amethyst"
-},{
-  "id": "TF40",
-  "atk": "5",
-  "atype": "Moon",
-  "batch": "2",
-  "category": "TF",
-  "ctr": "0",
-  "def": "3",
-  "name": "Sakagami Tomoyo",
-  "rarity": "Gold",
-  "skill": "Hearty Lunchbox",
-  "type": "Emerald"
-},{
-  "id": "TF70",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "2",
-  "category": "TF",
-  "ctr": "1",
-  "def": "5",
-  "name": "Shokuhou Misaki",
-  "rarity": "Silver",
-  "skill": "Mischievous Perception",
-  "type": "Topaz"
-},{
-  "id": "TF72",
-  "atk": "5",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TF",
-  "ctr": "0",
-  "def": "5",
-  "name": "Yuzuriha Inori",
-  "rarity": "Silver",
-  "skill": "Guilty Prayer",
-  "type": "Amethyst"
-},{
-  "id": "TF94",
-  "atk": "6",
-  "atype": "Star",
-  "batch": "2",
-  "category": "TF",
-  "ctr": "0",
-  "def": "4",
-  "name": "Kani Nayuta",
-  "rarity": "Bronze",
-  "skill": "Happy Ending",
-  "type": "Diamond"
-},{
-  "id": "TF95",
-  "atk": "5",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "TF",
-  "ctr": "0",
-  "def": "3",
-  "name": "Uraraka Ochako",
-  "rarity": "Bronze",
-  "skill": "Zero Gravity",
+  "skill": "Premonition of Winter",
   "type": "Ruby"
 },{
-  "id": "TF90",
-  "atk": "6",
-  "atype": "Star",
-  "batch": "2",
-  "category": "TF",
-  "ctr": "1",
-  "def": "3",
-  "name": "Nase Mitsuki",
-  "rarity": "Bronze",
-  "skill": "Snowy Present",
-  "type": "Diamond"
-},{
-  "id": "TF89",
-  "atk": "3",
+  "id": "TF2",
+  "atk": "8",
   "atype": "Moon",
-  "batch": "2",
+  "batch": "5",
   "category": "TF",
-  "ctr": "4",
-  "def": "1",
-  "name": "Kuriyama Mirai",
-  "rarity": "Bronze",
-  "skill": "Hemokinesis",
-  "type": "Aquamarine"
-},{
-  "id": "TF85",
-  "atk": "6",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "TF",
-  "ctr": "1",
-  "def": "1",
-  "name": "Kawasumi Mai",
-  "rarity": "Bronze",
-  "skill": "Blade of Solitude",
-  "type": "Sapphire"
-},{
-  "id": "TF78",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "2",
-  "category": "TF",
-  "ctr": "1",
-  "def": "6",
-  "name": "Hiiragi Tsukasa",
-  "rarity": "Silver",
-  "skill": "Bashful Chorus",
-  "type": "Ruby"
-},{
-  "id": "TF91",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TF",
-  "ctr": "1",
-  "def": "5",
-  "name": "Suzukaze Aoba",
-  "rarity": "Bronze",
-  "skill": "Ganbaruzoi",
-  "type": "Amethyst"
-},{
-  "id": "TF69",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TF",
-  "ctr": "5",
-  "def": "2",
-  "name": "Sengoku Nadeko",
-  "rarity": "Silver",
-  "skill": "Renai Circulation",
-  "type": "Ruby"
-},{
-  "id": "TF104",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "2",
-  "category": "TF",
-  "ctr": "2",
-  "def": "4",
-  "name": "Iino Miko",
-  "rarity": "Bronze",
-  "skill": "Righteous Wind",
-  "type": "Ruby"
-},{
-  "id": "TF102",
-  "atk": "5",
-  "atype": "Star",
-  "batch": "2",
-  "category": "TF",
-  "ctr": "3",
-  "def": "2",
-  "name": "Mizuhara Chizuru",
-  "rarity": "Bronze",
-  "skill": "Girlfriend! Action!",
-  "type": "Emerald"
-},{
-  "id": "TF109",
-  "atk": "6",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TF",
-  "ctr": "0",
-  "def": "4",
-  "name": "Victorique de Blois",
-  "rarity": "Bronze",
-  "skill": "Golden Truth",
-  "type": "Topaz"
-},{
-  "id": "TF103",
-  "atk": "7",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TF",
-  "ctr": "1",
-  "def": "2",
-  "name": "Nakano Miku",
-  "rarity": "Bronze",
-  "skill": "Cinderella's Resolve",
-  "type": "Sapphire"
-},{
-  "id": "TF114",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "2",
-  "category": "TF",
-  "ctr": "0",
-  "def": "6",
-  "name": "Takagi",
-  "rarity": "Bronze",
-  "skill": "Ridicule",
-  "type": "Topaz"
-},{
-  "id": "TF96",
-  "atk": "5",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TF",
-  "ctr": "2",
-  "def": "3",
-  "name": "Platelet",
-  "rarity": "Bronze",
-  "skill": "Pocket Link",
-  "type": "Aquamarine"
-},{
-  "id": "P19",
-  "atk": "A",
-  "atype": "Star",
-  "batch": "1",
-  "category": "P",
-  "ctr": "0",
-  "def": "M",
-  "name": "Keroberos",
-  "rarity": "Metal",
-  "skill": "Solar Barrier",
-  "type": "Topaz"
-},{
-  "id": "P7",
-  "atk": "A",
-  "atype": "Star",
-  "batch": "1",
-  "category": "P",
-  "ctr": "0",
-  "def": "M",
-  "name": "Kirby",
-  "rarity": "Metal",
-  "skill": "Supernova",
-  "type": "Ruby"
-},{
-  "id": "P6",
-  "atk": "A",
-  "atype": "Star",
-  "batch": "1",
-  "category": "P",
-  "ctr": "0",
-  "def": "M",
-  "name": "Totoro",
-  "rarity": "Metal",
-  "skill": "Nature Spirit",
-  "type": "Sapphire"
-},{
-  "id": "P40",
-  "atk": "A",
-  "atype": "Star",
-  "batch": "1",
-  "category": "P",
-  "ctr": "0",
-  "def": "M",
-  "name": "Mokona",
-  "rarity": "Metal",
-  "skill": "Dimensional Travel",
-  "type": "Amethyst"
-},{
-  "id": "P18",
-  "atk": "A",
-  "atype": "Star",
-  "batch": "1",
-  "category": "P",
   "ctr": "0",
   "def": "0",
-  "name": "Mii-kun",
-  "rarity": "Metal",
-  "skill": "Rain Rain Go Away",
-  "type": "Emerald"
-},{
-  "id": "P30",
-  "atk": "A",
-  "atype": "Star",
-  "batch": "1",
-  "category": "P",
-  "ctr": "0",
-  "def": "0",
-  "name": "John",
-  "rarity": "Metal",
-  "skill": "Tireless Journey",
-  "type": "Sapphire"
-},{
-  "id": "P34",
-  "atk": "D",
-  "atype": "Star",
-  "batch": "1",
-  "category": "P",
-  "ctr": "0",
-  "def": "0",
-  "name": "Tetsuya #2",
-  "rarity": "Metal",
-  "skill": "Cheerful Bark",
-  "type": "Sapphire"
-},{
-  "id": "P36",
-  "atk": "C",
-  "atype": "Star",
-  "batch": "1",
-  "category": "P",
-  "ctr": "0",
-  "def": "0",
-  "name": "Puck",
-  "rarity": "Metal",
-  "skill": "Absolute Zero",
-  "type": "Diamond"
-},{
-  "id": "P80",
-  "atk": "D",
-  "atype": "Star",
-  "batch": "1",
-  "category": "P",
-  "ctr": "0",
-  "def": "M",
-  "name": "Komasan",
-  "rarity": "Metal",
-  "skill": "Hitodama Flame",
-  "type": "Emerald"
-},{
-  "id": "TF10",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "0",
-  "def": "6",
-  "name": "Violet Evergarden",
+  "name": "Shana",
   "rarity": "Rainbow",
-  "skill": "Mechanical Heart",
-  "type": "Emerald"
-},{
-  "id": "P56",
-  "atk": "C",
-  "atype": "Star",
-  "batch": "1",
-  "category": "P",
-  "ctr": "0",
-  "def": "0",
-  "name": "Shamisen",
-  "rarity": "Metal",
-  "skill": "Philosophy Discourse",
-  "type": "Topaz"
-},{
-  "id": "P66",
-  "atk": "C",
-  "atype": "Star",
-  "batch": "1",
-  "category": "P",
-  "ctr": "0",
-  "def": "M",
-  "name": "Happy",
-  "rarity": "Metal",
-  "skill": "Happy Holiday",
-  "type": "Aquamarine"
-},{
-  "id": "P62",
-  "atk": "C",
-  "atype": "Star",
-  "batch": "1",
-  "category": "P",
-  "ctr": "0",
-  "def": "0",
-  "name": "Sakamoto",
-  "rarity": "Metal",
-  "skill": "Mature Act",
-  "type": "Aquamarine"
-},{
-  "id": "P73",
-  "atk": "C",
-  "atype": "Star",
-  "batch": "1",
-  "category": "P",
-  "ctr": "0",
-  "def": "M",
-  "name": "Doraemon",
-  "rarity": "Metal",
-  "skill": "Future Gadgets",
-  "type": "Aquamarine"
-},{
-  "id": "P88",
-  "atk": "D",
-  "atype": "Star",
-  "batch": "1",
-  "category": "P",
-  "ctr": "0",
-  "def": "0",
-  "name": "Bond Forger",
-  "rarity": "Metal",
-  "skill": "Future Vision",
-  "type": "Diamond"
-},{
-  "id": "TF3",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "2",
-  "def": "5",
-  "name": "Yukinoshita Yukino",
-  "rarity": "Rainbow",
-  "skill": "Wintry Facade",
-  "type": "Sapphire"
-},{
-  "id": "P53",
-  "atk": "D",
-  "atype": "Star",
-  "batch": "1",
-  "category": "P",
-  "ctr": "0",
-  "def": "0",
-  "name": "Taroumaru",
-  "rarity": "Metal",
-  "skill": "Sacrifice",
-  "type": "Aquamarine"
-},{
-  "id": "TF46",
-  "atk": "5",
-  "atype": "Star",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "1",
-  "def": "4",
-  "name": "Onodera Kosaki",
-  "rarity": "Gold",
-  "skill": "Lethal Dessert",
-  "type": "Emerald"
-},{
-  "id": "TF34",
-  "atk": "7",
-  "atype": "Star",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "2",
-  "def": "1",
-  "name": "Hiiragi Kagami",
-  "rarity": "Gold",
-  "skill": "Endless Banter",
-  "type": "Amethyst"
-},{
-  "id": "TF27",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "1",
-  "def": "5",
-  "name": "Kanna Kamui",
-  "rarity": "Gold",
-  "skill": "Storm of Innocence",
-  "type": "Diamond"
-},{
-  "id": "TF18",
-  "atk": "4",
-  "atype": "Sun",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "3",
-  "def": "1",
-  "name": "Tohsaka Rin",
-  "rarity": "Rainbow",
-  "skill": "Welt, Ende",
+  "skill": "Tenpa Jousai",
   "type": "Ruby"
-},{
-  "id": "TF37",
-  "atk": "5",
-  "atype": "Star",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "4",
-  "def": "1",
-  "name": "Aragaki Ayase",
-  "rarity": "Gold",
-  "skill": "Hidden Knife",
-  "type": "Aquamarine"
-},{
-  "id": "TF55",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "3",
-  "def": "3",
-  "name": "Yui-nyan",
-  "rarity": "Silver",
-  "skill": "Thousand Enemies",
-  "type": "Ruby"
-},{
-  "id": "TF68",
-  "atk": "5",
-  "atype": "Moon",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "2",
-  "def": "1",
-  "name": "Shirai Kuroko",
-  "rarity": "Silver",
-  "skill": "Teleportation",
-  "type": "Diamond"
-},{
-  "id": "TF44",
-  "atk": "5",
-  "atype": "Star",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "1",
-  "def": "4",
-  "name": "Yuigahama Yui",
-  "rarity": "Gold",
-  "skill": "Eager Bite",
-  "type": "Ruby"
-},{
-  "id": "TF63",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "1",
-  "def": "6",
-  "name": "Kashiwazaki Sena",
-  "rarity": "Silver",
-  "skill": "Credulous Charm",
-  "type": "Emerald"
-},{
-  "id": "TF13",
-  "atk": "5",
-  "atype": "Sun",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "2",
-  "def": "1",
-  "name": "Fate Testarossa",
-  "rarity": "Rainbow",
-  "skill": "Plasma Zanber",
-  "type": "Topaz"
-},{
-  "id": "TF98",
-  "atk": "5",
-  "atype": "Sun",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "0",
-  "def": "3",
-  "name": "Gray",
-  "rarity": "Bronze",
-  "skill": "Rhongomyniad",
-  "type": "Topaz"
-},{
-  "id": "TF108",
-  "atk": "7",
-  "atype": "Star",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "0",
-  "def": "3",
-  "name": "Miyamizu Mitsuha",
-  "rarity": "Bronze",
-  "skill": "Thread of Destiny",
-  "type": "Aquamarine"
-},{
-  "id": "TF88",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "1",
-  "def": "6",
-  "name": "Kirigiri Kyouko",
-  "rarity": "Bronze",
-  "skill": "Ultimate Deduction",
-  "type": "Amethyst"
-},{
-  "id": "TF86",
-  "atk": "4",
-  "atype": "Moon",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "3",
-  "def": "1",
-  "name": "Sakurazaki Setsuna",
-  "rarity": "Bronze",
-  "skill": "Shika Shishikuro",
-  "type": "Sapphire"
-},{
-  "id": "TF97",
-  "atk": "6",
-  "atype": "Star",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "2",
-  "def": "2",
-  "name": "Furuhashi Fumino",
-  "rarity": "Bronze",
-  "skill": "Starry Night Stroll",
-  "type": "Sapphire"
-},{
-  "id": "TF110",
-  "atk": "4",
-  "atype": "Moon",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "0",
-  "def": "4",
-  "name": "Asada Shino",
-  "rarity": "Bronze",
-  "skill": "Hawk Eye",
-  "type": "Emerald"
-},{
-  "id": "TF76",
-  "atk": "2",
-  "atype": "Star",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "4",
-  "def": "4",
-  "name": "Furude Rika",
-  "rarity": "Silver",
-  "skill": "Endless Path",
-  "type": "Amethyst"
-},{
-  "id": "TF74",
-  "atk": "3",
-  "atype": "Sun",
-  "batch": "3",
-  "category": "TF",
-  "ctr": "1",
-  "def": "4",
-  "name": "Kinomoto Sakura",
-  "rarity": "Silver",
-  "skill": "Seal Release",
-  "type": "Topaz"
-},{
-  "id": "FM4",
-  "atk": "2",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "0",
-  "def": "6",
-  "name": "Lafiel Abriel",
-  "rarity": "Rainbow",
-  "skill": "maglor's Sonata",
-  "type": "Sapphire"
-},{
-  "id": "FM1",
-  "atk": "2",
-  "atype": "Star",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "1",
-  "def": "7",
-  "name": "Hatsune Miku",
-  "rarity": "Rainbow",
-  "skill": "Crisu's Leekspin",
-  "type": "Aquamarine"
 },{
   "id": "P3",
   "atk": "D",
@@ -935,365 +71,65 @@
   "skill": "Piko Piko",
   "type": "Emerald"
 },{
-  "id": "FM7",
-  "atk": "8",
-  "atype": "Sun",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "0",
-  "def": "0",
-  "name": "Ayatsuji Tsukasa",
-  "rarity": "Rainbow",
-  "skill": "Shiraoky's Solar Flare",
-  "type": "Emerald"
-},{
-  "id": "P9",
-  "atk": "B",
+  "id": "TF3",
+  "atk": "3",
   "atype": "Star",
-  "batch": "2",
-  "category": "P",
-  "ctr": "0",
-  "def": "0",
-  "name": "Penne",
-  "rarity": "Metal",
-  "skill": "Unseen Proposal",
+  "batch": "3",
+  "category": "TF",
+  "ctr": "2",
+  "def": "5",
+  "name": "Yukinoshita Yukino",
+  "rarity": "Rainbow",
+  "skill": "Wintry Facade",
   "type": "Sapphire"
 },{
-  "id": "FM11",
-  "atk": "0",
-  "atype": "Star",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "7",
-  "def": "3",
-  "name": "Yune",
-  "rarity": "Rainbow",
-  "skill": "Grish's Peck",
-  "type": "Amethyst"
-},{
-  "id": "FM14",
-  "atk": "8",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "0",
-  "def": "0",
-  "name": "Soryu Asuka Langley",
-  "rarity": "Rainbow",
-  "skill": "houreki's Flash Bomb",
-  "type": "Ruby"
-},{
-  "id": "FM22",
+  "id": "TM3",
   "atk": "2",
   "atype": "Star",
   "batch": "1",
-  "category": "FM",
+  "category": "TM",
   "ctr": "0",
   "def": "8",
-  "name": "Shiodome Miuna",
-  "rarity": "Gold",
-  "skill": "Just's Justice",
-  "type": "Aquamarine"
+  "name": "Sora",
+  "rarity": "Rainbow",
+  "skill": "Natus Vincere",
+  "type": "Ruby"
 },{
-  "id": "FM18",
-  "atk": "3",
-  "atype": "Sun",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "0",
-  "def": "5",
-  "name": "Tsuruya",
-  "rarity": "Gold",
-  "skill": "Toady's Atomize",
-  "type": "Emerald"
-},{
-  "id": "FM21",
+  "id": "TH3",
   "atk": "5",
   "atype": "Moon",
   "batch": "1",
-  "category": "FM",
-  "ctr": "3",
-  "def": "0",
-  "name": "Yamato",
-  "rarity": "Gold",
-  "skill": "kanohistorm's Hurricane",
-  "type": "Ruby"
-},{
-  "id": "FM16",
-  "atk": "3",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "1",
-  "def": "4",
-  "name": "Akaza Akari",
-  "rarity": "Gold",
-  "skill": "CureRainbow's Vanish",
+  "category": "TH",
+  "ctr": "0",
+  "def": "3",
+  "name": "Remilia Scarlet",
+  "rarity": "Rainbow",
+  "skill": "Divine Spear Gungnir",
   "type": "Amethyst"
 },{
-  "id": "FM24",
-  "atk": "6",
-  "atype": "Sun",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "2",
-  "def": "0",
-  "name": "Kurumi Erika",
-  "rarity": "Gold",
-  "skill": "exec's Shining Fortissimo",
-  "type": "Aquamarine"
-},{
-  "id": "FM31",
-  "atk": "4",
-  "atype": "Sun",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "1",
-  "def": "3",
-  "name": "Sakai Wakana",
-  "rarity": "Gold",
-  "skill": "BlaZ's Divine Retribution",
-  "type": "Sapphire"
-},{
-  "id": "P32",
-  "atk": "A",
-  "atype": "Star",
-  "batch": "2",
-  "category": "P",
-  "ctr": "0",
-  "def": "M",
-  "name": "Kuriboh",
-  "rarity": "Metal",
-  "skill": "Damage Negation",
-  "type": "Ruby"
-},{
-  "id": "P23",
-  "atk": "B",
-  "atype": "Star",
-  "batch": "2",
-  "category": "P",
-  "ctr": "0",
-  "def": "0",
-  "name": "Dera Mochimazzi",
-  "rarity": "Metal",
-  "skill": "Tubby Charm",
-  "type": "Diamond"
-},{
-  "id": "FM35",
-  "atk": "7",
-  "atype": "Star",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "2",
-  "def": "1",
-  "name": "Konjiki no Yami",
-  "rarity": "Silver",
-  "skill": "Shmion's Analysis",
-  "type": "Topaz"
-},{
-  "id": "FM37",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "1",
-  "def": "5",
-  "name": "Shichimiya Satone",
-  "rarity": "Silver",
-  "skill": "smartboyhw's Discipline",
-  "type": "Sapphire"
-},{
-  "id": "FM40",
+  "id": "FM4",
   "atk": "2",
-  "atype": "Sun",
+  "atype": "Moon",
   "batch": "1",
   "category": "FM",
   "ctr": "0",
   "def": "6",
-  "name": "Inoue Orihime",
-  "rarity": "Silver",
-  "skill": "Desufire's Conflagration",
-  "type": "Diamond"
-},{
-  "id": "P39",
-  "atk": "C",
-  "atype": "Star",
-  "batch": "2",
-  "category": "P",
-  "ctr": "0",
-  "def": "0",
-  "name": "Puar",
-  "rarity": "Metal",
-  "skill": "Shapeshift",
+  "name": "Lafiel Abriel",
+  "rarity": "Rainbow",
+  "skill": "maglor's Sonata",
   "type": "Sapphire"
 },{
-  "id": "FM47",
-  "atk": "5",
+  "id": "TF4",
+  "atk": "3",
   "atype": "Moon",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "0",
-  "def": "3",
-  "name": "Fennec",
-  "rarity": "Silver",
-  "skill": "Karob's Haunt",
-  "type": "Topaz"
-},{
-  "id": "P48",
-  "atk": "C",
-  "atype": "Star",
   "batch": "2",
-  "category": "P",
+  "category": "TF",
   "ctr": "0",
-  "def": "M",
-  "name": "Pokoteng",
-  "rarity": "Metal",
-  "skill": "All Aboard!",
+  "def": "5",
+  "name": "Tachibana Kanade",
+  "rarity": "Rainbow",
+  "skill": "Harmonics",
   "type": "Aquamarine"
-},{
-  "id": "FM43",
-  "atk": "6",
-  "atype": "Star",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "1",
-  "def": "3",
-  "name": "Tsukuyomi Komoe",
-  "rarity": "Silver",
-  "skill": "BugH's Surprise Exam",
-  "type": "Emerald"
-},{
-  "id": "FM52",
-  "atk": "0",
-  "atype": "Star",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "5",
-  "def": "5",
-  "name": "King Halo",
-  "rarity": "Bronze",
-  "skill": "Reverend's Rebellion",
-  "type": "Amethyst"
-},{
-  "id": "FM55",
-  "atk": "8",
-  "atype": "Star",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "2",
-  "def": "0",
-  "name": "Mordred",
-  "rarity": "Bronze",
-  "skill": "Sirwence's Chivalry",
-  "type": "Diamond"
-},{
-  "id": "FM60",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "1",
-  "def": "6",
-  "name": "Ange le Carré",
-  "rarity": "Bronze",
-  "skill": "Lulu's Helping Hand",
-  "type": "Ruby"
-},{
-  "id": "P61",
-  "atk": "A",
-  "atype": "Star",
-  "batch": "2",
-  "category": "P",
-  "ctr": "0",
-  "def": "M",
-  "name": "Moffle",
-  "rarity": "Metal",
-  "skill": "Raging Uppercut",
-  "type": "Topaz"
-},{
-  "id": "FM58",
-  "atk": "3",
-  "atype": "Sun",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "5",
-  "def": "0",
-  "name": "Louise de La Vallière",
-  "rarity": "Bronze",
-  "skill": "lolcats' Scratch",
-  "type": "Ruby"
-},{
-  "id": "P58",
-  "atk": "A",
-  "atype": "Star",
-  "batch": "2",
-  "category": "P",
-  "ctr": "0",
-  "def": "M",
-  "name": "Monokuma",
-  "rarity": "Metal",
-  "skill": "Punishment Time",
-  "type": "Ruby"
-},{
-  "id": "P60",
-  "atk": "A",
-  "atype": "Star",
-  "batch": "2",
-  "category": "P",
-  "ctr": "0",
-  "def": "M",
-  "name": "Koromaru",
-  "rarity": "Metal",
-  "skill": "Loyal White",
-  "type": "Diamond"
-},{
-  "id": "FM63",
-  "atk": "6",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "-3",
-  "def": "5",
-  "name": "RO635",
-  "rarity": "Bronze",
-  "skill": "Kordosa's Barrage",
-  "type": "Topaz"
-},{
-  "id": "FM65",
-  "atk": "0",
-  "atype": "Star",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "0",
-  "def": "10",
-  "name": "Kamio Misuzu",
-  "rarity": "Bronze",
-  "skill": "Ahasuerus' Swan Song",
-  "type": "Topaz"
-},{
-  "id": "FM67",
-  "atk": "1",
-  "atype": "Star",
-  "batch": "1",
-  "category": "FM",
-  "ctr": "2",
-  "def": "7",
-  "name": "Hitotsubashi Yurie",
-  "rarity": "Bronze",
-  "skill": "mokuhazushi's Antics",
-  "type": "Diamond"
-},{
-  "id": "P95",
-  "atk": "A",
-  "atype": "Star",
-  "batch": "2",
-  "category": "P",
-  "ctr": "0",
-  "def": "M",
-  "name": "Poro",
-  "rarity": "Metal",
-  "skill": "Poro Cannon",
-  "type": "Diamond"
 },{
   "id": "IM4",
   "atk": "3",
@@ -1307,16 +143,40 @@
   "skill": "Anemone Star",
   "type": "Sapphire"
 },{
-  "id": "IM2",
-  "atk": "6",
+  "id": "TM4",
+  "atk": "4",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "TM",
+  "ctr": "1",
+  "def": "3",
+  "name": "Korosensei",
+  "rarity": "Rainbow",
+  "skill": "Assassination Lesson",
+  "type": "Topaz"
+},{
+  "id": "PK4",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "2",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Charmander",
+  "rarity": "Metal",
+  "skill": "Fire Spin",
+  "type": "Ruby"
+},{
+  "id": "IM5",
+  "atk": "5",
   "atype": "Star",
   "batch": "1",
   "category": "IM",
-  "ctr": "1",
-  "def": "3",
-  "name": "Nishikino Maki",
+  "ctr": "0",
+  "def": "5",
+  "name": "Minamoto Sakura",
   "rarity": "Rainbow",
-  "skill": "Premonition of Winter",
+  "skill": "Fruitless Necromancy",
   "type": "Ruby"
 },{
   "id": "P5",
@@ -1331,6 +191,78 @@
   "skill": "Deep Sea Jingle",
   "type": "Aquamarine"
 },{
+  "id": "TM5",
+  "atk": "6",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TM",
+  "ctr": "2",
+  "def": "2",
+  "name": "Shirogane Miyuki",
+  "rarity": "Rainbow",
+  "skill": "Perfect Image",
+  "type": "Topaz"
+},{
+  "id": "TF5",
+  "atk": "5",
+  "atype": "Star",
+  "batch": "4",
+  "category": "TF",
+  "ctr": "1",
+  "def": "4",
+  "name": "Gokou Ruri",
+  "rarity": "Rainbow",
+  "skill": "Fallen Maschera",
+  "type": "Amethyst"
+},{
+  "id": "P6",
+  "atk": "A",
+  "atype": "Star",
+  "batch": "1",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Totoro",
+  "rarity": "Metal",
+  "skill": "Nature Spirit",
+  "type": "Sapphire"
+},{
+  "id": "TF6",
+  "atk": "1",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TF",
+  "ctr": "0",
+  "def": "9",
+  "name": "Akiyama Mio",
+  "rarity": "Rainbow",
+  "skill": "Fuwa Fuwa Time!",
+  "type": "Emerald"
+},{
+  "id": "FM7",
+  "atk": "8",
+  "atype": "Sun",
+  "batch": "1",
+  "category": "FM",
+  "ctr": "0",
+  "def": "0",
+  "name": "Ayatsuji Tsukasa",
+  "rarity": "Rainbow",
+  "skill": "Shiraoky's Solar Flare",
+  "type": "Emerald"
+},{
+  "id": "P7",
+  "atk": "A",
+  "atype": "Star",
+  "batch": "1",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Kirby",
+  "rarity": "Metal",
+  "skill": "Supernova",
+  "type": "Ruby"
+},{
   "id": "IM7",
   "atk": "4",
   "atype": "Star",
@@ -1343,425 +275,29 @@
   "skill": "Teletelepathy",
   "type": "Diamond"
 },{
-  "id": "IM9",
-  "atk": "1",
-  "atype": "Star",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "3",
-  "def": "6",
-  "name": "Tsushima Yoshiko",
-  "rarity": "Rainbow",
-  "skill": "Fallen Angel",
-  "type": "Amethyst"
-},{
-  "id": "IM5",
-  "atk": "5",
-  "atype": "Star",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "0",
-  "def": "5",
-  "name": "Minamoto Sakura",
-  "rarity": "Rainbow",
-  "skill": "Fruitless Necromancy",
-  "type": "Ruby"
-},{
-  "id": "IM21",
-  "atk": "5",
-  "atype": "Star",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "0",
-  "def": "5",
-  "name": "Aoba Moca",
-  "rarity": "Gold",
-  "skill": "Delightful Slumber",
-  "type": "Aquamarine"
-},{
-  "id": "IM24",
-  "atk": "7",
-  "atype": "Star",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "2",
-  "def": "1",
-  "name": "Ayase Eli",
-  "rarity": "Gold",
-  "skill": "Those Graceful Days",
-  "type": "Emerald"
-},{
-  "id": "IM16",
-  "atk": "2",
-  "atype": "Star",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "1",
-  "def": "7",
-  "name": "Kotobuki Tsumugi",
-  "rarity": "Gold",
-  "skill": "Earnest Determination",
-  "type": "Topaz"
-},{
-  "id": "IM18",
-  "atk": "2",
-  "atype": "Star",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "2",
-  "def": "6",
-  "name": "Sakurauchi Riko",
-  "rarity": "Gold",
-  "skill": "Fragile Love",
-  "type": "Amethyst"
-},{
-  "id": "IM28",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "0",
-  "def": "7",
-  "name": "Ichigaya Arisa",
-  "rarity": "Gold",
-  "skill": "Emergency Sleepover",
-  "type": "Amethyst"
-},{
-  "id": "IM30",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "4",
-  "def": "3",
-  "name": "Minase Iori",
-  "rarity": "Gold",
-  "skill": "Shared Memories",
-  "type": "Ruby"
-},{
-  "id": "P17",
-  "atk": "D",
-  "atype": "Star",
-  "batch": "3",
-  "category": "P",
-  "ctr": "0",
-  "def": "0",
-  "name": "Guts",
-  "rarity": "Metal",
-  "skill": "Snack Time!",
-  "type": "Amethyst"
-},{
-  "id": "IM41",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "4",
-  "def": "3",
-  "name": "Minato Yukina",
-  "rarity": "Silver",
-  "skill": "Dignified Lone-Wolf",
-  "type": "Aquamarine"
-},{
-  "id": "IM39",
-  "atk": "2",
-  "atype": "Star",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "3",
-  "def": "5",
-  "name": "Sagisawa Fumika",
-  "rarity": "Silver",
-  "skill": "Survival Instincts",
-  "type": "Diamond"
-},{
-  "id": "IM34",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "4",
-  "def": "3",
-  "name": "Kisaragi Chihaya",
-  "rarity": "Silver",
-  "skill": "Blue Bird",
-  "type": "Sapphire"
-},{
-  "id": "IM54",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "0",
-  "def": "7",
-  "name": "Amami Haruka",
-  "rarity": "Silver",
-  "skill": "Sparkling Optimism",
-  "type": "Emerald"
-},{
-  "id": "P29",
-  "atk": "C",
-  "atype": "Star",
-  "batch": "3",
-  "category": "P",
-  "ctr": "0",
-  "def": "M",
-  "name": "Kyuubey",
-  "rarity": "Metal",
-  "skill": "Deceitful Contract",
-  "type": "Diamond"
-},{
-  "id": "IM47",
-  "atk": "7",
-  "atype": "Star",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "2",
-  "def": "1",
-  "name": "Asaka Karin",
-  "rarity": "Silver",
-  "skill": "Vivid Starlight",
-  "type": "Sapphire"
-},{
-  "id": "IM50",
-  "atk": "6",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "0",
-  "def": "2",
-  "name": "Kagura Hikari",
-  "rarity": "Silver",
-  "skill": "Blossom Bright",
-  "type": "Sapphire"
-},{
-  "id": "P38",
-  "atk": "A",
-  "atype": "Star",
-  "batch": "3",
-  "category": "P",
-  "ctr": "0",
-  "def": "M",
-  "name": "Hamtaro",
-  "rarity": "Metal",
-  "skill": "Blossom of Joy",
-  "type": "Emerald"
-},{
-  "id": "IM60",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "4",
-  "def": "3",
-  "name": "Yumemi Riamu",
-  "rarity": "Bronze",
-  "skill": "Otaku Anthem",
-  "type": "Ruby"
-},{
-  "id": "IM62",
-  "atk": "7",
-  "atype": "Star",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "0",
-  "def": "3",
-  "name": "Iwasawa Masami",
-  "rarity": "Bronze",
-  "skill": "First Beat",
-  "type": "Ruby"
-},{
-  "id": "IM43",
-  "atk": "2",
-  "atype": "Star",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "2",
-  "def": "6",
-  "name": "Ranka Lee",
-  "rarity": "Silver",
-  "skill": "Interstellar Flight",
-  "type": "Emerald"
-},{
-  "id": "IM56",
-  "atk": "7",
-  "atype": "Star",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "1",
-  "def": "2",
-  "name": "Kira Tsubasa",
-  "rarity": "Bronze",
-  "skill": "Arise and Shine",
-  "type": "Aquamarine"
-},{
-  "id": "IM64",
-  "atk": "2",
-  "atype": "Star",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "6",
-  "def": "2",
-  "name": "Kujikawa Rise",
-  "rarity": "Bronze",
-  "skill": "Avalokiteśvara",
-  "type": "Amethyst"
-},{
-  "id": "IM69",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "1",
-  "def": "5",
-  "name": "Sonoda Umi",
-  "rarity": "Bronze",
-  "skill": "Flowers of the Future",
-  "type": "Sapphire"
-},{
-  "id": "IM67",
+  "id": "TH7",
   "atk": "4",
   "atype": "Sun",
   "batch": "1",
-  "category": "IM",
-  "ctr": "0",
-  "def": "4",
-  "name": "Nishimori Yusa",
-  "rarity": "Bronze",
-  "skill": "Pyrokinesis",
-  "type": "Topaz"
-},{
-  "id": "IM72",
-  "atk": "5",
-  "atype": "Sun",
-  "batch": "1",
-  "category": "IM",
-  "ctr": "0",
-  "def": "3",
-  "name": "Hoshina Utau",
-  "rarity": "Bronze",
-  "skill": "Lunatic Charm",
-  "type": "Topaz"
-},{
-  "id": "P63",
-  "atk": "D",
-  "atype": "Star",
-  "batch": "3",
-  "category": "P",
-  "ctr": "0",
-  "def": "0",
-  "name": "Shiitake",
-  "rarity": "Metal",
-  "skill": "Surprise Lick",
-  "type": "Topaz"
-},{
-  "id": "P64",
-  "atk": "A",
-  "atype": "Star",
-  "batch": "3",
-  "category": "P",
-  "ctr": "0",
-  "def": "0",
-  "name": "Botan",
-  "rarity": "Metal",
-  "skill": "Puhi Puhi Pot",
-  "type": "Topaz"
-},{
-  "id": "P67",
-  "atk": "B",
-  "atype": "Star",
-  "batch": "3",
-  "category": "P",
-  "ctr": "0",
-  "def": "M",
-  "name": "Penguin Trio",
-  "rarity": "Metal",
-  "skill": "Nonstop Errands",
-  "type": "Sapphire"
-},{
-  "id": "P75",
-  "atk": "C",
-  "atype": "Star",
-  "batch": "3",
-  "category": "P",
-  "ctr": "0",
-  "def": "M",
-  "name": "Chi",
-  "rarity": "Metal",
-  "skill": "Sweet Home",
-  "type": "Aquamarine"
-},{
-  "id": "P94",
-  "atk": "A",
-  "atype": "Star",
-  "batch": "3",
-  "category": "P",
-  "ctr": "0",
-  "def": "0",
-  "name": "Susuwatari",
-  "rarity": "Metal",
-  "skill": "Frantic Toil",
-  "type": "Ruby"
-},{
-  "id": "P98",
-  "atk": "A",
-  "atype": "Star",
-  "batch": "3",
-  "category": "P",
-  "ctr": "0",
-  "def": "0",
-  "name": "Koroks",
-  "rarity": "Metal",
-  "skill": "Hide and Seek",
-  "type": "Emerald"
-},{
-  "id": "PK1",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "1",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Bulbasaur",
-  "rarity": "Metal",
-  "skill": "Vine Whip",
-  "type": "Emerald"
-},{
-  "id": "TM3",
-  "atk": "2",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TM",
-  "ctr": "0",
-  "def": "8",
-  "name": "Sora",
-  "rarity": "Rainbow",
-  "skill": "Natus Vincere",
-  "type": "Ruby"
-},{
-  "id": "TM4",
-  "atk": "4",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "TM",
+  "category": "TH",
   "ctr": "1",
   "def": "3",
-  "name": "Korosensei",
+  "name": "Patchouli Knowledge",
   "rarity": "Rainbow",
-  "skill": "Assassination Lesson",
-  "type": "Topaz"
+  "skill": "Philosopher's Stone",
+  "type": "Amethyst"
 },{
-  "id": "TM5",
-  "atk": "6",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TM",
-  "ctr": "2",
+  "id": "TF7",
+  "atk": "3",
+  "atype": "Sun",
+  "batch": "4",
+  "category": "TF",
+  "ctr": "3",
   "def": "2",
-  "name": "Shirogane Miyuki",
+  "name": "Rem",
   "rarity": "Rainbow",
-  "skill": "Perfect Image",
-  "type": "Topaz"
+  "skill": "Forgotten Huma",
+  "type": "Aquamarine"
 },{
   "id": "TM8",
   "atk": "6",
@@ -1775,6 +311,54 @@
   "skill": "Vector Transformation",
   "type": "Diamond"
 },{
+  "id": "TF8",
+  "atk": "0",
+  "atype": "Star",
+  "batch": "5",
+  "category": "TF",
+  "ctr": "2",
+  "def": "8",
+  "name": "Katou Megumi",
+  "rarity": "Rainbow",
+  "skill": "Heroine's Spotlight",
+  "type": "Ruby"
+},{
+  "id": "IM8",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "3",
+  "category": "IM",
+  "ctr": "5",
+  "def": "2",
+  "name": "Watanabe You",
+  "rarity": "Rainbow",
+  "skill": "Miracle Wave",
+  "type": "Aquamarine"
+},{
+  "id": "P9",
+  "atk": "B",
+  "atype": "Star",
+  "batch": "2",
+  "category": "P",
+  "ctr": "0",
+  "def": "0",
+  "name": "Penne",
+  "rarity": "Metal",
+  "skill": "Unseen Proposal",
+  "type": "Sapphire"
+},{
+  "id": "IM9",
+  "atk": "1",
+  "atype": "Star",
+  "batch": "1",
+  "category": "IM",
+  "ctr": "3",
+  "def": "6",
+  "name": "Tsushima Yoshiko",
+  "rarity": "Rainbow",
+  "skill": "Fallen Angel",
+  "type": "Amethyst"
+},{
   "id": "TM9",
   "atk": "4",
   "atype": "Star",
@@ -1786,6 +370,42 @@
   "rarity": "Rainbow",
   "skill": "Human Mimicry",
   "type": "Sapphire"
+},{
+  "id": "TF10",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "3",
+  "category": "TF",
+  "ctr": "0",
+  "def": "6",
+  "name": "Violet Evergarden",
+  "rarity": "Rainbow",
+  "skill": "Mechanical Heart",
+  "type": "Emerald"
+},{
+  "id": "FM11",
+  "atk": "0",
+  "atype": "Star",
+  "batch": "1",
+  "category": "FM",
+  "ctr": "7",
+  "def": "3",
+  "name": "Yune",
+  "rarity": "Rainbow",
+  "skill": "Grish's Peck",
+  "type": "Amethyst"
+},{
+  "id": "TF11",
+  "atk": "5",
+  "atype": "Sun",
+  "batch": "2",
+  "category": "TF",
+  "ctr": "0",
+  "def": "3",
+  "name": "Itsuka Kotori",
+  "rarity": "Rainbow",
+  "skill": "Camael",
+  "type": "Ruby"
 },{
   "id": "TM11",
   "atk": "3",
@@ -1811,6 +431,30 @@
   "skill": "Shokanjuu: Nekomata",
   "type": "Emerald"
 },{
+  "id": "TF13",
+  "atk": "5",
+  "atype": "Sun",
+  "batch": "3",
+  "category": "TF",
+  "ctr": "2",
+  "def": "1",
+  "name": "Fate Testarossa",
+  "rarity": "Rainbow",
+  "skill": "Plasma Zanber",
+  "type": "Topaz"
+},{
+  "id": "FM14",
+  "atk": "8",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "FM",
+  "ctr": "0",
+  "def": "0",
+  "name": "Soryu Asuka Langley",
+  "rarity": "Rainbow",
+  "skill": "houreki's Flash Bomb",
+  "type": "Ruby"
+},{
   "id": "TM14",
   "atk": "5",
   "atype": "Moon",
@@ -1823,316 +467,64 @@
   "skill": "Energy Drain",
   "type": "Sapphire"
 },{
-  "id": "TM18",
-  "atk": "4",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "TM",
-  "ctr": "0",
-  "def": "4",
-  "name": "Levi",
-  "rarity": "Gold",
-  "skill": "Lone Wolf",
-  "type": "Diamond"
-},{
-  "id": "TM19",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TM",
-  "ctr": "4",
-  "def": "3",
-  "name": "Astolfo",
-  "rarity": "Gold",
-  "skill": "La Black Luna",
-  "type": "Amethyst"
-},{
-  "id": "TM21",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TM",
-  "ctr": "2",
-  "def": "5",
-  "name": "Tachibana Taki",
-  "rarity": "Silver",
-  "skill": "Cord of Fate",
-  "type": "Diamond"
-},{
-  "id": "TM24",
-  "atk": "3",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "TM",
-  "ctr": "0",
-  "def": "5",
-  "name": "Emiya Kiritsugu",
-  "rarity": "Silver",
-  "skill": "Magus Killer",
-  "type": "Amethyst"
-},{
-  "id": "TM26",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TM",
-  "ctr": "1",
-  "def": "5",
-  "name": "Katsuragi Keima",
-  "rarity": "Silver",
-  "skill": "Spirit Conquest",
-  "type": "Ruby"
-},{
-  "id": "TM28",
-  "atk": "8",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "TM",
-  "ctr": "0",
-  "def": "0",
-  "name": "Saitama",
-  "rarity": "Silver",
-  "skill": "One Punch",
-  "type": "Diamond"
-},{
-  "id": "PK25",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "1",
-  "category": "PK",
-  "ctr": "0",
-  "def": "M",
-  "name": "Pikachu",
-  "rarity": "Metal",
-  "skill": "Volt Tackle",
-  "type": "Topaz"
-},{
-  "id": "TM25",
-  "atk": "1",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "TM",
-  "ctr": "5",
-  "def": "2",
-  "name": "Shiota Nagisa",
-  "rarity": "Silver",
-  "skill": "Bloodlust",
-  "type": "Sapphire"
-},{
-  "id": "TM33",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TM",
-  "ctr": "0",
-  "def": "7",
-  "name": "Kyon",
-  "rarity": "Bronze",
-  "skill": "Anomaly Attraction",
-  "type": "Amethyst"
-},{
-  "id": "TM34",
-  "atk": "6",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TM",
-  "ctr": "1",
-  "def": "3",
-  "name": "Sakamaki Izayoi",
-  "rarity": "Bronze",
-  "skill": "Aurora Pillar",
-  "type": "Aquamarine"
-},{
-  "id": "TM32",
+  "id": "TF14",
   "atk": "1",
   "atype": "Star",
-  "batch": "1",
-  "category": "TM",
-  "ctr": "4",
-  "def": "5",
-  "name": "Arikawa Hime",
-  "rarity": "Silver",
-  "skill": "Reluctant Crossdress",
-  "type": "Ruby"
-},{
-  "id": "TM38",
-  "atk": "4",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "TM",
+  "batch": "4",
+  "category": "TF",
   "ctr": "1",
-  "def": "3",
-  "name": "Edward Elric",
-  "rarity": "Bronze",
-  "skill": "Quick Transmutation",
-  "type": "Topaz"
-},{
-  "id": "TM36",
-  "atk": "6",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TM",
-  "ctr": "2",
-  "def": "2",
-  "name": "Takasu Ryuuji",
-  "rarity": "Bronze",
-  "skill": "Delinquent Aura",
-  "type": "Sapphire"
-},{
-  "id": "TM42",
-  "atk": "3",
-  "atype": "Sun",
-  "batch": "1",
-  "category": "TM",
-  "ctr": "2",
-  "def": "3",
-  "name": "Emiya Shirou",
-  "rarity": "Bronze",
-  "skill": "Trace On",
-  "type": "Ruby"
-},{
-  "id": "TM44",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TM",
-  "ctr": "4",
-  "def": "3",
-  "name": "Hyoudou Aoi",
-  "rarity": "Bronze",
-  "skill": "Feminine Façade",
-  "type": "Ruby"
-},{
-  "id": "TM46",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TM",
-  "ctr": "4",
-  "def": "2",
-  "name": "Fujisaki Nadeshiko",
-  "rarity": "Bronze",
-  "skill": "Queen's Waltz",
+  "def": "8",
+  "name": "Chitanda Eru",
+  "rarity": "Rainbow",
+  "skill": "Curious Distraction",
   "type": "Amethyst"
 },{
-  "id": "PK52",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "1",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Meowth",
-  "rarity": "Metal",
-  "skill": "Pay Day",
-  "type": "Topaz"
-},{
-  "id": "PK387",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "1",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Turtwig",
-  "rarity": "Metal",
-  "skill": "Razor Leaf",
-  "type": "Emerald"
-},{
-  "id": "PK495",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "1",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Snivy",
-  "rarity": "Metal",
-  "skill": "Leaf Tornado",
-  "type": "Emerald"
-},{
-  "id": "PK722",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "1",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Rowlet",
-  "rarity": "Metal",
-  "skill": "Synthesis",
-  "type": "Emerald"
-},{
-  "id": "PK810",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "1",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Grookey",
-  "rarity": "Metal",
-  "skill": "Branch Poke",
-  "type": "Emerald"
-},{
-  "id": "PK650",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "1",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Chespin",
-  "rarity": "Metal",
-  "skill": "Leech Seed",
-  "type": "Emerald"
-},{
-  "id": "PK152",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "1",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Chikorita",
-  "rarity": "Metal",
-  "skill": "Magical Leaf",
-  "type": "Emerald"
-},{
-  "id": "PK252",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "1",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Treecko",
-  "rarity": "Metal",
-  "skill": "Leafage",
-  "type": "Emerald"
-},{
-  "id": "TF8",
+  "id": "TF15",
   "atk": "0",
   "atype": "Star",
-  "batch": "5",
+  "batch": "4",
   "category": "TF",
-  "ctr": "2",
-  "def": "8",
-  "name": "Katou Megumi",
+  "ctr": "5",
+  "def": "5",
+  "name": "Shiina Mashiro",
   "rarity": "Rainbow",
-  "skill": "Heroine's Spotlight",
-  "type": "Ruby"
+  "skill": "Plan C",
+  "type": "Topaz"
 },{
-  "id": "TH7",
-  "atk": "4",
-  "atype": "Sun",
+  "id": "FM16",
+  "atk": "3",
+  "atype": "Moon",
   "batch": "1",
-  "category": "TH",
+  "category": "FM",
   "ctr": "1",
-  "def": "3",
-  "name": "Patchouli Knowledge",
+  "def": "4",
+  "name": "Akaza Akari",
+  "rarity": "Gold",
+  "skill": "CureRainbow's Vanish",
+  "type": "Amethyst"
+},{
+  "id": "TF16",
+  "atk": "7",
+  "atype": "Moon",
+  "batch": "2",
+  "category": "TF",
+  "ctr": "1",
+  "def": "0",
+  "name": "Yuuki Asuna",
   "rarity": "Rainbow",
-  "skill": "Philosopher's Stone",
+  "skill": "Flashing Penetrator",
+  "type": "Topaz"
+},{
+  "id": "P17",
+  "atk": "D",
+  "atype": "Star",
+  "batch": "3",
+  "category": "P",
+  "ctr": "0",
+  "def": "0",
+  "name": "Guts",
+  "rarity": "Metal",
+  "skill": "Snack Time!",
   "type": "Amethyst"
 },{
   "id": "TF17",
@@ -2147,113 +539,221 @@
   "skill": "Zafkiel",
   "type": "Topaz"
 },{
-  "id": "TF2",
-  "atk": "8",
-  "atype": "Moon",
-  "batch": "5",
-  "category": "TF",
+  "id": "FM18",
+  "atk": "3",
+  "atype": "Sun",
+  "batch": "1",
+  "category": "FM",
+  "ctr": "0",
+  "def": "5",
+  "name": "Tsuruya",
+  "rarity": "Gold",
+  "skill": "Toady's Atomize",
+  "type": "Emerald"
+},{
+  "id": "P18",
+  "atk": "A",
+  "atype": "Star",
+  "batch": "1",
+  "category": "P",
   "ctr": "0",
   "def": "0",
-  "name": "Shana",
-  "rarity": "Rainbow",
-  "skill": "Tenpa Jousai",
-  "type": "Aquamarine"
+  "name": "Mii-kun",
+  "rarity": "Metal",
+  "skill": "Rain Rain Go Away",
+  "type": "Emerald"
 },{
-  "id": "TH3",
-  "atk": "5",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "TH",
-  "ctr": "0",
-  "def": "3",
-  "name": "Remilia Scarlet",
+  "id": "TF18",
+  "atk": "4",
+  "atype": "Sun",
+  "batch": "3",
+  "category": "TF",
+  "ctr": "3",
+  "def": "1",
+  "name": "Tohsaka Rin",
   "rarity": "Rainbow",
-  "skill": "Divine Spear Gungnir",
+  "skill": "Welt, Ende",
   "type": "Ruby"
 },{
-  "id": "TF5",
+  "id": "IM18",
+  "atk": "2",
+  "atype": "Star",
+  "batch": "1",
+  "category": "IM",
+  "ctr": "2",
+  "def": "6",
+  "name": "Sakurauchi Riko",
+  "rarity": "Gold",
+  "skill": "Fragile Love",
+  "type": "Amethyst"
+},{
+  "id": "TM18",
+  "atk": "4",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "TM",
+  "ctr": "0",
+  "def": "4",
+  "name": "Levi",
+  "rarity": "Gold",
+  "skill": "Lone Wolf",
+  "type": "Diamond"
+},{
+  "id": "P19",
+  "atk": "A",
+  "atype": "Star",
+  "batch": "1",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Keroberos",
+  "rarity": "Metal",
+  "skill": "Solar Barrier",
+  "type": "Topaz"
+},{
+  "id": "TM19",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TM",
+  "ctr": "4",
+  "def": "3",
+  "name": "Astolfo",
+  "rarity": "Gold",
+  "skill": "La Black Luna",
+  "type": "Amethyst"
+},{
+  "id": "TF20",
   "atk": "5",
   "atype": "Star",
-  "batch": "4",
+  "batch": "1",
   "category": "TF",
   "ctr": "1",
   "def": "4",
-  "name": "Gokou Ruri",
+  "name": "Takanashi Rikka",
   "rarity": "Rainbow",
-  "skill": "Fallen Maschera",
-  "type": "Amethyst"
+  "skill": "Reality Banishment",
+  "type": "Sapphire"
 },{
-  "id": "IM8",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "3",
-  "category": "IM",
-  "ctr": "5",
-  "def": "2",
-  "name": "Watanabe You",
-  "rarity": "Rainbow",
-  "skill": "Miracle Wave",
-  "type": "Aquamarine"
-},{
-  "id": "TF15",
-  "atk": "0",
-  "atype": "Star",
-  "batch": "4",
-  "category": "TF",
-  "ctr": "5",
-  "def": "5",
-  "name": "Shiina Mashiro",
-  "rarity": "Rainbow",
-  "skill": "Plan C",
-  "type": "Topaz"
-},{
-  "id": "FM102",
-  "atk": "6",
-  "atype": "Star",
-  "batch": "4",
+  "id": "FM21",
+  "atk": "5",
+  "atype": "Moon",
+  "batch": "1",
   "category": "FM",
   "ctr": "3",
-  "def": "1",
-  "name": "Tanaka Asuka",
-  "rarity": "Rainbow",
-  "skill": "Turbulent Rhapsody",
-  "type": "Aquamarine"
-},{
-  "id": "PK4",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "2",
-  "category": "PK",
-  "ctr": "0",
   "def": "0",
-  "name": "Charmander",
-  "rarity": "Metal",
-  "skill": "Fire Spin",
+  "name": "Yamato",
+  "rarity": "Gold",
+  "skill": "kanohistorm's Hurricane",
   "type": "Ruby"
 },{
-  "id": "TF7",
-  "atk": "3",
-  "atype": "Sun",
-  "batch": "4",
-  "category": "TF",
-  "ctr": "3",
-  "def": "2",
-  "name": "Rem",
-  "rarity": "Rainbow",
-  "skill": "Forgotten Huma",
-  "type": "Aquamarine"
-},{
-  "id": "TF14",
-  "atk": "1",
-  "atype": "Star",
-  "batch": "4",
+  "id": "TF21",
+  "atk": "4",
+  "atype": "Moon",
+  "batch": "2",
   "category": "TF",
   "ctr": "1",
-  "def": "8",
-  "name": "Chitanda Eru",
+  "def": "3",
+  "name": "Saber",
   "rarity": "Rainbow",
-  "skill": "Curious Distraction",
+  "skill": "Excalibur",
+  "type": "Diamond"
+},{
+  "id": "TM21",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TM",
+  "ctr": "2",
+  "def": "5",
+  "name": "Tachibana Taki",
+  "rarity": "Silver",
+  "skill": "Cord of Fate",
+  "type": "Emerald"
+},{
+  "id": "FM22",
+  "atk": "2",
+  "atype": "Star",
+  "batch": "1",
+  "category": "FM",
+  "ctr": "0",
+  "def": "8",
+  "name": "Shiodome Miuna",
+  "rarity": "Gold",
+  "skill": "Just's Justice",
+  "type": "Aquamarine"
+},{
+  "id": "TF22",
+  "atk": "1",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TF",
+  "ctr": "4",
+  "def": "5",
+  "name": "Nagato Yuki",
+  "rarity": "Rainbow",
+  "skill": "Data Compassion",
+  "type": "Aquamarine"
+},{
+  "id": "P23",
+  "atk": "B",
+  "atype": "Star",
+  "batch": "2",
+  "category": "P",
+  "ctr": "0",
+  "def": "0",
+  "name": "Dera Mochimazzi",
+  "rarity": "Metal",
+  "skill": "Tubby Charm",
+  "type": "Diamond"
+},{
+  "id": "FM24",
+  "atk": "6",
+  "atype": "Sun",
+  "batch": "1",
+  "category": "FM",
+  "ctr": "2",
+  "def": "0",
+  "name": "Kurumi Erika",
+  "rarity": "Gold",
+  "skill": "exec's Shining Fortissimo",
+  "type": "Aquamarine"
+},{
+  "id": "TM24",
+  "atk": "3",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "TM",
+  "ctr": "0",
+  "def": "5",
+  "name": "Emiya Kiritsugu",
+  "rarity": "Silver",
+  "skill": "Magus Killer",
   "type": "Amethyst"
+},{
+  "id": "TM25",
+  "atk": "1",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "TM",
+  "ctr": "5",
+  "def": "2",
+  "name": "Shiota Nagisa",
+  "rarity": "Silver",
+  "skill": "Bloodlust",
+  "type": "Sapphire"
+},{
+  "id": "PK25",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "1",
+  "category": "PK",
+  "ctr": "0",
+  "def": "M",
+  "name": "Pikachu",
+  "rarity": "Metal",
+  "skill": "Volt Tackle",
+  "type": "Topaz"
 },{
   "id": "TF25",
   "atk": "6",
@@ -2267,6 +767,366 @@
   "skill": "Timeline Singularity",
   "type": "Topaz"
 },{
+  "id": "TM26",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TM",
+  "ctr": "1",
+  "def": "5",
+  "name": "Katsuragi Keima",
+  "rarity": "Silver",
+  "skill": "Spirit Conquest",
+  "type": "Ruby"
+},{
+  "id": "TF27",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "3",
+  "category": "TF",
+  "ctr": "1",
+  "def": "5",
+  "name": "Kanna Kamui",
+  "rarity": "Gold",
+  "skill": "Storm of Innocence",
+  "type": "Diamond"
+},{
+  "id": "TF28",
+  "atk": "6",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TF",
+  "ctr": "2",
+  "def": "2",
+  "name": "Nakano Azusa",
+  "rarity": "Gold",
+  "skill": "Youthful Melody",
+  "type": "Emerald"
+},{
+  "id": "TM28",
+  "atk": "8",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "TM",
+  "ctr": "0",
+  "def": "0",
+  "name": "Saitama",
+  "rarity": "Silver",
+  "skill": "One Punch",
+  "type": "Diamond"
+},{
+  "id": "P29",
+  "atk": "C",
+  "atype": "Star",
+  "batch": "3",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Kyuubey",
+  "rarity": "Metal",
+  "skill": "Deceitful Contract",
+  "type": "Diamond"
+},{
+  "id": "P30",
+  "atk": "A",
+  "atype": "Star",
+  "batch": "1",
+  "category": "P",
+  "ctr": "0",
+  "def": "0",
+  "name": "John",
+  "rarity": "Metal",
+  "skill": "Tireless Journey",
+  "type": "Sapphire"
+},{
+  "id": "IM30",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "1",
+  "category": "IM",
+  "ctr": "4",
+  "def": "3",
+  "name": "Minase Iori",
+  "rarity": "Gold",
+  "skill": "Shared Memories",
+  "type": "Ruby"
+},{
+  "id": "FM31",
+  "atk": "4",
+  "atype": "Sun",
+  "batch": "1",
+  "category": "FM",
+  "ctr": "1",
+  "def": "3",
+  "name": "Sakai Wakana",
+  "rarity": "Gold",
+  "skill": "BlaZ's Divine Retribution",
+  "type": "Sapphire"
+},{
+  "id": "TF31",
+  "atk": "6",
+  "atype": "Star",
+  "batch": "2",
+  "category": "TF",
+  "ctr": "2",
+  "def": "2",
+  "name": "Suzumiya Haruhi",
+  "rarity": "Gold",
+  "skill": "Heisa Kuukan",
+  "type": "Sapphire"
+},{
+  "id": "P32",
+  "atk": "A",
+  "atype": "Star",
+  "batch": "2",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Kuriboh",
+  "rarity": "Metal",
+  "skill": "Damage Negation",
+  "type": "Ruby"
+},{
+  "id": "TF32",
+  "atk": "7",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TF",
+  "ctr": "0",
+  "def": "3",
+  "name": "Kuroyukihime",
+  "rarity": "Gold",
+  "skill": "Wandering Wings",
+  "type": "Ruby"
+},{
+  "id": "TM32",
+  "atk": "1",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TM",
+  "ctr": "4",
+  "def": "5",
+  "name": "Arikawa Hime",
+  "rarity": "Silver",
+  "skill": "Reluctant Crossdress",
+  "type": "Ruby"
+},{
+  "id": "TF33",
+  "atk": "4",
+  "atype": "Sun",
+  "batch": "2",
+  "category": "TF",
+  "ctr": "2",
+  "def": "2",
+  "name": "Chtholly Nota Seniorious",
+  "rarity": "Gold",
+  "skill": "Fairy Gratitude",
+  "type": "Sapphire"
+},{
+  "id": "TM33",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TM",
+  "ctr": "0",
+  "def": "7",
+  "name": "Kyon",
+  "rarity": "Bronze",
+  "skill": "Anomaly Attraction",
+  "type": "Amethyst"
+},{
+  "id": "P34",
+  "atk": "D",
+  "atype": "Star",
+  "batch": "1",
+  "category": "P",
+  "ctr": "0",
+  "def": "0",
+  "name": "Tetsuya #2",
+  "rarity": "Metal",
+  "skill": "Cheerful Bark",
+  "type": "Sapphire"
+},{
+  "id": "TF34",
+  "atk": "7",
+  "atype": "Star",
+  "batch": "3",
+  "category": "TF",
+  "ctr": "2",
+  "def": "1",
+  "name": "Hiiragi Kagami",
+  "rarity": "Gold",
+  "skill": "Endless Banter",
+  "type": "Amethyst"
+},{
+  "id": "IM34",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "1",
+  "category": "IM",
+  "ctr": "4",
+  "def": "3",
+  "name": "Kisaragi Chihaya",
+  "rarity": "Silver",
+  "skill": "Blue Bird",
+  "type": "Sapphire"
+},{
+  "id": "TM34",
+  "atk": "6",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TM",
+  "ctr": "1",
+  "def": "3",
+  "name": "Sakamaki Izayoi",
+  "rarity": "Bronze",
+  "skill": "Aurora Pillar",
+  "type": "Aquamarine"
+},{
+  "id": "FM35",
+  "atk": "7",
+  "atype": "Star",
+  "batch": "1",
+  "category": "FM",
+  "ctr": "2",
+  "def": "1",
+  "name": "Konjiki no Yami",
+  "rarity": "Silver",
+  "skill": "Shmion's Analysis",
+  "type": "Topaz"
+},{
+  "id": "TF35",
+  "atk": "3",
+  "atype": "Sun",
+  "batch": "1",
+  "category": "TF",
+  "ctr": "2",
+  "def": "3",
+  "name": "Illyasviel von Einzbern",
+  "rarity": "Gold",
+  "skill": "Angel's Poem",
+  "type": "Diamond"
+},{
+  "id": "P36",
+  "atk": "C",
+  "atype": "Star",
+  "batch": "1",
+  "category": "P",
+  "ctr": "0",
+  "def": "0",
+  "name": "Puck",
+  "rarity": "Metal",
+  "skill": "Absolute Zero",
+  "type": "Diamond"
+},{
+  "id": "TF36",
+  "atk": "6",
+  "atype": "Star",
+  "batch": "2",
+  "category": "TF",
+  "ctr": "0",
+  "def": "4",
+  "name": "Tomori Nao",
+  "rarity": "Gold",
+  "skill": "Playback",
+  "type": "Diamond"
+},{
+  "id": "TM36",
+  "atk": "6",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TM",
+  "ctr": "2",
+  "def": "2",
+  "name": "Takasu Ryuuji",
+  "rarity": "Bronze",
+  "skill": "Delinquent Aura",
+  "type": "Sapphire"
+},{
+  "id": "FM37",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "FM",
+  "ctr": "1",
+  "def": "5",
+  "name": "Shichimiya Satone",
+  "rarity": "Silver",
+  "skill": "smartboyhw's Discipline",
+  "type": "Sapphire"
+},{
+  "id": "TF37",
+  "atk": "5",
+  "atype": "Star",
+  "batch": "3",
+  "category": "TF",
+  "ctr": "4",
+  "def": "1",
+  "name": "Aragaki Ayase",
+  "rarity": "Gold",
+  "skill": "Hidden Knife",
+  "type": "Aquamarine"
+},{
+  "id": "TF38",
+  "atk": "4",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "TF",
+  "ctr": "1",
+  "def": "3",
+  "name": "Kirisaki Chitoge",
+  "rarity": "Gold",
+  "skill": "Glorious Jumpkick",
+  "type": "Topaz"
+},{
+  "id": "P38",
+  "atk": "A",
+  "atype": "Star",
+  "batch": "3",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Hamtaro",
+  "rarity": "Metal",
+  "skill": "Blossom of Joy",
+  "type": "Emerald"
+},{
+  "id": "TM38",
+  "atk": "4",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "TM",
+  "ctr": "1",
+  "def": "3",
+  "name": "Edward Elric",
+  "rarity": "Bronze",
+  "skill": "Quick Transmutation",
+  "type": "Topaz"
+},{
+  "id": "P39",
+  "atk": "C",
+  "atype": "Star",
+  "batch": "2",
+  "category": "P",
+  "ctr": "0",
+  "def": "0",
+  "name": "Puar",
+  "rarity": "Metal",
+  "skill": "Shapeshift",
+  "type": "Sapphire"
+},{
+  "id": "IM39",
+  "atk": "2",
+  "atype": "Star",
+  "batch": "1",
+  "category": "IM",
+  "ctr": "3",
+  "def": "5",
+  "name": "Sagisawa Fumika",
+  "rarity": "Silver",
+  "skill": "Survival Instincts",
+  "type": "Diamond"
+},{
   "id": "TF39",
   "atk": "4",
   "atype": "Star",
@@ -2278,6 +1138,54 @@
   "rarity": "Gold",
   "skill": "Tanuki Delight",
   "type": "Emerald"
+},{
+  "id": "FM40",
+  "atk": "2",
+  "atype": "Sun",
+  "batch": "1",
+  "category": "FM",
+  "ctr": "0",
+  "def": "6",
+  "name": "Inoue Orihime",
+  "rarity": "Silver",
+  "skill": "Desufire's Conflagration",
+  "type": "Diamond"
+},{
+  "id": "P40",
+  "atk": "A",
+  "atype": "Star",
+  "batch": "1",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Mokona",
+  "rarity": "Metal",
+  "skill": "Dimensional Travel",
+  "type": "Amethyst"
+},{
+  "id": "TF40",
+  "atk": "5",
+  "atype": "Moon",
+  "batch": "2",
+  "category": "TF",
+  "ctr": "0",
+  "def": "3",
+  "name": "Sakagami Tomoyo",
+  "rarity": "Gold",
+  "skill": "Hearty Lunchbox",
+  "type": "Emerald"
+},{
+  "id": "IM41",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "1",
+  "category": "IM",
+  "ctr": "4",
+  "def": "3",
+  "name": "Minato Yukina",
+  "rarity": "Silver",
+  "skill": "Dignified Lone-Wolf",
+  "type": "Aquamarine"
 },{
   "id": "TF41",
   "atk": "7",
@@ -2291,6 +1199,66 @@
   "skill": "Voice of Diligence",
   "type": "Topaz"
 },{
+  "id": "TF42",
+  "atk": "4",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "TF",
+  "ctr": "2",
+  "def": "2",
+  "name": "Fujibayashi Kyou",
+  "rarity": "Gold",
+  "skill": "Go Botan!",
+  "type": "Amethyst"
+},{
+  "id": "TM42",
+  "atk": "3",
+  "atype": "Sun",
+  "batch": "1",
+  "category": "TM",
+  "ctr": "2",
+  "def": "3",
+  "name": "Emiya Shirou",
+  "rarity": "Bronze",
+  "skill": "Trace On",
+  "type": "Ruby"
+},{
+  "id": "FM43",
+  "atk": "6",
+  "atype": "Star",
+  "batch": "1",
+  "category": "FM",
+  "ctr": "1",
+  "def": "3",
+  "name": "Tsukuyomi Komoe",
+  "rarity": "Silver",
+  "skill": "BugH's Surprise Exam",
+  "type": "Emerald"
+},{
+  "id": "TF44",
+  "atk": "5",
+  "atype": "Star",
+  "batch": "3",
+  "category": "TF",
+  "ctr": "1",
+  "def": "4",
+  "name": "Yuigahama Yui",
+  "rarity": "Gold",
+  "skill": "Eager Bite",
+  "type": "Ruby"
+},{
+  "id": "TM44",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TM",
+  "ctr": "4",
+  "def": "3",
+  "name": "Hyoudou Aoi",
+  "rarity": "Bronze",
+  "skill": "Feminine Façade",
+  "type": "Ruby"
+},{
   "id": "TF45",
   "atk": "6",
   "atype": "Sun",
@@ -2302,6 +1270,78 @@
   "rarity": "Gold",
   "skill": "Explosion!",
   "type": "Ruby"
+},{
+  "id": "TF46",
+  "atk": "5",
+  "atype": "Star",
+  "batch": "3",
+  "category": "TF",
+  "ctr": "1",
+  "def": "4",
+  "name": "Onodera Kosaki",
+  "rarity": "Gold",
+  "skill": "Lethal Dessert",
+  "type": "Emerald"
+},{
+  "id": "TM46",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TM",
+  "ctr": "4",
+  "def": "2",
+  "name": "Fujisaki Nadeshiko",
+  "rarity": "Bronze",
+  "skill": "Queen's Waltz",
+  "type": "Amethyst"
+},{
+  "id": "FM47",
+  "atk": "5",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "FM",
+  "ctr": "0",
+  "def": "3",
+  "name": "Fennec",
+  "rarity": "Silver",
+  "skill": "Karob's Haunt",
+  "type": "Topaz"
+},{
+  "id": "IM47",
+  "atk": "7",
+  "atype": "Star",
+  "batch": "1",
+  "category": "IM",
+  "ctr": "2",
+  "def": "1",
+  "name": "Asaka Karin",
+  "rarity": "Silver",
+  "skill": "Vivid Starlight",
+  "type": "Sapphire"
+},{
+  "id": "P48",
+  "atk": "C",
+  "atype": "Star",
+  "batch": "2",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Pokoteng",
+  "rarity": "Metal",
+  "skill": "All Aboard!",
+  "type": "Aquamarine"
+},{
+  "id": "TF48",
+  "atk": "3",
+  "atype": "Sun",
+  "batch": "2",
+  "category": "TF",
+  "ctr": "2",
+  "def": "3",
+  "name": "Himekawa Yoshino",
+  "rarity": "Gold",
+  "skill": "Zadkiel",
+  "type": "Aquamarine"
 },{
   "id": "TF49",
   "atk": "5",
@@ -2315,16 +1355,76 @@
   "skill": "Devious Attraction",
   "type": "Topaz"
 },{
-  "id": "TF60",
-  "atk": "7",
+  "id": "FM52",
+  "atk": "0",
   "atype": "Star",
-  "batch": "4",
+  "batch": "1",
+  "category": "FM",
+  "ctr": "5",
+  "def": "5",
+  "name": "King Halo",
+  "rarity": "Bronze",
+  "skill": "Reverend's Rebellion",
+  "type": "Amethyst"
+},{
+  "id": "PK52",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "1",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Meowth",
+  "rarity": "Metal",
+  "skill": "Pay Day",
+  "type": "Topaz"
+},{
+  "id": "P53",
+  "atk": "D",
+  "atype": "Star",
+  "batch": "1",
+  "category": "P",
+  "ctr": "0",
+  "def": "0",
+  "name": "Taroumaru",
+  "rarity": "Metal",
+  "skill": "Sacrifice",
+  "type": "Aquamarine"
+},{
+  "id": "FM55",
+  "atk": "8",
+  "atype": "Star",
+  "batch": "1",
+  "category": "FM",
+  "ctr": "2",
+  "def": "0",
+  "name": "Mordred",
+  "rarity": "Bronze",
+  "skill": "Sirwence's Chivalry",
+  "type": "Diamond"
+},{
+  "id": "TF55",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "3",
   "category": "TF",
   "ctr": "3",
-  "def": "0",
-  "name": "Kousaka Kirino",
+  "def": "3",
+  "name": "Yui-nyan",
   "rarity": "Silver",
-  "skill": "Secret Hobby",
+  "skill": "Thousand Enemies",
+  "type": "Ruby"
+},{
+  "id": "P56",
+  "atk": "C",
+  "atype": "Star",
+  "batch": "1",
+  "category": "P",
+  "ctr": "0",
+  "def": "0",
+  "name": "Shamisen",
+  "rarity": "Metal",
+  "skill": "Philosophy Discourse",
   "type": "Topaz"
 },{
   "id": "TF56",
@@ -2339,17 +1439,281 @@
   "skill": "Bewitched Thorns",
   "type": "Emerald"
 },{
-  "id": "TF77",
-  "atk": "2",
+  "id": "TF57",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "2",
+  "category": "TF",
+  "ctr": "2",
+  "def": "5",
+  "name": "Ichinose Kotomi",
+  "rarity": "Silver",
+  "skill": "Final Verse",
+  "type": "Amethyst"
+},{
+  "id": "FM58",
+  "atk": "3",
+  "atype": "Sun",
+  "batch": "1",
+  "category": "FM",
+  "ctr": "5",
+  "def": "0",
+  "name": "Louise de La Vallière",
+  "rarity": "Bronze",
+  "skill": "lolcats' Scratch",
+  "type": "Ruby"
+},{
+  "id": "P58",
+  "atk": "A",
+  "atype": "Star",
+  "batch": "2",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Monokuma",
+  "rarity": "Metal",
+  "skill": "Punishment Time",
+  "type": "Ruby"
+},{
+  "id": "FM60",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "1",
+  "category": "FM",
+  "ctr": "1",
+  "def": "6",
+  "name": "Ange le Carré",
+  "rarity": "Bronze",
+  "skill": "Lulu's Helping Hand",
+  "type": "Ruby"
+},{
+  "id": "P60",
+  "atk": "A",
+  "atype": "Star",
+  "batch": "2",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Koromaru",
+  "rarity": "Metal",
+  "skill": "Loyal White",
+  "type": "Diamond"
+},{
+  "id": "TF60",
+  "atk": "7",
   "atype": "Star",
   "batch": "4",
   "category": "TF",
   "ctr": "3",
-  "def": "5",
-  "name": "Tsutsukakushi Tsukiko",
+  "def": "0",
+  "name": "Kousaka Kirino",
   "rarity": "Silver",
-  "skill": "Reticent Feast",
+  "skill": "Secret Hobby",
+  "type": "Topaz"
+},{
+  "id": "P61",
+  "atk": "A",
+  "atype": "Star",
+  "batch": "2",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Moffle",
+  "rarity": "Metal",
+  "skill": "Raging Uppercut",
+  "type": "Topaz"
+},{
+  "id": "TF61",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TF",
+  "ctr": "2",
+  "def": "4",
+  "name": "Fujiwara Chika",
+  "rarity": "Silver",
+  "skill": "Flower Mayhem",
+  "type": "Topaz"
+},{
+  "id": "P62",
+  "atk": "C",
+  "atype": "Star",
+  "batch": "1",
+  "category": "P",
+  "ctr": "0",
+  "def": "0",
+  "name": "Sakamoto",
+  "rarity": "Metal",
+  "skill": "Mature Act",
+  "type": "Aquamarine"
+},{
+  "id": "TF62",
+  "atk": "0",
+  "atype": "Star",
+  "batch": "2",
+  "category": "TF",
+  "ctr": "1",
+  "def": "9",
+  "name": "Kafuu Chino",
+  "rarity": "Silver",
+  "skill": "Timid Libation",
+  "type": "Aquamarine"
+},{
+  "id": "FM63",
+  "atk": "6",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "FM",
+  "ctr": "-3",
+  "def": "5",
+  "name": "RO635",
+  "rarity": "Bronze",
+  "skill": "Kordosa's Barrage",
+  "type": "Topaz"
+},{
+  "id": "TF63",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "3",
+  "category": "TF",
+  "ctr": "1",
+  "def": "6",
+  "name": "Kashiwazaki Sena",
+  "rarity": "Silver",
+  "skill": "Credulous Charm",
+  "type": "Emerald"
+},{
+  "id": "P63",
+  "atk": "D",
+  "atype": "Star",
+  "batch": "3",
+  "category": "P",
+  "ctr": "0",
+  "def": "0",
+  "name": "Shiitake",
+  "rarity": "Metal",
+  "skill": "Surprise Lick",
+  "type": "Topaz"
+},{
+  "id": "TF64",
+  "atk": "7",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TF",
+  "ctr": "1",
+  "def": "2",
+  "name": "Hirasawa Yui",
+  "rarity": "Silver",
+  "skill": "Happy Go Lucky",
   "type": "Diamond"
+},{
+  "id": "P64",
+  "atk": "A",
+  "atype": "Star",
+  "batch": "3",
+  "category": "P",
+  "ctr": "0",
+  "def": "0",
+  "name": "Botan",
+  "rarity": "Metal",
+  "skill": "Puhi Puhi Pot",
+  "type": "Topaz"
+},{
+  "id": "FM65",
+  "atk": "0",
+  "atype": "Star",
+  "batch": "1",
+  "category": "FM",
+  "ctr": "0",
+  "def": "10",
+  "name": "Kamio Misuzu",
+  "rarity": "Bronze",
+  "skill": "Ahasuerus' Swan Song",
+  "type": "Topaz"
+},{
+  "id": "P66",
+  "atk": "C",
+  "atype": "Star",
+  "batch": "1",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Happy",
+  "rarity": "Metal",
+  "skill": "Happy Holiday",
+  "type": "Aquamarine"
+},{
+  "id": "TF66",
+  "atk": "2",
+  "atype": "Star",
+  "batch": "2",
+  "category": "TF",
+  "ctr": "2",
+  "def": "6",
+  "name": "C.C.",
+  "rarity": "Silver",
+  "skill": "Code of Immortality",
+  "type": "Emerald"
+},{
+  "id": "FM67",
+  "atk": "1",
+  "atype": "Star",
+  "batch": "1",
+  "category": "FM",
+  "ctr": "2",
+  "def": "7",
+  "name": "Hitotsubashi Yurie",
+  "rarity": "Bronze",
+  "skill": "mokuhazushi's Antics",
+  "type": "Diamond"
+},{
+  "id": "P67",
+  "atk": "B",
+  "atype": "Star",
+  "batch": "3",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Penguin Trio",
+  "rarity": "Metal",
+  "skill": "Nonstop Errands",
+  "type": "Sapphire"
+},{
+  "id": "TF68",
+  "atk": "5",
+  "atype": "Moon",
+  "batch": "3",
+  "category": "TF",
+  "ctr": "2",
+  "def": "1",
+  "name": "Shirai Kuroko",
+  "rarity": "Silver",
+  "skill": "Teleportation",
+  "type": "Diamond"
+},{
+  "id": "TF69",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TF",
+  "ctr": "5",
+  "def": "2",
+  "name": "Sengoku Nadeko",
+  "rarity": "Silver",
+  "skill": "Renai Circulation",
+  "type": "Ruby"
+},{
+  "id": "TF70",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "2",
+  "category": "TF",
+  "ctr": "1",
+  "def": "5",
+  "name": "Shokuhou Misaki",
+  "rarity": "Silver",
+  "skill": "Mischievous Perception",
+  "type": "Topaz"
 },{
   "id": "TF71",
   "atk": "6",
@@ -2361,6 +1725,54 @@
   "name": "Takamachi Nanoha",
   "rarity": "Silver",
   "skill": "Starlight Breaker",
+  "type": "Aquamarine"
+},{
+  "id": "TF72",
+  "atk": "5",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TF",
+  "ctr": "0",
+  "def": "5",
+  "name": "Yuzuriha Inori",
+  "rarity": "Silver",
+  "skill": "Guilty Prayer",
+  "type": "Amethyst"
+},{
+  "id": "P73",
+  "atk": "C",
+  "atype": "Star",
+  "batch": "1",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Doraemon",
+  "rarity": "Metal",
+  "skill": "Future Gadgets",
+  "type": "Aquamarine"
+},{
+  "id": "TF74",
+  "atk": "3",
+  "atype": "Sun",
+  "batch": "3",
+  "category": "TF",
+  "ctr": "1",
+  "def": "4",
+  "name": "Kinomoto Sakura",
+  "rarity": "Silver",
+  "skill": "Seal Release",
+  "type": "Topaz"
+},{
+  "id": "P75",
+  "atk": "C",
+  "atype": "Star",
+  "batch": "3",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Chi",
+  "rarity": "Metal",
+  "skill": "Sweet Home",
   "type": "Aquamarine"
 },{
   "id": "TF75",
@@ -2375,6 +1787,90 @@
   "skill": "Classified Information",
   "type": "Topaz"
 },{
+  "id": "TF76",
+  "atk": "2",
+  "atype": "Star",
+  "batch": "3",
+  "category": "TF",
+  "ctr": "4",
+  "def": "4",
+  "name": "Furude Rika",
+  "rarity": "Silver",
+  "skill": "Endless Path",
+  "type": "Amethyst"
+},{
+  "id": "TF77",
+  "atk": "2",
+  "atype": "Star",
+  "batch": "4",
+  "category": "TF",
+  "ctr": "3",
+  "def": "5",
+  "name": "Tsutsukakushi Tsukiko",
+  "rarity": "Silver",
+  "skill": "Reticent Feast",
+  "type": "Diamond"
+},{
+  "id": "TF78",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "2",
+  "category": "TF",
+  "ctr": "1",
+  "def": "6",
+  "name": "Hiiragi Tsukasa",
+  "rarity": "Silver",
+  "skill": "Bashful Chorus",
+  "type": "Ruby"
+},{
+  "id": "P80",
+  "atk": "D",
+  "atype": "Star",
+  "batch": "1",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Komasan",
+  "rarity": "Metal",
+  "skill": "Hitodama Flame",
+  "type": "Emerald"
+},{
+  "id": "TF85",
+  "atk": "6",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "TF",
+  "ctr": "1",
+  "def": "1",
+  "name": "Kawasumi Mai",
+  "rarity": "Bronze",
+  "skill": "Blade of Solitude",
+  "type": "Sapphire"
+},{
+  "id": "TF112",
+  "atk": "3",
+  "atype": "Moon",
+  "batch": "4",
+  "category": "TF",
+  "ctr": "3",
+  "def": "2",
+  "name": "Kurousagi",
+  "rarity": "Bronze",
+  "skill": "Secrets of the Moon",
+  "type": "Sapphire"
+},{
+  "id": "TF86",
+  "atk": "4",
+  "atype": "Moon",
+  "batch": "3",
+  "category": "TF",
+  "ctr": "3",
+  "def": "1",
+  "name": "Sakurazaki Setsuna",
+  "rarity": "Bronze",
+  "skill": "Shika Shishikuro",
+  "type": "Sapphire"
+},{
   "id": "TF87",
   "atk": "4",
   "atype": "Star",
@@ -2386,6 +1882,162 @@
   "rarity": "Bronze",
   "skill": "Oni's Dignity",
   "type": "Amethyst"
+},{
+  "id": "P88",
+  "atk": "D",
+  "atype": "Star",
+  "batch": "1",
+  "category": "P",
+  "ctr": "0",
+  "def": "0",
+  "name": "Bond Forger",
+  "rarity": "Metal",
+  "skill": "Future Vision",
+  "type": "Diamond"
+},{
+  "id": "TF88",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "3",
+  "category": "TF",
+  "ctr": "1",
+  "def": "6",
+  "name": "Kirigiri Kyouko",
+  "rarity": "Bronze",
+  "skill": "Ultimate Deduction",
+  "type": "Amethyst"
+},{
+  "id": "TF89",
+  "atk": "3",
+  "atype": "Moon",
+  "batch": "2",
+  "category": "TF",
+  "ctr": "4",
+  "def": "1",
+  "name": "Kuriyama Mirai",
+  "rarity": "Bronze",
+  "skill": "Hemokinesis",
+  "type": "Aquamarine"
+},{
+  "id": "TF90",
+  "atk": "6",
+  "atype": "Star",
+  "batch": "2",
+  "category": "TF",
+  "ctr": "1",
+  "def": "3",
+  "name": "Nase Mitsuki",
+  "rarity": "Bronze",
+  "skill": "Snowy Present",
+  "type": "Diamond"
+},{
+  "id": "TF91",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TF",
+  "ctr": "1",
+  "def": "5",
+  "name": "Suzukaze Aoba",
+  "rarity": "Bronze",
+  "skill": "Ganbaruzoi",
+  "type": "Amethyst"
+},{
+  "id": "TF94",
+  "atk": "6",
+  "atype": "Star",
+  "batch": "2",
+  "category": "TF",
+  "ctr": "0",
+  "def": "4",
+  "name": "Kani Nayuta",
+  "rarity": "Bronze",
+  "skill": "Happy Ending",
+  "type": "Diamond"
+},{
+  "id": "P94",
+  "atk": "A",
+  "atype": "Star",
+  "batch": "3",
+  "category": "P",
+  "ctr": "0",
+  "def": "0",
+  "name": "Susuwatari",
+  "rarity": "Metal",
+  "skill": "Frantic Toil",
+  "type": "Ruby"
+},{
+  "id": "P95",
+  "atk": "A",
+  "atype": "Star",
+  "batch": "2",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Poro",
+  "rarity": "Metal",
+  "skill": "Poro Cannon",
+  "type": "Diamond"
+},{
+  "id": "TF95",
+  "atk": "5",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "TF",
+  "ctr": "0",
+  "def": "3",
+  "name": "Uraraka Ochako",
+  "rarity": "Bronze",
+  "skill": "Zero Gravity",
+  "type": "Ruby"
+},{
+  "id": "TF96",
+  "atk": "5",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TF",
+  "ctr": "2",
+  "def": "3",
+  "name": "Platelet",
+  "rarity": "Bronze",
+  "skill": "Pocket Link",
+  "type": "Aquamarine"
+},{
+  "id": "TF97",
+  "atk": "6",
+  "atype": "Star",
+  "batch": "3",
+  "category": "TF",
+  "ctr": "2",
+  "def": "2",
+  "name": "Furuhashi Fumino",
+  "rarity": "Bronze",
+  "skill": "Starry Night Stroll",
+  "type": "Sapphire"
+},{
+  "id": "TF98",
+  "atk": "5",
+  "atype": "Sun",
+  "batch": "3",
+  "category": "TF",
+  "ctr": "0",
+  "def": "3",
+  "name": "Gray",
+  "rarity": "Bronze",
+  "skill": "Rhongomyniad",
+  "type": "Topaz"
+},{
+  "id": "P98",
+  "atk": "A",
+  "atype": "Star",
+  "batch": "3",
+  "category": "P",
+  "ctr": "0",
+  "def": "0",
+  "name": "Koroks",
+  "rarity": "Metal",
+  "skill": "Hide and Seek",
+  "type": "Emerald"
 },{
   "id": "TF99",
   "atk": "6",
@@ -2411,17 +2063,89 @@
   "skill": "Celestial Wisdom",
   "type": "Amethyst"
 },{
-  "id": "TF112",
-  "atk": "3",
-  "atype": "Moon",
-  "batch": "4",
+  "id": "TF102",
+  "atk": "5",
+  "atype": "Star",
+  "batch": "2",
   "category": "TF",
   "ctr": "3",
   "def": "2",
-  "name": "Kurousagi",
+  "name": "Mizuhara Chizuru",
   "rarity": "Bronze",
-  "skill": "Secrets of the Moon",
+  "skill": "Girlfriend! Action!",
+  "type": "Emerald"
+},{
+  "id": "FM102",
+  "atk": "6",
+  "atype": "Star",
+  "batch": "4",
+  "category": "FM",
+  "ctr": "3",
+  "def": "1",
+  "name": "Tanaka Asuka",
+  "rarity": "Rainbow",
+  "skill": "Turbulent Rhapsody",
+  "type": "Aquamarine"
+},{
+  "id": "TF103",
+  "atk": "7",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TF",
+  "ctr": "1",
+  "def": "2",
+  "name": "Nakano Miku",
+  "rarity": "Bronze",
+  "skill": "Cinderella's Resolve",
   "type": "Sapphire"
+},{
+  "id": "TF104",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "2",
+  "category": "TF",
+  "ctr": "2",
+  "def": "4",
+  "name": "Iino Miko",
+  "rarity": "Bronze",
+  "skill": "Righteous Wind",
+  "type": "Ruby"
+},{
+  "id": "TF108",
+  "atk": "7",
+  "atype": "Star",
+  "batch": "3",
+  "category": "TF",
+  "ctr": "0",
+  "def": "3",
+  "name": "Miyamizu Mitsuha",
+  "rarity": "Bronze",
+  "skill": "Thread of Destiny",
+  "type": "Aquamarine"
+},{
+  "id": "TF109",
+  "atk": "6",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TF",
+  "ctr": "0",
+  "def": "4",
+  "name": "Victorique de Blois",
+  "rarity": "Bronze",
+  "skill": "Golden Truth",
+  "type": "Topaz"
+},{
+  "id": "TF110",
+  "atk": "4",
+  "atype": "Moon",
+  "batch": "3",
+  "category": "TF",
+  "ctr": "0",
+  "def": "4",
+  "name": "Asada Shino",
+  "rarity": "Bronze",
+  "skill": "Hawk Eye",
+  "type": "Emerald"
 },{
   "id": "TF111",
   "atk": "3",
@@ -2447,17 +2171,17 @@
   "skill": "Aero Hand",
   "type": "Diamond"
 },{
-  "id": "PK498",
-  "atk": "P",
+  "id": "TF114",
+  "atk": "4",
   "atype": "Star",
   "batch": "2",
-  "category": "PK",
+  "category": "TF",
   "ctr": "0",
-  "def": "0",
-  "name": "Tepig",
-  "rarity": "Metal",
-  "skill": "Heat Crash",
-  "type": "Ruby"
+  "def": "6",
+  "name": "Takagi",
+  "rarity": "Bronze",
+  "skill": "Ridicule",
+  "type": "Topaz"
 },{
   "id": "PK143",
   "atk": "P",
@@ -2471,6 +2195,18 @@
   "skill": "Heavy Slam",
   "type": "Sapphire"
 },{
+  "id": "PK152",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "1",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Chikorita",
+  "rarity": "Metal",
+  "skill": "Magical Leaf",
+  "type": "Emerald"
+},{
   "id": "PK155",
   "atk": "P",
   "atype": "Star",
@@ -2482,6 +2218,90 @@
   "rarity": "Metal",
   "skill": "Lava Plume",
   "type": "Ruby"
+},{
+  "id": "PK252",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "1",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Treecko",
+  "rarity": "Metal",
+  "skill": "Leafage",
+  "type": "Emerald"
+},{
+  "id": "PK255",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "2",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Torchic",
+  "rarity": "Metal",
+  "skill": "Ember",
+  "type": "Ruby"
+},{
+  "id": "PK387",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "1",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Turtwig",
+  "rarity": "Metal",
+  "skill": "Razor Leaf",
+  "type": "Emerald"
+},{
+  "id": "PK390",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "2",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Chimchar",
+  "rarity": "Metal",
+  "skill": "Flame Wheel",
+  "type": "Ruby"
+},{
+  "id": "PK495",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "1",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Snivy",
+  "rarity": "Metal",
+  "skill": "Leaf Tornado",
+  "type": "Emerald"
+},{
+  "id": "PK498",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "2",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Tepig",
+  "rarity": "Metal",
+  "skill": "Heat Crash",
+  "type": "Ruby"
+},{
+  "id": "PK650",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "1",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Chespin",
+  "rarity": "Metal",
+  "skill": "Leech Seed",
+  "type": "Emerald"
 },{
   "id": "PK653",
   "atk": "P",
@@ -2507,41 +2327,17 @@
   "skill": "Nuzzle",
   "type": "Topaz"
 },{
-  "id": "PK390",
+  "id": "PK722",
   "atk": "P",
   "atype": "Star",
-  "batch": "2",
+  "batch": "1",
   "category": "PK",
   "ctr": "0",
   "def": "0",
-  "name": "Chimchar",
+  "name": "Rowlet",
   "rarity": "Metal",
-  "skill": "Flame Wheel",
-  "type": "Ruby"
-},{
-  "id": "PK255",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "2",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Torchic",
-  "rarity": "Metal",
-  "skill": "Ember",
-  "type": "Ruby"
-},{
-  "id": "PK813",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "2",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Scorbunny",
-  "rarity": "Metal",
-  "skill": "Flame Charge",
-  "type": "Ruby"
+  "skill": "Synthesis",
+  "type": "Emerald"
 },{
   "id": "PK725",
   "atk": "P",
@@ -2553,6 +2349,30 @@
   "name": "Litten",
   "rarity": "Metal",
   "skill": "Fire Fang",
+  "type": "Ruby"
+},{
+  "id": "PK810",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "1",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Grookey",
+  "rarity": "Metal",
+  "skill": "Branch Poke",
+  "type": "Emerald"
+},{
+  "id": "PK813",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "2",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Scorbunny",
+  "rarity": "Metal",
+  "skill": "Flame Charge",
   "type": "Ruby"
 },{
   "id": "TH4",
@@ -2591,18 +2411,6 @@
   "skill": "Water Gun",
   "type": "Aquamarine"
 },{
-  "id": "TH12",
-  "atk": "5",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "TH",
-  "ctr": "0",
-  "def": "3",
-  "name": "Yakumo Yukari",
-  "rarity": "Gold",
-  "skill": "Yukari's Spiriting Away",
-  "type": "Amethyst"
-},{
   "id": "TH9",
   "atk": "2",
   "atype": "Sun",
@@ -2614,6 +2422,18 @@
   "rarity": "Rainbow",
   "skill": "Perfect Freeze",
   "type": "Aquamarine"
+},{
+  "id": "TH12",
+  "atk": "5",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "TH",
+  "ctr": "0",
+  "def": "3",
+  "name": "Yakumo Yukari",
+  "rarity": "Gold",
+  "skill": "Yukari's Spiriting Away",
+  "type": "Amethyst"
 },{
   "id": "TH14",
   "atk": "3",
@@ -2663,18 +2483,6 @@
   "skill": "Fox-Tanuki Youkai Laser",
   "type": "Topaz"
 },{
-  "id": "TH23",
-  "atk": "5",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "TH",
-  "ctr": "3",
-  "def": "0",
-  "name": "Inubashiri Momiji",
-  "rarity": "Silver",
-  "skill": "Expellee's Canaan",
-  "type": "Diamond"
-},{
   "id": "TH22",
   "atk": "6",
   "atype": "Moon",
@@ -2687,6 +2495,18 @@
   "skill": "Deep Fog Labyrinth",
   "type": "Topaz"
 },{
+  "id": "TH23",
+  "atk": "5",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "TH",
+  "ctr": "3",
+  "def": "0",
+  "name": "Inubashiri Momiji",
+  "rarity": "Silver",
+  "skill": "Expellee's Canaan",
+  "type": "Diamond"
+},{
   "id": "TH25",
   "atk": "4",
   "atype": "Star",
@@ -2698,6 +2518,18 @@
   "rarity": "Silver",
   "skill": "Blossoming of Gensokyo",
   "type": "Topaz"
+},{
+  "id": "TH26",
+  "atk": "2",
+  "atype": "Sun",
+  "batch": "1",
+  "category": "TH",
+  "ctr": "3",
+  "def": "3",
+  "name": "Hijiri Byakuren",
+  "rarity": "Silver",
+  "skill": "Eyes of Brahma",
+  "type": "Amethyst"
 },{
   "id": "PK27",
   "atk": "P",
@@ -2735,16 +2567,16 @@
   "skill": "Optical Camouflage",
   "type": "Aquamarine"
 },{
-  "id": "TH26",
+  "id": "TH32",
   "atk": "2",
-  "atype": "Sun",
+  "atype": "Moon",
   "batch": "1",
   "category": "TH",
-  "ctr": "3",
-  "def": "3",
-  "name": "Hijiri Byakuren",
+  "ctr": "1",
+  "def": "5",
+  "name": "Onozuka Komachi",
   "rarity": "Silver",
-  "skill": "Eyes of Brahma",
+  "skill": "Scythe of Final Judgement",
   "type": "Amethyst"
 },{
   "id": "TH34",
@@ -2759,17 +2591,17 @@
   "skill": "Dark Side of the Moon",
   "type": "Amethyst"
 },{
-  "id": "TH32",
-  "atk": "2",
-  "atype": "Moon",
+  "id": "TH37",
+  "atk": "0",
+  "atype": "Star",
   "batch": "1",
   "category": "TH",
-  "ctr": "1",
-  "def": "5",
-  "name": "Onozuka Komachi",
-  "rarity": "Silver",
-  "skill": "Scythe of Final Judgement",
-  "type": "Amethyst"
+  "ctr": "2",
+  "def": "8",
+  "name": "Koakuma",
+  "rarity": "Bronze",
+  "skill": "Namless Little Devil",
+  "type": "Ruby"
 },{
   "id": "TH41",
   "atk": "5",
@@ -2783,21 +2615,33 @@
   "skill": "Song of the Night Sparrow",
   "type": "Ruby"
 },{
-  "id": "TH37",
-  "atk": "0",
+  "id": "TH43",
+  "atk": "2",
   "atype": "Star",
   "batch": "1",
   "category": "TH",
-  "ctr": "2",
-  "def": "8",
-  "name": "Koakuma",
+  "ctr": "4",
+  "def": "4",
+  "name": "Nazrin",
   "rarity": "Bronze",
-  "skill": "Namless Little Devil",
-  "type": "Ruby"
+  "skill": "Rare Metal Detector",
+  "type": "Diamond"
+},{
+  "id": "TH44",
+  "atk": "2",
+  "atype": "Sun",
+  "batch": "1",
+  "category": "TH",
+  "ctr": "1",
+  "def": "5",
+  "name": "Shiki Eiki",
+  "rarity": "Bronze",
+  "skill": "Last Judgement",
+  "type": "Emerald"
 },{
   "id": "TH46",
   "atk": "2",
-  "atype": "Sun",
+  "atype": "Moon",
   "batch": "1",
   "category": "TH",
   "ctr": "0",
@@ -2817,31 +2661,7 @@
   "name": "Mizuhashi Parsee",
   "rarity": "Bronze",
   "skill": "Jealousy of the Kind & Lovely",
-  "type": "Emerald"
-},{
-  "id": "TH44",
-  "atk": "2",
-  "atype": "Sun",
-  "batch": "1",
-  "category": "TH",
-  "ctr": "1",
-  "def": "5",
-  "name": "Shiki Eiki",
-  "rarity": "Bronze",
-  "skill": "Last Judgement",
-  "type": "Emerald"
-},{
-  "id": "TH43",
-  "atk": "2",
-  "atype": "Star",
-  "batch": "1",
-  "category": "TH",
-  "ctr": "4",
-  "def": "4",
-  "name": "Nazrin",
-  "rarity": "Bronze",
-  "skill": "Rare Metal Detector",
-  "type": "Diamond"
+  "type": "Topaz"
 },{
   "id": "TH48",
   "atk": "1",
@@ -2867,18 +2687,6 @@
   "skill": "Rain Dance",
   "type": "Aquamarine"
 },{
-  "id": "PK393",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "3",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Piplup",
-  "rarity": "Metal",
-  "skill": "Bubble Beam",
-  "type": "Aquamarine"
-},{
   "id": "PK258",
   "atk": "P",
   "atype": "Star",
@@ -2891,16 +2699,16 @@
   "skill": "Mud-Slap",
   "type": "Aquamarine"
 },{
-  "id": "PK656",
+  "id": "PK393",
   "atk": "P",
   "atype": "Star",
   "batch": "3",
   "category": "PK",
   "ctr": "0",
   "def": "0",
-  "name": "Froakie",
+  "name": "Piplup",
   "rarity": "Metal",
-  "skill": "Water Sport",
+  "skill": "Bubble Beam",
   "type": "Aquamarine"
 },{
   "id": "PK501",
@@ -2913,6 +2721,18 @@
   "name": "Oshawott",
   "rarity": "Metal",
   "skill": "Razor Shell",
+  "type": "Aquamarine"
+},{
+  "id": "PK656",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "3",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Froakie",
+  "rarity": "Metal",
+  "skill": "Water Sport",
   "type": "Aquamarine"
 },{
   "id": "PK728",
@@ -2951,18 +2771,6 @@
   "skill": "Aura Wheel",
   "type": "Topaz"
 },{
-  "id": "P2",
-  "atk": "C",
-  "atype": "Star",
-  "batch": "4",
-  "category": "P",
-  "ctr": "0",
-  "def": "0",
-  "name": "Jiji",
-  "rarity": "Metal",
-  "skill": "Childish Departure",
-  "type": "Diamond"
-},{
   "id": "FM2",
   "atk": "0",
   "atype": "Star",
@@ -2975,17 +2783,17 @@
   "skill": "Kholdy's Stare",
   "type": "Amethyst"
 },{
-  "id": "FM5",
-  "atk": "0",
+  "id": "P2",
+  "atk": "C",
   "atype": "Star",
-  "batch": "2",
-  "category": "FM",
-  "ctr": "2",
-  "def": "8",
-  "name": "Natsume Rin",
-  "rarity": "Rainbow",
-  "skill": "Eater-of-All's Devour",
-  "type": "Ruby"
+  "batch": "4",
+  "category": "P",
+  "ctr": "0",
+  "def": "0",
+  "name": "Jiji",
+  "rarity": "Metal",
+  "skill": "Childish Departure",
+  "type": "Diamond"
 },{
   "id": "P4",
   "atk": "C",
@@ -2997,6 +2805,18 @@
   "name": "Chomusuke",
   "rarity": "Metal",
   "skill": "Bath Time!",
+  "type": "Ruby"
+},{
+  "id": "FM5",
+  "atk": "0",
+  "atype": "Star",
+  "batch": "2",
+  "category": "FM",
+  "ctr": "2",
+  "def": "8",
+  "name": "Natsume Rin",
+  "rarity": "Rainbow",
+  "skill": "Eater-of-All's Devour",
   "type": "Ruby"
 },{
   "id": "FM8",
@@ -3047,6 +2867,30 @@
   "skill": "Alwerien's Misanthropy",
   "type": "Topaz"
 },{
+  "id": "FM23",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "2",
+  "category": "FM",
+  "ctr": "3",
+  "def": "4",
+  "name": "Sawamura Spencer Eriri",
+  "rarity": "Gold",
+  "skill": "HaloCapella's Docking",
+  "type": "Topaz"
+},{
+  "id": "P24",
+  "atk": "A",
+  "atype": "Star",
+  "batch": "4",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Keroro",
+  "rarity": "Metal",
+  "skill": "Keron Invasion",
+  "type": "Emerald"
+},{
   "id": "FM25",
   "atk": "5",
   "atype": "Star",
@@ -3070,30 +2914,6 @@
   "rarity": "Metal",
   "skill": "Artificial Memoir",
   "type": "Diamond"
-},{
-  "id": "P24",
-  "atk": "A",
-  "atype": "Star",
-  "batch": "4",
-  "category": "P",
-  "ctr": "0",
-  "def": "M",
-  "name": "Keroro",
-  "rarity": "Metal",
-  "skill": "Keron Invasion",
-  "type": "Emerald"
-},{
-  "id": "FM23",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "2",
-  "category": "FM",
-  "ctr": "3",
-  "def": "4",
-  "name": "Sawamura Spencer Eriri",
-  "rarity": "Gold",
-  "skill": "HaloCapella's Docking",
-  "type": "Topaz"
 },{
   "id": "FM26",
   "atk": "2",
@@ -3131,18 +2951,6 @@
   "skill": "Full Moon Daikon Slash",
   "type": "Amethyst"
 },{
-  "id": "FM34",
-  "atk": "6",
-  "atype": "Star",
-  "batch": "2",
-  "category": "FM",
-  "ctr": "3",
-  "def": "1",
-  "name": "Gilgamesh",
-  "rarity": "Silver",
-  "skill": "avery-kun's Judication",
-  "type": "Topaz"
-},{
   "id": "FM33",
   "atk": "7",
   "atype": "Star",
@@ -3153,6 +2961,18 @@
   "name": "Oshino Shinobu",
   "rarity": "Gold",
   "skill": "Vanilla's Vampire Bite",
+  "type": "Topaz"
+},{
+  "id": "FM34",
+  "atk": "6",
+  "atype": "Star",
+  "batch": "2",
+  "category": "FM",
+  "ctr": "3",
+  "def": "1",
+  "name": "Gilgamesh",
+  "rarity": "Silver",
+  "skill": "avery-kun's Judication",
   "type": "Topaz"
 },{
   "id": "P37",
@@ -3179,18 +2999,6 @@
   "skill": "superu's Mercantilism",
   "type": "Amethyst"
 },{
-  "id": "FM42",
-  "atk": "2",
-  "atype": "Star",
-  "batch": "2",
-  "category": "FM",
-  "ctr": "2",
-  "def": "6",
-  "name": "Kousaka Honoka",
-  "rarity": "Silver",
-  "skill": "Fuijiwara's Flight",
-  "type": "Emerald"
-},{
   "id": "FM41",
   "atk": "3",
   "atype": "Star",
@@ -3202,6 +3010,18 @@
   "rarity": "Silver",
   "skill": "Momento's Last Will",
   "type": "Aquamarine"
+},{
+  "id": "FM42",
+  "atk": "2",
+  "atype": "Star",
+  "batch": "2",
+  "category": "FM",
+  "ctr": "2",
+  "def": "6",
+  "name": "Kousaka Honoka",
+  "rarity": "Silver",
+  "skill": "Fuijiwara's Flight",
+  "type": "Emerald"
 },{
   "id": "FM45",
   "atk": "7",
@@ -3215,6 +3035,18 @@
   "skill": "HasbeenaHibiki's Tactics",
   "type": "Sapphire"
 },{
+  "id": "P47",
+  "atk": "A",
+  "atype": "Star",
+  "batch": "4",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Tony Tony Chopper",
+  "rarity": "Metal",
+  "skill": "Treasure Hunt",
+  "type": "Topaz"
+},{
   "id": "FM50",
   "atk": "3",
   "atype": "Star",
@@ -3225,6 +3057,18 @@
   "name": "Kano Chinatsu",
   "rarity": "Silver",
   "skill": "RailWarrior's Special Stew",
+  "type": "Topaz"
+},{
+  "id": "FM54",
+  "atk": "7",
+  "atype": "Star",
+  "batch": "2",
+  "category": "FM",
+  "ctr": "1",
+  "def": "2",
+  "name": "Yoshino Sakura",
+  "rarity": "Bronze",
+  "skill": "Corni's Degradation",
   "type": "Topaz"
 },{
   "id": "FM56",
@@ -3239,29 +3083,17 @@
   "skill": "Eisdrache's Checkmate",
   "type": "Ruby"
 },{
-  "id": "FM54",
-  "atk": "7",
+  "id": "FM59",
+  "atk": "4",
   "atype": "Star",
   "batch": "2",
   "category": "FM",
-  "ctr": "1",
-  "def": "2",
-  "name": "Yoshino Sakura",
+  "ctr": "3",
+  "def": "3",
+  "name": "Princess Charlotte",
   "rarity": "Bronze",
-  "skill": "Corni's Degradation",
-  "type": "Topaz"
-},{
-  "id": "P47",
-  "atk": "A",
-  "atype": "Star",
-  "batch": "4",
-  "category": "P",
-  "ctr": "0",
-  "def": "M",
-  "name": "Tony Tony Chopper",
-  "rarity": "Metal",
-  "skill": "Treasure Hunt",
-  "type": "Topaz"
+  "skill": "Kappuchino's Sweets",
+  "type": "Emerald"
 },{
   "id": "FM61",
   "atk": "2",
@@ -3287,29 +3119,17 @@
   "skill": "minhtam's Red Wedding",
   "type": "Amethyst"
 },{
-  "id": "FM59",
-  "atk": "4",
+  "id": "FM68",
+  "atk": "5",
   "atype": "Star",
   "batch": "2",
   "category": "FM",
   "ctr": "3",
-  "def": "3",
-  "name": "Princess Charlotte",
+  "def": "2",
+  "name": "Suzu",
   "rarity": "Bronze",
-  "skill": "Kappuchino's Sweets",
-  "type": "Emerald"
-},{
-  "id": "P81",
-  "atk": "D",
-  "atype": "Star",
-  "batch": "4",
-  "category": "P",
-  "ctr": "0",
-  "def": "0",
-  "name": "Chibimoth",
-  "rarity": "Metal",
-  "skill": "Mosu Mosu!",
-  "type": "Emerald"
+  "skill": "alphastick's Mania",
+  "type": "Sapphire"
 },{
   "id": "P71",
   "atk": "D",
@@ -3323,17 +3143,17 @@
   "skill": "Sour Candy",
   "type": "Topaz"
 },{
-  "id": "FM68",
-  "atk": "5",
+  "id": "P81",
+  "atk": "D",
   "atype": "Star",
-  "batch": "2",
-  "category": "FM",
-  "ctr": "3",
-  "def": "2",
-  "name": "Suzu",
-  "rarity": "Bronze",
-  "skill": "alphastick's Mania",
-  "type": "Sapphire"
+  "batch": "4",
+  "category": "P",
+  "ctr": "0",
+  "def": "0",
+  "name": "Chibimoth",
+  "rarity": "Metal",
+  "skill": "Mosu Mosu!",
+  "type": "Emerald"
 },{
   "id": "P92",
   "atk": "A",
@@ -3395,18 +3215,6 @@
   "skill": "My Dear Friends",
   "type": "Amethyst, Ruby"
 },{
-  "id": "PF3",
-  "atk": "F",
-  "atype": "Star",
-  "batch": "1",
-  "category": "PF",
-  "ctr": "0",
-  "def": "0",
-  "name": "Eevee & Pikachu",
-  "rarity": "Metal",
-  "skill": "Let's Go!",
-  "type": "Diamond, Topaz"
-},{
   "id": "PF2",
   "atk": "F",
   "atype": "Star",
@@ -3418,6 +3226,18 @@
   "rarity": "Metal",
   "skill": "Sunny Day",
   "type": "Sapphire, Topaz"
+},{
+  "id": "PF3",
+  "atk": "F",
+  "atype": "Star",
+  "batch": "1",
+  "category": "PF",
+  "ctr": "0",
+  "def": "0",
+  "name": "Eevee & Pikachu",
+  "rarity": "Metal",
+  "skill": "Let's Go!",
+  "type": "Diamond, Topaz"
 },{
   "id": "PF4",
   "atk": "F",
@@ -3515,30 +3335,6 @@
   "skill": "Burning Love",
   "type": "Sapphire, Ruby"
 },{
-  "id": "GC18",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "2",
-  "category": "GC",
-  "ctr": "0",
-  "def": "7",
-  "name": "Pecorine",
-  "rarity": "Gold",
-  "skill": "Princess Valiant",
-  "type": "Topaz"
-},{
-  "id": "MI17",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "3",
-  "category": "MI",
-  "ctr": "2",
-  "def": "4",
-  "name": "Shigure",
-  "rarity": "Gold",
-  "skill": "Autumn Rain",
-  "type": "Diamond"
-},{
   "id": "FR20",
   "atk": "5",
   "atype": "Star",
@@ -3575,18 +3371,6 @@
   "skill": "Mirai Harmony",
   "type": "Aquamarine, Ruby"
 },{
-  "id": "FR30",
-  "atk": "7",
-  "atype": "Star",
-  "batch": "1",
-  "category": "FR",
-  "ctr": "3",
-  "def": "0",
-  "name": "Mihoko & Hisa",
-  "rarity": "Gold",
-  "skill": "Eyes of Captivation",
-  "type": "Topaz, Ruby"
-},{
   "id": "FR28",
   "atk": "6",
   "atype": "Star",
@@ -3598,6 +3382,18 @@
   "rarity": "Gold",
   "skill": "Outdoor Activities",
   "type": "Amethyst, Sapphire"
+},{
+  "id": "FR30",
+  "atk": "7",
+  "atype": "Star",
+  "batch": "1",
+  "category": "FR",
+  "ctr": "3",
+  "def": "0",
+  "name": "Mihoko & Hisa",
+  "rarity": "Gold",
+  "skill": "Eyes of Captivation",
+  "type": "Topaz, Ruby"
 },{
   "id": "FR33",
   "atk": "5",
@@ -3611,18 +3407,6 @@
   "skill": "Alice Game",
   "type": "Diamond, Ruby"
 },{
-  "id": "FR44",
-  "atk": "1",
-  "atype": "Sun",
-  "batch": "1",
-  "category": "FR",
-  "ctr": "1",
-  "def": "6",
-  "name": "Elaina & Saya",
-  "rarity": "Silver",
-  "skill": "Bottled Happiness",
-  "type": "Amethyst, Diamond"
-},{
   "id": "FR41",
   "atk": "6",
   "atype": "Star",
@@ -3634,6 +3418,18 @@
   "rarity": "Silver",
   "skill": "Compulsive Invitation",
   "type": "Diamond, Topaz"
+},{
+  "id": "FR44",
+  "atk": "1",
+  "atype": "Sun",
+  "batch": "1",
+  "category": "FR",
+  "ctr": "1",
+  "def": "6",
+  "name": "Elaina & Saya",
+  "rarity": "Silver",
+  "skill": "Bottled Happiness",
+  "type": "Amethyst, Diamond"
 },{
   "id": "FR47",
   "atk": "5",
@@ -3743,18 +3539,6 @@
   "skill": "Lupo Spirit",
   "type": "Diamond, Topaz"
 },{
-  "id": "FR83",
-  "atk": "1",
-  "atype": "Sun",
-  "batch": "1",
-  "category": "FR",
-  "ctr": "0",
-  "def": "7",
-  "name": "Iroha & Yachiyo",
-  "rarity": "Bronze",
-  "skill": "La Campanella",
-  "type": "Sapphire, Ruby"
-},{
   "id": "FR81",
   "atk": "2",
   "atype": "Star",
@@ -3766,6 +3550,18 @@
   "rarity": "Bronze",
   "skill": "Thorny Path",
   "type": "Aquamarine, Diamond"
+},{
+  "id": "FR83",
+  "atk": "1",
+  "atype": "Sun",
+  "batch": "1",
+  "category": "FR",
+  "ctr": "0",
+  "def": "7",
+  "name": "Iroha & Yachiyo",
+  "rarity": "Bronze",
+  "skill": "La Campanella",
+  "type": "Sapphire, Ruby"
 },{
   "id": "VI1",
   "atk": "6",
@@ -3779,18 +3575,6 @@
   "skill": "Over the Reality",
   "type": "Amethyst"
 },{
-  "id": "VI5",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "VI",
-  "ctr": "3",
-  "def": "3",
-  "name": "Mori Calliope",
-  "rarity": "Rainbow",
-  "skill": "Cursed Night",
-  "type": "Amethyst"
-},{
   "id": "VI4",
   "atk": "2",
   "atype": "Star",
@@ -3801,6 +3585,18 @@
   "name": "Sasaki Saku",
   "rarity": "Rainbow",
   "skill": "Bamboo Kadomatsu",
+  "type": "Amethyst"
+},{
+  "id": "VI5",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "VI",
+  "ctr": "3",
+  "def": "3",
+  "name": "Mori Calliope",
+  "rarity": "Rainbow",
+  "skill": "Cursed Night",
   "type": "Amethyst"
 },{
   "id": "VI7",
@@ -3839,18 +3635,6 @@
   "skill": "Luka Luka Night Fever",
   "type": "Amethyst"
 },{
-  "id": "VI11",
-  "atk": "6",
-  "atype": "Star",
-  "batch": "1",
-  "category": "VI",
-  "ctr": "2",
-  "def": "2",
-  "name": "Usada Pekora",
-  "rarity": "Rainbow",
-  "skill": "Blessing of the War Criminal",
-  "type": "Sapphire"
-},{
   "id": "VN11",
   "atk": "3",
   "atype": "Star",
@@ -3862,6 +3646,18 @@
   "rarity": "Gold",
   "skill": "Wild Fantasy",
   "type": "Amethyst"
+},{
+  "id": "VI11",
+  "atk": "6",
+  "atype": "Star",
+  "batch": "1",
+  "category": "VI",
+  "ctr": "2",
+  "def": "2",
+  "name": "Usada Pekora",
+  "rarity": "Rainbow",
+  "skill": "Blessing of the War Criminal",
+  "type": "Sapphire"
 },{
   "id": "VI13",
   "atk": "6",
@@ -3885,6 +3681,42 @@
   "name": "Nana7mi",
   "rarity": "Gold",
   "skill": "Bouquet of Seven Seas",
+  "type": "Topaz"
+},{
+  "id": "IM16",
+  "atk": "2",
+  "atype": "Star",
+  "batch": "1",
+  "category": "IM",
+  "ctr": "1",
+  "def": "7",
+  "name": "Kotobuki Tsumugi",
+  "rarity": "Gold",
+  "skill": "Earnest Determination",
+  "type": "Topaz"
+},{
+  "id": "MI17",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "3",
+  "category": "MI",
+  "ctr": "2",
+  "def": "4",
+  "name": "Shigure",
+  "rarity": "Gold",
+  "skill": "Autumn Rain",
+  "type": "Diamond"
+},{
+  "id": "GC18",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "2",
+  "category": "GC",
+  "ctr": "0",
+  "def": "7",
+  "name": "Pecorine",
+  "rarity": "Gold",
+  "skill": "Princess Valiant",
   "type": "Topaz"
 },{
   "id": "MI20",
@@ -3911,17 +3743,17 @@
   "skill": "Black Out",
   "type": "Ruby"
 },{
-  "id": "VI23",
-  "atk": "3",
+  "id": "IM21",
+  "atk": "5",
   "atype": "Star",
   "batch": "1",
-  "category": "VI",
+  "category": "IM",
   "ctr": "0",
-  "def": "7",
-  "name": "Takanashi Kiara",
+  "def": "5",
+  "name": "Aoba Moca",
   "rarity": "Gold",
-  "skill": "Krispy Fry-fry Party",
-  "type": "Topaz"
+  "skill": "Delightful Slumber",
+  "type": "Aquamarine"
 },{
   "id": "VI22",
   "atk": "6",
@@ -3934,6 +3766,42 @@
   "rarity": "Gold",
   "skill": "Pogu Pogu Dance",
   "type": "Amethyst"
+},{
+  "id": "VI23",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "1",
+  "category": "VI",
+  "ctr": "0",
+  "def": "7",
+  "name": "Takanashi Kiara",
+  "rarity": "Gold",
+  "skill": "Krispy Fry-fry Party",
+  "type": "Topaz"
+},{
+  "id": "IM24",
+  "atk": "7",
+  "atype": "Star",
+  "batch": "1",
+  "category": "IM",
+  "ctr": "2",
+  "def": "1",
+  "name": "Ayase Eli",
+  "rarity": "Gold",
+  "skill": "Those Graceful Days",
+  "type": "Emerald"
+},{
+  "id": "VI24",
+  "atk": "5",
+  "atype": "Star",
+  "batch": "1",
+  "category": "VI",
+  "ctr": "0",
+  "def": "5",
+  "name": "Kanae",
+  "rarity": "Gold",
+  "skill": "Predator Communication",
+  "type": "Diamond"
 },{
   "id": "VI25",
   "atk": "4",
@@ -3959,17 +3827,17 @@
   "skill": "Tentacult",
   "type": "Amethyst"
 },{
-  "id": "VI24",
-  "atk": "5",
+  "id": "IM28",
+  "atk": "3",
   "atype": "Star",
   "batch": "1",
-  "category": "VI",
+  "category": "IM",
   "ctr": "0",
-  "def": "5",
-  "name": "Kanae",
+  "def": "7",
+  "name": "Ichigaya Arisa",
   "rarity": "Gold",
-  "skill": "Predator Communication",
-  "type": "Diamond"
+  "skill": "Emergency Sleepover",
+  "type": "Amethyst"
 },{
   "id": "VI28",
   "atk": "4",
@@ -3983,18 +3851,6 @@
   "skill": "PomfPomfPomf",
   "type": "Ruby"
 },{
-  "id": "VI31",
-  "atk": "2",
-  "atype": "Star",
-  "batch": "1",
-  "category": "VI",
-  "ctr": "2",
-  "def": "6",
-  "name": "Kagura Nana",
-  "rarity": "Silver",
-  "skill": "DD Decapitation",
-  "type": "Diamond"
-},{
   "id": "VI29",
   "atk": "3",
   "atype": "Star",
@@ -4006,6 +3862,18 @@
   "rarity": "Silver",
   "skill": "Summer Flirting",
   "type": "Emerald"
+},{
+  "id": "VI31",
+  "atk": "2",
+  "atype": "Star",
+  "batch": "1",
+  "category": "VI",
+  "ctr": "2",
+  "def": "6",
+  "name": "Kagura Nana",
+  "rarity": "Silver",
+  "skill": "DD Decapitation",
+  "type": "Diamond"
 },{
   "id": "VI32",
   "atk": "2",
@@ -4055,6 +3923,18 @@
   "skill": "Emotional Outburst",
   "type": "Diamond"
 },{
+  "id": "IM43",
+  "atk": "2",
+  "atype": "Star",
+  "batch": "1",
+  "category": "IM",
+  "ctr": "2",
+  "def": "6",
+  "name": "Ranka Lee",
+  "rarity": "Silver",
+  "skill": "Interstellar Flight",
+  "type": "Emerald"
+},{
   "id": "VI43",
   "atk": "6",
   "atype": "Star",
@@ -4091,30 +3971,6 @@
   "skill": "Seiso Degen",
   "type": "Sapphire"
 },{
-  "id": "VI54",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "1",
-  "category": "VI",
-  "ctr": "0",
-  "def": "7",
-  "name": "Kuzuha",
-  "rarity": "Bronze",
-  "skill": "Scarlet Invitation",
-  "type": "Sapphire"
-},{
-  "id": "VI49",
-  "atk": "2",
-  "atype": "Star",
-  "batch": "1",
-  "category": "VI",
-  "ctr": "6",
-  "def": "2",
-  "name": "Tokino Sora",
-  "rarity": "Bronze",
-  "skill": "Dream Carrier",
-  "type": "Sapphire"
-},{
   "id": "VI47",
   "atk": "6",
   "atype": "Star",
@@ -4125,18 +3981,6 @@
   "name": "Nanashi Mumei",
   "rarity": "Bronze",
   "skill": "Berry Craze",
-  "type": "Topaz"
-},{
-  "id": "VI50",
-  "atk": "6",
-  "atype": "Star",
-  "batch": "1",
-  "category": "VI",
-  "ctr": "2",
-  "def": "2",
-  "name": "Inui Toko",
-  "rarity": "Bronze",
-  "skill": "Teatime Aha~",
   "type": "Topaz"
 },{
   "id": "VI48",
@@ -4151,6 +3995,78 @@
   "skill": "Beyond the Moon",
   "type": "Amethyst"
 },{
+  "id": "VI49",
+  "atk": "2",
+  "atype": "Star",
+  "batch": "1",
+  "category": "VI",
+  "ctr": "6",
+  "def": "2",
+  "name": "Tokino Sora",
+  "rarity": "Bronze",
+  "skill": "Dream Carrier",
+  "type": "Sapphire"
+},{
+  "id": "IM50",
+  "atk": "6",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "IM",
+  "ctr": "0",
+  "def": "2",
+  "name": "Kagura Hikari",
+  "rarity": "Silver",
+  "skill": "Blossom Bright",
+  "type": "Sapphire"
+},{
+  "id": "VI50",
+  "atk": "6",
+  "atype": "Star",
+  "batch": "1",
+  "category": "VI",
+  "ctr": "2",
+  "def": "2",
+  "name": "Inui Toko",
+  "rarity": "Bronze",
+  "skill": "Teatime Aha~",
+  "type": "Topaz"
+},{
+  "id": "IM54",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "1",
+  "category": "IM",
+  "ctr": "0",
+  "def": "7",
+  "name": "Amami Haruka",
+  "rarity": "Silver",
+  "skill": "Sparkling Optimism",
+  "type": "Emerald"
+},{
+  "id": "VI54",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "1",
+  "category": "VI",
+  "ctr": "0",
+  "def": "7",
+  "name": "Kuzuha",
+  "rarity": "Bronze",
+  "skill": "Scarlet Invitation",
+  "type": "Sapphire"
+},{
+  "id": "IM56",
+  "atk": "7",
+  "atype": "Star",
+  "batch": "1",
+  "category": "IM",
+  "ctr": "1",
+  "def": "2",
+  "name": "Kira Tsubasa",
+  "rarity": "Bronze",
+  "skill": "Arise and Shine",
+  "type": "Aquamarine"
+},{
   "id": "VI57",
   "atk": "5",
   "atype": "Star",
@@ -4161,6 +4077,90 @@
   "name": "Irys",
   "rarity": "Bronze",
   "skill": "Caesura of Despair",
+  "type": "Amethyst"
+},{
+  "id": "IM60",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "1",
+  "category": "IM",
+  "ctr": "4",
+  "def": "3",
+  "name": "Yumemi Riamu",
+  "rarity": "Bronze",
+  "skill": "Otaku Anthem",
+  "type": "Ruby"
+},{
+  "id": "IM62",
+  "atk": "7",
+  "atype": "Star",
+  "batch": "1",
+  "category": "IM",
+  "ctr": "0",
+  "def": "3",
+  "name": "Iwasawa Masami",
+  "rarity": "Bronze",
+  "skill": "First Beat",
+  "type": "Ruby"
+},{
+  "id": "IM64",
+  "atk": "2",
+  "atype": "Star",
+  "batch": "1",
+  "category": "IM",
+  "ctr": "6",
+  "def": "2",
+  "name": "Kujikawa Rise",
+  "rarity": "Bronze",
+  "skill": "Avalokiteśvara",
+  "type": "Amethyst"
+},{
+  "id": "IM67",
+  "atk": "4",
+  "atype": "Sun",
+  "batch": "1",
+  "category": "IM",
+  "ctr": "0",
+  "def": "4",
+  "name": "Nishimori Yusa",
+  "rarity": "Bronze",
+  "skill": "Pyrokinesis",
+  "type": "Topaz"
+},{
+  "id": "IM69",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "IM",
+  "ctr": "1",
+  "def": "5",
+  "name": "Sonoda Umi",
+  "rarity": "Bronze",
+  "skill": "Flowers of the Future",
+  "type": "Sapphire"
+},{
+  "id": "IM72",
+  "atk": "5",
+  "atype": "Sun",
+  "batch": "1",
+  "category": "IM",
+  "ctr": "0",
+  "def": "3",
+  "name": "Hoshina Utau",
+  "rarity": "Bronze",
+  "skill": "Lunatic Charm",
+  "type": "Topaz"
+},{
+  "id": "PK151",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "4",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Mew",
+  "rarity": "Metal",
+  "skill": "Genesis Supernova",
   "type": "Amethyst"
 },{
   "id": "PK251",
@@ -4175,17 +4175,29 @@
   "skill": "Heal Bell",
   "type": "Emerald"
 },{
-  "id": "PK151",
+  "id": "PK385",
   "atk": "P",
   "atype": "Star",
   "batch": "4",
   "category": "PK",
   "ctr": "0",
   "def": "0",
-  "name": "Mew",
+  "name": "Jirachi",
   "rarity": "Metal",
-  "skill": "Genesis Supernova",
-  "type": "Amethyst"
+  "skill": "Doom Desire",
+  "type": "Diamond"
+},{
+  "id": "PK491",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "4",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Darkrai",
+  "rarity": "Metal",
+  "skill": "Dark Void",
+  "type": "Sapphire"
 },{
   "id": "PK492",
   "atk": "P",
@@ -4211,17 +4223,17 @@
   "skill": "Searing Shot",
   "type": "Ruby"
 },{
-  "id": "PK802",
+  "id": "PK647",
   "atk": "P",
   "atype": "Star",
   "batch": "4",
   "category": "PK",
   "ctr": "0",
   "def": "0",
-  "name": "Marshadow",
+  "name": "Keldeo",
   "rarity": "Metal",
-  "skill": "Spectral Thief",
-  "type": "Sapphire"
+  "skill": "Secret Sword",
+  "type": "Aquamarine"
 },{
   "id": "PK720",
   "atk": "P",
@@ -4235,41 +4247,17 @@
   "skill": "Hyperspace Fury",
   "type": "Amethyst"
 },{
-  "id": "PK491",
+  "id": "PK802",
   "atk": "P",
   "atype": "Star",
   "batch": "4",
   "category": "PK",
   "ctr": "0",
   "def": "0",
-  "name": "Darkrai",
+  "name": "Marshadow",
   "rarity": "Metal",
-  "skill": "Dark Void",
+  "skill": "Spectral Thief",
   "type": "Sapphire"
-},{
-  "id": "PK647",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "4",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Keldeo",
-  "rarity": "Metal",
-  "skill": "Secret Sword",
-  "type": "Aquamarine"
-},{
-  "id": "PK385",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "4",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Jirachi",
-  "rarity": "Metal",
-  "skill": "Doom Desire",
-  "type": "Diamond"
 },{
   "id": "PK807",
   "atk": "P",
@@ -4283,42 +4271,6 @@
   "skill": "Plasma Fists",
   "type": "Topaz"
 },{
-  "id": "EV1",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "EV",
-  "ctr": "2",
-  "def": "4",
-  "name": "Ichigo",
-  "rarity": "Gold",
-  "skill": "Rain of the Heart",
-  "type": "Aquamarine,Amethyst"
-},{
-  "id": "EV2",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "EV",
-  "ctr": "2",
-  "def": "4",
-  "name": "Nakano Nino",
-  "rarity": "Gold",
-  "skill": "Chilling Valentine",
-  "type": "Ruby"
-},{
-  "id": "EV3",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "EV",
-  "ctr": "2",
-  "def": "4",
-  "name": "Mifune Shioriko",
-  "rarity": "Gold",
-  "skill": "Light of Determination",
-  "type": "Emerald"
-},{
   "id": "IM3",
   "atk": "2",
   "atype": "Star",
@@ -4330,30 +4282,6 @@
   "rarity": "Rainbow",
   "skill": "Diamond Princess",
   "type": "Diamond"
-},{
-  "id": "EV4",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "EV",
-  "ctr": "2",
-  "def": "4",
-  "name": "Mao Xiangling",
-  "rarity": "Gold",
-  "skill": "Pyronado",
-  "type": "Ruby"
-},{
-  "id": "EV6",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "EV",
-  "ctr": "2",
-  "def": "4",
-  "name": "Ram",
-  "rarity": "Gold",
-  "skill": "Disparaging Fura",
-  "type": "Ruby"
 },{
   "id": "IM6",
   "atk": "3",
@@ -4367,102 +4295,6 @@
   "skill": "Warm Afterglow",
   "type": "Emerald"
 },{
-  "id": "EV5",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "EV",
-  "ctr": "2",
-  "def": "4",
-  "name": "Hikawa Hina",
-  "rarity": "Gold",
-  "skill": "Shining Golden Star",
-  "type": "Emerald"
-},{
-  "id": "EV7",
-  "atk": "4",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "EV",
-  "ctr": "1",
-  "def": "3",
-  "name": "Tomoe Tamao",
-  "rarity": "Gold",
-  "skill": "Scattering of Petals",
-  "type": "Amethyst"
-},{
-  "id": "EV8",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "EV",
-  "ctr": "2",
-  "def": "4",
-  "name": "Amamiya Manami",
-  "rarity": "Gold",
-  "skill": "Massugu Go!",
-  "type": "Sapphire"
-},{
-  "id": "EV9",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "EV",
-  "ctr": "2",
-  "def": "4",
-  "name": "Tachibana Marika",
-  "rarity": "Gold",
-  "skill": "Daring Advance",
-  "type": "Ruby"
-},{
-  "id": "EV10",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "EV",
-  "ctr": "2",
-  "def": "4",
-  "name": "Odokawa Hiroshi",
-  "rarity": "Gold",
-  "skill": "Odd Taxi",
-  "type": "Diamond"
-},{
-  "id": "EV12",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "EV",
-  "ctr": "2",
-  "def": "4",
-  "name": "Nikaidou Shinku",
-  "rarity": "Gold",
-  "skill": "Translucent Magic",
-  "type": "Topaz"
-},{
-  "id": "EV11",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "EV",
-  "ctr": "2",
-  "def": "4",
-  "name": "Diona Kätzlein",
-  "rarity": "Gold",
-  "skill": "Icy Paws",
-  "type": "Aquamarine"
-},{
-  "id": "IM12",
-  "atk": "2",
-  "atype": "Star",
-  "batch": "2",
-  "category": "IM",
-  "ctr": "3",
-  "def": "5",
-  "name": "Tang Keke",
-  "rarity": "Rainbow",
-  "skill": "Steady Positivity",
-  "type": "Diamond"
-},{
   "id": "IM10",
   "atk": "5",
   "atype": "Star",
@@ -4475,16 +4307,16 @@
   "skill": "Spring Departure",
   "type": "Topaz"
 },{
-  "id": "EV13",
-  "atk": "4",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "EV",
-  "ctr": "1",
-  "def": "3",
-  "name": "Saijou Claudine",
-  "rarity": "Gold",
-  "skill": "Etincelle de Fierté",
+  "id": "IM12",
+  "atk": "2",
+  "atype": "Star",
+  "batch": "2",
+  "category": "IM",
+  "ctr": "3",
+  "def": "5",
+  "name": "Tang Keke",
+  "rarity": "Rainbow",
+  "skill": "Steady Positivity",
   "type": "Diamond"
 },{
   "id": "IM13",
@@ -4499,54 +4331,6 @@
   "skill": "Crosswind Rondo",
   "type": "Topaz"
 },{
-  "id": "EV15",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "EV",
-  "ctr": "2",
-  "def": "4",
-  "name": "Retsuko",
-  "rarity": "Gold",
-  "skill": "Inner Rage",
-  "type": "Topaz"
-},{
-  "id": "EV14",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "EV",
-  "ctr": "2",
-  "def": "4",
-  "name": "Nanao Taichi",
-  "rarity": "Gold",
-  "skill": "Popular Impulse",
-  "type": "Ruby"
-},{
-  "id": "EV16",
-  "atk": "4",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "EV",
-  "ctr": "1",
-  "def": "3",
-  "name": "Otonashi Ichie",
-  "rarity": "Gold",
-  "skill": "Mournful Solo",
-  "type": "Amethyst"
-},{
-  "id": "EV17",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "EV",
-  "ctr": "2",
-  "def": "4",
-  "name": "Clorica",
-  "rarity": "Gold",
-  "skill": "Ephemeral Wish",
-  "type": "Amethyst"
-},{
   "id": "IM17",
   "atk": "7",
   "atype": "Star",
@@ -4558,18 +4342,6 @@
   "rarity": "Gold",
   "skill": "Devil's Fascination",
   "type": "Ruby"
-},{
-  "id": "EV18",
-  "atk": "4",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "EV",
-  "ctr": "1",
-  "def": "3",
-  "name": "Noelle",
-  "rarity": "Gold",
-  "skill": "Sweeping Time",
-  "type": "Topaz"
 },{
   "id": "IM20",
   "atk": "4",
@@ -4631,18 +4403,6 @@
   "skill": "Colorful Smile",
   "type": "Amethyst"
 },{
-  "id": "IM37",
-  "atk": "2",
-  "atype": "Moon",
-  "batch": "2",
-  "category": "IM",
-  "ctr": "0",
-  "def": "8",
-  "name": "Tsuruhime Yachiyo",
-  "rarity": "Silver",
-  "skill": "Perlenpfeil",
-  "type": "Ruby"
-},{
   "id": "IM36",
   "atk": "3",
   "atype": "Star",
@@ -4654,6 +4414,18 @@
   "rarity": "Silver",
   "skill": "Secret Daybreak",
   "type": "Aquamarine"
+},{
+  "id": "IM37",
+  "atk": "2",
+  "atype": "Moon",
+  "batch": "2",
+  "category": "IM",
+  "ctr": "0",
+  "def": "8",
+  "name": "Tsuruhime Yachiyo",
+  "rarity": "Silver",
+  "skill": "Perlenpfeil",
+  "type": "Ruby"
 },{
   "id": "IM40",
   "atk": "6",
@@ -4679,18 +4451,6 @@
   "skill": "Love Judgement",
   "type": "Amethyst"
 },{
-  "id": "IM49",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "2",
-  "category": "IM",
-  "ctr": "1",
-  "def": "5",
-  "name": "Alice Carroll",
-  "rarity": "Silver",
-  "skill": "Twilight Princess",
-  "type": "Emerald"
-},{
   "id": "IM45",
   "atk": "3",
   "atype": "Star",
@@ -4702,6 +4462,18 @@
   "rarity": "Silver",
   "skill": "Whimsical Romance",
   "type": "Diamond"
+},{
+  "id": "IM49",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "2",
+  "category": "IM",
+  "ctr": "1",
+  "def": "5",
+  "name": "Alice Carroll",
+  "rarity": "Silver",
+  "skill": "Twilight Princess",
+  "type": "Emerald"
 },{
   "id": "IM52",
   "atk": "2",
@@ -4727,18 +4499,6 @@
   "skill": "Rhythm of the Heart",
   "type": "Topaz"
 },{
-  "id": "IM61",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "2",
-  "category": "IM",
-  "ctr": "3",
-  "def": "4",
-  "name": "Okusawa Misaki",
-  "rarity": "Bronze",
-  "skill": "Bouquet Blossom",
-  "type": "Sapphire"
-},{
   "id": "IM58",
   "atk": "4",
   "atype": "Star",
@@ -4751,16 +4511,40 @@
   "skill": "Corridor of Loneliness",
   "type": "Topaz"
 },{
-  "id": "IM74",
-  "atk": "2",
-  "atype": "Moon",
+  "id": "IM61",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "2",
+  "category": "IM",
+  "ctr": "3",
+  "def": "4",
+  "name": "Okusawa Misaki",
+  "rarity": "Bronze",
+  "skill": "Bouquet Blossom",
+  "type": "Sapphire"
+},{
+  "id": "IM66",
+  "atk": "6",
+  "atype": "Star",
+  "batch": "2",
+  "category": "IM",
+  "ctr": "2",
+  "def": "2",
+  "name": "Kikuchi Makoto",
+  "rarity": "Bronze",
+  "skill": "Energized Rally",
+  "type": "Sapphire"
+},{
+  "id": "IM70",
+  "atk": "6",
+  "atype": "Star",
   "batch": "2",
   "category": "IM",
   "ctr": "0",
-  "def": "6",
-  "name": "Yumeoji Shiori",
+  "def": "4",
+  "name": "Amane Misa",
   "rarity": "Bronze",
-  "skill": "Jade Angriff",
+  "skill": "Borrowed Time",
   "type": "Topaz"
 },{
   "id": "IM73",
@@ -4775,65 +4559,17 @@
   "skill": "Eternal Peace",
   "type": "Ruby"
 },{
-  "id": "IM70",
-  "atk": "6",
-  "atype": "Star",
+  "id": "IM74",
+  "atk": "2",
+  "atype": "Moon",
   "batch": "2",
   "category": "IM",
   "ctr": "0",
-  "def": "4",
-  "name": "Amane Misa",
+  "def": "6",
+  "name": "Yumeoji Shiori",
   "rarity": "Bronze",
-  "skill": "Borrowed Time",
+  "skill": "Jade Angriff",
   "type": "Topaz"
-},{
-  "id": "IM66",
-  "atk": "6",
-  "atype": "Star",
-  "batch": "2",
-  "category": "IM",
-  "ctr": "2",
-  "def": "2",
-  "name": "Kikuchi Makoto",
-  "rarity": "Bronze",
-  "skill": "Energized Rally",
-  "type": "Sapphire"
-},{
-  "id": "PK134",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "5",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Vaporeon",
-  "rarity": "Metal",
-  "skill": "Aqua Ring",
-  "type": "Aquamarine"
-},{
-  "id": "PK196",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "5",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Espeon",
-  "rarity": "Metal",
-  "skill": "Morning Sun",
-  "type": "Amethyst"
-},{
-  "id": "PK136",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "5",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Flareon",
-  "rarity": "Metal",
-  "skill": "Flare Blitz",
-  "type": "Ruby"
 },{
   "id": "PK132",
   "atk": "P",
@@ -4847,6 +4583,54 @@
   "skill": "Transform",
   "type": "Diamond"
 },{
+  "id": "PK133",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "5",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Eevee",
+  "rarity": "Metal",
+  "skill": "Trump Card",
+  "type": "Diamond"
+},{
+  "id": "PK134",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "5",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Vaporeon",
+  "rarity": "Metal",
+  "skill": "Aqua Ring",
+  "type": "Aquamarine"
+},{
+  "id": "PK136",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "5",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Flareon",
+  "rarity": "Metal",
+  "skill": "Flare Blitz",
+  "type": "Ruby"
+},{
+  "id": "PK196",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "5",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Espeon",
+  "rarity": "Metal",
+  "skill": "Morning Sun",
+  "type": "Amethyst"
+},{
   "id": "PK197",
   "atk": "P",
   "atype": "Star",
@@ -4859,17 +4643,17 @@
   "skill": "Moonlight",
   "type": "Sapphire"
 },{
-  "id": "PK133",
+  "id": "PK470",
   "atk": "P",
   "atype": "Star",
   "batch": "5",
   "category": "PK",
   "ctr": "0",
   "def": "0",
-  "name": "Eevee",
+  "name": "Leafeon",
   "rarity": "Metal",
-  "skill": "Trump Card",
-  "type": "Diamond"
+  "skill": "Leaf Blade",
+  "type": "Emerald"
 },{
   "id": "PK471",
   "atk": "P",
@@ -4895,17 +4679,209 @@
   "skill": "Moonblast",
   "type": "Amethyst"
 },{
-  "id": "PK470",
-  "atk": "P",
+  "id": "EV2",
+  "atk": "4",
   "atype": "Star",
-  "batch": "5",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Leafeon",
-  "rarity": "Metal",
-  "skill": "Leaf Blade",
+  "batch": "1",
+  "category": "EV",
+  "ctr": "2",
+  "def": "4",
+  "name": "Nakano Nino",
+  "rarity": "Gold",
+  "skill": "Chilling Valentine",
+  "type": "Ruby"
+},{
+  "id": "EV3",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "EV",
+  "ctr": "2",
+  "def": "4",
+  "name": "Mifune Shioriko",
+  "rarity": "Gold",
+  "skill": "Light of Determination",
   "type": "Emerald"
+},{
+  "id": "EV4",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "EV",
+  "ctr": "2",
+  "def": "4",
+  "name": "Mao Xiangling",
+  "rarity": "Gold",
+  "skill": "Pyronado",
+  "type": "Ruby"
+},{
+  "id": "EV5",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "EV",
+  "ctr": "2",
+  "def": "4",
+  "name": "Hikawa Hina",
+  "rarity": "Gold",
+  "skill": "Shining Golden Star",
+  "type": "Emerald"
+},{
+  "id": "EV6",
+  "atk": "4",
+  "atype": "Sun",
+  "batch": "1",
+  "category": "EV",
+  "ctr": "2",
+  "def": "4",
+  "name": "Ram",
+  "rarity": "Gold",
+  "skill": "Disparaging Fura",
+  "type": "Ruby"
+},{
+  "id": "EV7",
+  "atk": "4",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "EV",
+  "ctr": "1",
+  "def": "3",
+  "name": "Tomoe Tamao",
+  "rarity": "Gold",
+  "skill": "Scattering of Petals",
+  "type": "Amethyst"
+},{
+  "id": "EV8",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "EV",
+  "ctr": "2",
+  "def": "4",
+  "name": "Amamiya Manami",
+  "rarity": "Gold",
+  "skill": "Massugu Go!",
+  "type": "Sapphire"
+},{
+  "id": "EV9",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "EV",
+  "ctr": "2",
+  "def": "4",
+  "name": "Tachibana Marika",
+  "rarity": "Gold",
+  "skill": "Daring Advance",
+  "type": "Ruby"
+},{
+  "id": "EV10",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "EV",
+  "ctr": "2",
+  "def": "4",
+  "name": "Odokawa Hiroshi",
+  "rarity": "Gold",
+  "skill": "Odd Taxi",
+  "type": "Diamond"
+},{
+  "id": "EV11",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "EV",
+  "ctr": "2",
+  "def": "4",
+  "name": "Diona Kätzlein",
+  "rarity": "Gold",
+  "skill": "Icy Paws",
+  "type": "Aquamarine"
+},{
+  "id": "EV12",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "EV",
+  "ctr": "2",
+  "def": "4",
+  "name": "Nikaidou Shinku",
+  "rarity": "Gold",
+  "skill": "Translucent Magic",
+  "type": "Topaz"
+},{
+  "id": "EV13",
+  "atk": "4",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "EV",
+  "ctr": "1",
+  "def": "3",
+  "name": "Saijou Claudine",
+  "rarity": "Gold",
+  "skill": "Etincelle de Fierté",
+  "type": "Diamond"
+},{
+  "id": "EV14",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "EV",
+  "ctr": "2",
+  "def": "4",
+  "name": "Nanao Taichi",
+  "rarity": "Gold",
+  "skill": "Popular Impulse",
+  "type": "Ruby"
+},{
+  "id": "EV15",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "EV",
+  "ctr": "2",
+  "def": "4",
+  "name": "Retsuko",
+  "rarity": "Gold",
+  "skill": "Inner Rage",
+  "type": "Topaz"
+},{
+  "id": "EV16",
+  "atk": "4",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "EV",
+  "ctr": "1",
+  "def": "3",
+  "name": "Otonashi Ichie",
+  "rarity": "Gold",
+  "skill": "Mournful Solo",
+  "type": "Amethyst"
+},{
+  "id": "EV17",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "EV",
+  "ctr": "2",
+  "def": "4",
+  "name": "Clorica",
+  "rarity": "Gold",
+  "skill": "Ephemeral Wish",
+  "type": "Amethyst"
+},{
+  "id": "EV18",
+  "atk": "4",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "EV",
+  "ctr": "1",
+  "def": "3",
+  "name": "Noelle",
+  "rarity": "Gold",
+  "skill": "Sweeping Time",
+  "type": "Topaz"
 },{
   "id": "TF19",
   "atk": "1",
@@ -4955,18 +4931,6 @@
   "skill": "Pencil Play",
   "type": "Aquamarine"
 },{
-  "id": "TF54",
-  "atk": "3",
-  "atype": "Moon",
-  "batch": "5",
-  "category": "TF",
-  "ctr": "2",
-  "def": "3",
-  "name": "Hayasaka Ai",
-  "rarity": "Gold",
-  "skill": "Operation: Valentine",
-  "type": "Topaz"
-},{
   "id": "TF53",
   "atk": "4",
   "atype": "Star",
@@ -5003,17 +4967,41 @@
   "skill": "Commoner Hobby",
   "type": "Topaz"
 },{
-  "id": "TF93",
-  "atk": "6",
+  "id": "TF79",
+  "atk": "3",
   "atype": "Star",
   "batch": "5",
   "category": "TF",
-  "ctr": "0",
+  "ctr": "1",
+  "def": "6",
+  "name": "Holo",
+  "rarity": "Silver",
+  "skill": "Harvest Time!",
+  "type": "Topaz"
+},{
+  "id": "TF80",
+  "atk": "7",
+  "atype": "Star",
+  "batch": "5",
+  "category": "TF",
+  "ctr": "1",
+  "def": "2",
+  "name": "Charlotte Dunois",
+  "rarity": "Silver",
+  "skill": "Rapid Switch",
+  "type": "Topaz"
+},{
+  "id": "TF82",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "5",
+  "category": "TF",
+  "ctr": "2",
   "def": "4",
-  "name": "Horikita Suzune",
-  "rarity": "Bronze",
-  "skill": "Fragile Masquerade",
-  "type": "Sapphire"
+  "name": "Schwi Dola",
+  "rarity": "Silver",
+  "skill": "Kein Eintrag",
+  "type": "Amethyst"
 },{
   "id": "TF92",
   "atk": "7",
@@ -5039,41 +5027,17 @@
   "skill": "Night Shade",
   "type": "Sapphire"
 },{
-  "id": "TF82",
-  "atk": "4",
+  "id": "TF93",
+  "atk": "6",
   "atype": "Star",
   "batch": "5",
   "category": "TF",
-  "ctr": "2",
+  "ctr": "0",
   "def": "4",
-  "name": "Schwi Dola",
-  "rarity": "Silver",
-  "skill": "Kein Eintrag",
-  "type": "Amethyst"
-},{
-  "id": "TF79",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "5",
-  "category": "TF",
-  "ctr": "1",
-  "def": "6",
-  "name": "Holo",
-  "rarity": "Silver",
-  "skill": "Harvest Time!",
-  "type": "Topaz"
-},{
-  "id": "TF80",
-  "atk": "7",
-  "atype": "Star",
-  "batch": "5",
-  "category": "TF",
-  "ctr": "1",
-  "def": "2",
-  "name": "Charlotte Dunois",
-  "rarity": "Silver",
-  "skill": "Rapid Switch",
-  "type": "Topaz"
+  "name": "Horikita Suzune",
+  "rarity": "Bronze",
+  "skill": "Fragile Masquerade",
+  "type": "Sapphire"
 },{
   "id": "TF101",
   "atk": "6",
@@ -5087,18 +5051,6 @@
   "skill": "Cold Front",
   "type": "Amethyst"
 },{
-  "id": "TF117",
-  "atk": "2",
-  "atype": "Star",
-  "batch": "5",
-  "category": "TF",
-  "ctr": "4",
-  "def": "4",
-  "name": "Mikazuki Yozora",
-  "rarity": "Bronze",
-  "skill": "Friendly Tease",
-  "type": "Emerald"
-},{
   "id": "TF116",
   "atk": "3",
   "atype": "Star",
@@ -5111,9 +5063,21 @@
   "skill": "Troubled Reminiscense",
   "type": "Topaz"
 },{
+  "id": "TF117",
+  "atk": "2",
+  "atype": "Star",
+  "batch": "5",
+  "category": "TF",
+  "ctr": "4",
+  "def": "4",
+  "name": "Mikazuki Yozora",
+  "rarity": "Bronze",
+  "skill": "Friendly Tease",
+  "type": "Emerald"
+},{
   "id": "TF119",
   "atk": "6",
-  "atype": "Sun",
+  "atype": "Moon",
   "batch": "5",
   "category": "TF",
   "ctr": "1",
@@ -5135,16 +5099,16 @@
   "skill": "Beat Up",
   "type": "Sapphire"
 },{
-  "id": "PK355",
+  "id": "PK228",
   "atk": "P",
   "atype": "Star",
   "batch": "6",
   "category": "PK",
   "ctr": "0",
   "def": "0",
-  "name": "Duskull",
+  "name": "Houndour",
   "rarity": "Metal",
-  "skill": "Will-O-Wisp",
+  "skill": "Crunch",
   "type": "Sapphire"
 },{
   "id": "PK261",
@@ -5159,18 +5123,6 @@
   "skill": "Howl",
   "type": "Sapphire"
 },{
-  "id": "PK228",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "6",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Houndour",
-  "rarity": "Metal",
-  "skill": "Crunch",
-  "type": "Sapphire"
-},{
   "id": "PK302",
   "atk": "P",
   "atype": "Star",
@@ -5183,16 +5135,16 @@
   "skill": "Astonish",
   "type": "Sapphire"
 },{
-  "id": "PK607",
+  "id": "PK355",
   "atk": "P",
   "atype": "Star",
   "batch": "6",
   "category": "PK",
   "ctr": "0",
   "def": "0",
-  "name": "Litwick",
+  "name": "Duskull",
   "rarity": "Metal",
-  "skill": "Hex",
+  "skill": "Will-O-Wisp",
   "type": "Sapphire"
 },{
   "id": "PK570",
@@ -5205,6 +5157,18 @@
   "name": "Zorua",
   "rarity": "Metal",
   "skill": "Night Daze",
+  "type": "Sapphire"
+},{
+  "id": "PK607",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "6",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Litwick",
+  "rarity": "Metal",
+  "skill": "Hex",
   "type": "Sapphire"
 },{
   "id": "PK708",
@@ -5231,6 +5195,30 @@
   "skill": "Play Rough",
   "type": "Sapphire"
 },{
+  "id": "TF54",
+  "atk": "3",
+  "atype": "Moon",
+  "batch": "5",
+  "category": "TF",
+  "ctr": "2",
+  "def": "3",
+  "name": "Hayasaka Ai",
+  "rarity": "Gold",
+  "skill": "Operation: Valentine",
+  "type": "Topaz"
+},{
+  "id": "TF59",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "TF",
+  "ctr": "1",
+  "def": "5",
+  "name": "Izumi Konata",
+  "rarity": "Silver",
+  "skill": "Otaku Break",
+  "type": "Sapphire"
+},{
   "id": "P1",
   "atk": "A",
   "atype": "Star",
@@ -5242,6 +5230,18 @@
   "rarity": "Metal",
   "skill": "Soulful Return",
   "type": "Topaz"
+},{
+  "id": "MI8",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "1",
+  "category": "MI",
+  "ctr": "1",
+  "def": "6",
+  "name": "Unicorn",
+  "rarity": "Rainbow",
+  "skill": "Support Carrier",
+  "type": "Amethyst"
 },{
   "id": "P8",
   "atk": "C",
@@ -5279,29 +5279,17 @@
   "skill": "Assault Focus E",
   "type": "Amethyst"
 },{
-  "id": "MI8",
-  "atk": "3",
+  "id": "MI11",
+  "atk": "6",
   "atype": "Star",
   "batch": "1",
   "category": "MI",
   "ctr": "1",
-  "def": "6",
-  "name": "Unicorn",
-  "rarity": "Rainbow",
-  "skill": "Support Carrier",
-  "type": "Amethyst"
-},{
-  "id": "MI12",
-  "atk": "7",
-  "atype": "Star",
-  "batch": "1",
-  "category": "MI",
-  "ctr": "0",
   "def": "3",
-  "name": "Darjeeling",
+  "name": "Haruna",
   "rarity": "Rainbow",
-  "skill": "Fish & Chips Operation",
-  "type": "Topaz"
+  "skill": "Lucky Charm",
+  "type": "Amethyst"
 },{
   "id": "P11",
   "atk": "A",
@@ -5315,29 +5303,17 @@
   "skill": "Boba Afternoon",
   "type": "Aquamarine"
 },{
-  "id": "MI11",
-  "atk": "6",
+  "id": "MI12",
+  "atk": "7",
   "atype": "Star",
   "batch": "1",
   "category": "MI",
-  "ctr": "1",
-  "def": "3",
-  "name": "Haruna",
-  "rarity": "Rainbow",
-  "skill": "Lucky Charm",
-  "type": "Amethyst"
-},{
-  "id": "P15",
-  "atk": "C",
-  "atype": "Star",
-  "batch": "5",
-  "category": "P",
   "ctr": "0",
-  "def": "0",
-  "name": "Luna",
-  "rarity": "Metal",
-  "skill": "Lunar Shiver",
-  "type": "Diamond"
+  "def": "3",
+  "name": "Darjeeling",
+  "rarity": "Rainbow",
+  "skill": "Fish & Chips Operation",
+  "type": "Topaz"
 },{
   "id": "P12",
   "atk": "C",
@@ -5350,6 +5326,18 @@
   "rarity": "Metal",
   "skill": "placeholder",
   "type": "Topaz"
+},{
+  "id": "P15",
+  "atk": "C",
+  "atype": "Star",
+  "batch": "5",
+  "category": "P",
+  "ctr": "0",
+  "def": "0",
+  "name": "Luna",
+  "rarity": "Metal",
+  "skill": "Lunar Shiver",
+  "type": "Diamond"
 },{
   "id": "MI18",
   "atk": "3",
@@ -5387,18 +5375,6 @@
   "skill": "Scornful Gaze",
   "type": "Ruby"
 },{
-  "id": "P27",
-  "atk": "D",
-  "atype": "Star",
-  "batch": "5",
-  "category": "P",
-  "ctr": "0",
-  "def": "0",
-  "name": "Ranga",
-  "rarity": "Metal",
-  "skill": "Tempest Fang",
-  "type": "Sapphire"
-},{
   "id": "MI25",
   "atk": "1",
   "atype": "Star",
@@ -5409,6 +5385,18 @@
   "name": "Seele Volleri",
   "rarity": "Gold",
   "skill": "Mirrored Flourishes",
+  "type": "Sapphire"
+},{
+  "id": "P27",
+  "atk": "D",
+  "atype": "Star",
+  "batch": "5",
+  "category": "P",
+  "ctr": "0",
+  "def": "0",
+  "name": "Ranga",
+  "rarity": "Metal",
+  "skill": "Tempest Fang",
   "type": "Sapphire"
 },{
   "id": "MI28",
@@ -5447,18 +5435,6 @@
   "skill": "Enhanced Senses",
   "type": "Ruby"
 },{
-  "id": "MI42",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "1",
-  "category": "MI",
-  "ctr": "4",
-  "def": "3",
-  "name": "Shimada Arisu",
-  "rarity": "Silver",
-  "skill": "Ninja Tactics",
-  "type": "Diamond"
-},{
   "id": "MI39",
   "atk": "1",
   "atype": "Star",
@@ -5470,6 +5446,18 @@
   "rarity": "Silver",
   "skill": "First-Class Lady",
   "type": "Amethyst"
+},{
+  "id": "MI42",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "1",
+  "category": "MI",
+  "ctr": "4",
+  "def": "3",
+  "name": "Shimada Arisu",
+  "rarity": "Silver",
+  "skill": "Ninja Tactics",
+  "type": "Diamond"
 },{
   "id": "P45",
   "atk": "A",
@@ -5483,6 +5471,18 @@
   "skill": "Curl Up",
   "type": "Emerald"
 },{
+  "id": "MI47",
+  "atk": "5",
+  "atype": "Star",
+  "batch": "1",
+  "category": "MI",
+  "ctr": "0",
+  "def": "5",
+  "name": "Kougami Shinya",
+  "rarity": "Silver",
+  "skill": "Strategical Combat",
+  "type": "Diamond"
+},{
   "id": "MI48",
   "atk": "4",
   "atype": "Star",
@@ -5494,18 +5494,6 @@
   "rarity": "Silver",
   "skill": "Rise to Power",
   "type": "Topaz"
-},{
-  "id": "MI50",
-  "atk": "4",
-  "atype": "Star",
-  "batch": "1",
-  "category": "MI",
-  "ctr": "2",
-  "def": "4",
-  "name": "Nagato",
-  "rarity": "Silver",
-  "skill": "Shrine Protection",
-  "type": "Ruby"
 },{
   "id": "P97",
   "atk": "C",
@@ -5519,28 +5507,28 @@
   "skill": "Mystic Length",
   "type": "Ruby"
 },{
-  "id": "MI47",
-  "atk": "5",
+  "id": "MI50",
+  "atk": "4",
   "atype": "Star",
   "batch": "1",
   "category": "MI",
-  "ctr": "0",
-  "def": "5",
-  "name": "Kougami Shinya",
+  "ctr": "2",
+  "def": "4",
+  "name": "Nagato",
   "rarity": "Silver",
-  "skill": "Strategical Combat",
-  "type": "Diamond"
+  "skill": "Shrine Protection",
+  "type": "Ruby"
 },{
-  "id": "P55",
-  "atk": "C",
+  "id": "MI54",
+  "atk": "7",
   "atype": "Star",
-  "batch": "5",
-  "category": "P",
-  "ctr": "0",
-  "def": "M",
-  "name": "Jibanyan",
-  "rarity": "Metal",
-  "skill": "Nekomata Guidance",
+  "batch": "1",
+  "category": "MI",
+  "ctr": "3",
+  "def": "0",
+  "name": "M4 Sopmod II",
+  "rarity": "Silver",
+  "skill": "Antipersonnel Grenade",
   "type": "Ruby"
 },{
   "id": "MI55",
@@ -5555,6 +5543,18 @@
   "skill": "Silverwing Beyond",
   "type": "Diamond"
 },{
+  "id": "P55",
+  "atk": "C",
+  "atype": "Star",
+  "batch": "5",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Jibanyan",
+  "rarity": "Metal",
+  "skill": "Nekomata Guidance",
+  "type": "Ruby"
+},{
   "id": "MI58",
   "atk": "4",
   "atype": "Star",
@@ -5566,18 +5566,6 @@
   "rarity": "Bronze",
   "skill": "Dragon Pilot",
   "type": "Emerald"
-},{
-  "id": "MI54",
-  "atk": "7",
-  "atype": "Star",
-  "batch": "1",
-  "category": "MI",
-  "ctr": "3",
-  "def": "0",
-  "name": "M4 Sopmod II",
-  "rarity": "Silver",
-  "skill": "Antipersonnel Grenade",
-  "type": "Ruby"
 },{
   "id": "MI62",
   "atk": "3",
@@ -5603,6 +5591,18 @@
   "skill": "Absolute Patriotism",
   "type": "Topaz"
 },{
+  "id": "P69",
+  "atk": "D",
+  "atype": "Star",
+  "batch": "5",
+  "category": "P",
+  "ctr": "0",
+  "def": "M",
+  "name": "Annoying Dog",
+  "rarity": "Metal",
+  "skill": "Bonetrouslovania",
+  "type": "Diamond"
+},{
   "id": "MI70",
   "atk": "8",
   "atype": "Star",
@@ -5614,18 +5614,6 @@
   "rarity": "Bronze",
   "skill": "Crippling Strike",
   "type": "Ruby"
-},{
-  "id": "MI74",
-  "atk": "10",
-  "atype": "Star",
-  "batch": "1",
-  "category": "MI",
-  "ctr": "0",
-  "def": "0",
-  "name": "Stella Loussier",
-  "rarity": "Bronze",
-  "skill": "Overdrive",
-  "type": "Topaz"
 },{
   "id": "MI71",
   "atk": "6",
@@ -5639,17 +5627,17 @@
   "skill": "Ketomenia",
   "type": "Diamond"
 },{
-  "id": "P69",
-  "atk": "D",
+  "id": "MI74",
+  "atk": "10",
   "atype": "Star",
-  "batch": "5",
-  "category": "P",
+  "batch": "1",
+  "category": "MI",
   "ctr": "0",
-  "def": "M",
-  "name": "Annoying Dog",
-  "rarity": "Metal",
-  "skill": "Bonetrouslovania",
-  "type": "Diamond"
+  "def": "0",
+  "name": "Stella Loussier",
+  "rarity": "Bronze",
+  "skill": "Overdrive",
+  "type": "Topaz"
 },{
   "id": "VN1",
   "atk": "1",
@@ -5663,18 +5651,6 @@
   "skill": "Distant Mainland",
   "type": "Amethyst"
 },{
-  "id": "VN2",
-  "atk": "1",
-  "atype": "Star",
-  "batch": "1",
-  "category": "VN",
-  "ctr": "0",
-  "def": "9",
-  "name": "Nanami Chiaki",
-  "rarity": "Rainbow",
-  "skill": "Dramatic Speedrun",
-  "type": "Amethyst"
-},{
   "id": "DG1",
   "atk": "M",
   "atype": "Star",
@@ -5686,6 +5662,18 @@
   "rarity": "Metal",
   "skill": "Pepper Breath",
   "type": "Ruby"
+},{
+  "id": "VN2",
+  "atk": "1",
+  "atype": "Star",
+  "batch": "1",
+  "category": "VN",
+  "ctr": "0",
+  "def": "9",
+  "name": "Nanami Chiaki",
+  "rarity": "Rainbow",
+  "skill": "Dramatic Speedrun",
+  "type": "Amethyst"
 },{
   "id": "VN3",
   "atk": "7",
@@ -5723,18 +5711,6 @@
   "skill": "Gaia's Salvation",
   "type": "Emerald"
 },{
-  "id": "DG8",
-  "atk": "M",
-  "atype": "Star",
-  "batch": "1",
-  "category": "DG",
-  "ctr": "0",
-  "def": "0",
-  "name": "Veemon",
-  "rarity": "Metal",
-  "skill": "Vee Headbutt",
-  "type": "Sapphire"
-},{
   "id": "VN8",
   "atk": "3",
   "atype": "Moon",
@@ -5746,6 +5722,18 @@
   "rarity": "Rainbow",
   "skill": "Forbidden Cherries",
   "type": "Ruby"
+},{
+  "id": "DG8",
+  "atk": "M",
+  "atype": "Star",
+  "batch": "1",
+  "category": "DG",
+  "ctr": "0",
+  "def": "0",
+  "name": "Veemon",
+  "rarity": "Metal",
+  "skill": "Vee Headbutt",
+  "type": "Sapphire"
 },{
   "id": "DG11",
   "atk": "M",
@@ -5867,18 +5855,6 @@
   "skill": "Objection!",
   "type": "Topaz"
 },{
-  "id": "DG24",
-  "atk": "M",
-  "atype": "Star",
-  "batch": "1",
-  "category": "DG",
-  "ctr": "0",
-  "def": "0",
-  "name": "Calumon",
-  "rarity": "Metal",
-  "skill": "Shining Digivolution",
-  "type": "Amethyst"
-},{
   "id": "VN23",
   "atk": "2",
   "atype": "Sun",
@@ -5903,29 +5879,17 @@
   "skill": "Brilliant Pear",
   "type": "Diamond"
 },{
-  "id": "VN27",
-  "atk": "5",
+  "id": "DG24",
+  "atk": "M",
   "atype": "Star",
   "batch": "1",
-  "category": "VN",
-  "ctr": "4",
-  "def": "1",
-  "name": "Maple",
-  "rarity": "Silver",
-  "skill": "Independence Act",
-  "type": "Topaz"
-},{
-  "id": "VN26",
-  "atk": "5",
-  "atype": "Star",
-  "batch": "1",
-  "category": "VN",
+  "category": "DG",
   "ctr": "0",
-  "def": "5",
-  "name": "Natsume Kyousuke",
-  "rarity": "Silver",
-  "skill": "Leader's Charisma",
-  "type": "Ruby"
+  "def": "0",
+  "name": "Calumon",
+  "rarity": "Metal",
+  "skill": "Shining Digivolution",
+  "type": "Amethyst"
 },{
   "id": "VN25",
   "atk": "5",
@@ -5939,17 +5903,29 @@
   "skill": "An Eye for a Lie",
   "type": "Ruby"
 },{
-  "id": "VN29",
-  "atk": "3",
-  "atype": "Moon",
+  "id": "VN26",
+  "atk": "5",
+  "atype": "Star",
   "batch": "1",
   "category": "VN",
-  "ctr": "2",
-  "def": "3",
-  "name": "Amane Suzuha",
+  "ctr": "0",
+  "def": "5",
+  "name": "Natsume Kyousuke",
   "rarity": "Silver",
-  "skill": "Another Future",
-  "type": "Emerald"
+  "skill": "Leader's Charisma",
+  "type": "Ruby"
+},{
+  "id": "VN27",
+  "atk": "5",
+  "atype": "Star",
+  "batch": "1",
+  "category": "VN",
+  "ctr": "4",
+  "def": "1",
+  "name": "Maple",
+  "rarity": "Silver",
+  "skill": "Independence Act",
+  "type": "Topaz"
 },{
   "id": "VN28",
   "atk": "1",
@@ -5962,6 +5938,30 @@
   "rarity": "Silver",
   "skill": "Recovery at Peace",
   "type": "Topaz"
+},{
+  "id": "VN29",
+  "atk": "3",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "VN",
+  "ctr": "2",
+  "def": "3",
+  "name": "Amane Suzuha",
+  "rarity": "Silver",
+  "skill": "Another Future",
+  "type": "Emerald"
+},{
+  "id": "VN37",
+  "atk": "5",
+  "atype": "Sun",
+  "batch": "1",
+  "category": "VN",
+  "ctr": "1",
+  "def": "2",
+  "name": "Ayasato Harumi",
+  "rarity": "Bronze",
+  "skill": "Spiritual Support",
+  "type": "Amethyst"
 },{
   "id": "VN38",
   "atk": "4",
@@ -5999,18 +5999,6 @@
   "skill": "Faithful Reunion",
   "type": "Sapphire"
 },{
-  "id": "VN37",
-  "atk": "5",
-  "atype": "Sun",
-  "batch": "1",
-  "category": "VN",
-  "ctr": "1",
-  "def": "2",
-  "name": "Ayasato Harumi",
-  "rarity": "Bronze",
-  "skill": "Spiritual Support",
-  "type": "Amethyst"
-},{
   "id": "VN41",
   "atk": "4",
   "atype": "Star",
@@ -6023,18 +6011,6 @@
   "skill": "Painful History",
   "type": "Emerald"
 },{
-  "id": "VN43",
-  "atk": "1",
-  "atype": "Star",
-  "batch": "1",
-  "category": "VN",
-  "ctr": "3",
-  "def": "6",
-  "name": "Arcueid Brunestud",
-  "rarity": "Bronze",
-  "skill": "Marble Phantasm",
-  "type": "Aquamarine"
-},{
   "id": "VN42",
   "atk": "6",
   "atype": "Star",
@@ -6046,6 +6022,18 @@
   "rarity": "Bronze",
   "skill": "Flight of Fancy",
   "type": "Sapphire"
+},{
+  "id": "VN43",
+  "atk": "1",
+  "atype": "Star",
+  "batch": "1",
+  "category": "VN",
+  "ctr": "3",
+  "def": "6",
+  "name": "Arcueid Brunestud",
+  "rarity": "Bronze",
+  "skill": "Marble Phantasm",
+  "type": "Aquamarine"
 },{
   "id": "GC1",
   "atk": "10",
@@ -6167,18 +6155,6 @@
   "skill": "Nereid's Ascension",
   "type": "Aquamarine"
 },{
-  "id": "GC28",
-  "atk": "6",
-  "atype": "Star",
-  "batch": "1",
-  "category": "GC",
-  "ctr": "4",
-  "def": "0",
-  "name": "Diluc Ragnvindr",
-  "rarity": "Silver",
-  "skill": "Searing Onslaught",
-  "type": "Ruby"
-},{
   "id": "GC31",
   "atk": "4",
   "atype": "Star",
@@ -6191,17 +6167,17 @@
   "skill": "Thunder Armads",
   "type": "Amethyst"
 },{
-  "id": "GC37",
-  "atk": "1",
+  "id": "GC28",
+  "atk": "6",
   "atype": "Star",
   "batch": "1",
   "category": "GC",
-  "ctr": "6",
-  "def": "3",
-  "name": "Kokkoro",
+  "ctr": "4",
+  "def": "0",
+  "name": "Diluc Ragnvindr",
   "rarity": "Silver",
-  "skill": "Aurora Sanctuary",
-  "type": "Diamond"
+  "skill": "Searing Onslaught",
+  "type": "Ruby"
 },{
   "id": "GC34",
   "atk": "4",
@@ -6227,17 +6203,17 @@
   "skill": "Moonlight",
   "type": "Ruby"
 },{
-  "id": "GC40",
-  "atk": "2",
-  "atype": "Sun",
+  "id": "GC37",
+  "atk": "1",
+  "atype": "Star",
   "batch": "1",
   "category": "GC",
-  "ctr": "3",
+  "ctr": "6",
   "def": "3",
-  "name": "Chloe von Einzbern",
+  "name": "Kokkoro",
   "rarity": "Silver",
-  "skill": "Eye of the Mind",
-  "type": "Ruby"
+  "skill": "Aurora Sanctuary",
+  "type": "Diamond"
 },{
   "id": "PK39",
   "atk": "P",
@@ -6250,6 +6226,18 @@
   "rarity": "Metal",
   "skill": "Sing",
   "type": "Diamond"
+},{
+  "id": "GC40",
+  "atk": "2",
+  "atype": "Sun",
+  "batch": "1",
+  "category": "GC",
+  "ctr": "3",
+  "def": "3",
+  "name": "Chloe von Einzbern",
+  "rarity": "Silver",
+  "skill": "Eye of the Mind",
+  "type": "Ruby"
 },{
   "id": "GC43",
   "atk": "2",
@@ -6335,18 +6323,6 @@
   "skill": "Secret Great Crown",
   "type": "Topaz"
 },{
-  "id": "PK66",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "7",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Machop",
-  "rarity": "Metal",
-  "skill": "Vital Throw",
-  "type": "Diamond"
-},{
   "id": "GC66",
   "atk": "0",
   "atype": "Star",
@@ -6359,17 +6335,17 @@
   "skill": "Virtue Virtuoso",
   "type": "Topaz"
 },{
-  "id": "PK296",
+  "id": "PK66",
   "atk": "P",
   "atype": "Star",
   "batch": "7",
   "category": "PK",
   "ctr": "0",
   "def": "0",
-  "name": "Makuhita",
+  "name": "Machop",
   "rarity": "Metal",
-  "skill": "Smelling Salts",
-  "type": "Ruby"
+  "skill": "Vital Throw",
+  "type": "Diamond"
 },{
   "id": "PK175",
   "atk": "P",
@@ -6383,6 +6359,18 @@
   "skill": "Metronome",
   "type": "Diamond"
 },{
+  "id": "PK296",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "7",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Makuhita",
+  "rarity": "Metal",
+  "skill": "Smelling Salts",
+  "type": "Ruby"
+},{
   "id": "PK447",
   "atk": "P",
   "atype": "Star",
@@ -6393,18 +6381,6 @@
   "name": "Riolu",
   "rarity": "Metal",
   "skill": "Force Palm",
-  "type": "Diamond"
-},{
-  "id": "PK682",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "7",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Spritzee",
-  "rarity": "Metal",
-  "skill": "Sweet Scent",
   "type": "Diamond"
 },{
   "id": "PK669",
@@ -6431,6 +6407,18 @@
   "skill": "Parting Shot",
   "type": "Ruby"
 },{
+  "id": "PK682",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "7",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Spritzee",
+  "rarity": "Metal",
+  "skill": "Sweet Scent",
+  "type": "Diamond"
+},{
   "id": "PK891",
   "atk": "P",
   "atype": "Star",
@@ -6455,18 +6443,6 @@
   "skill": "Girlfriend! Action!",
   "type": "Emerald"
 },{
-  "id": "S3",
-  "atk": "7",
-  "atype": "Star",
-  "batch": "1",
-  "category": "S",
-  "ctr": "1",
-  "def": "2",
-  "name": "Nakano Miku",
-  "rarity": "Shiny",
-  "skill": "Cinderella's Resolve",
-  "type": "Sapphire"
-},{
   "id": "S2",
   "atk": "5",
   "atype": "Star",
@@ -6478,6 +6454,18 @@
   "rarity": "Shiny",
   "skill": "Thread of Destiny",
   "type": "Aquamarine"
+},{
+  "id": "S3",
+  "atk": "7",
+  "atype": "Star",
+  "batch": "1",
+  "category": "S",
+  "ctr": "1",
+  "def": "2",
+  "name": "Nakano Miku",
+  "rarity": "Shiny",
+  "skill": "Cinderella's Resolve",
+  "type": "Sapphire"
 },{
   "id": "S4",
   "atk": "5",
@@ -6563,18 +6551,6 @@
   "skill": "Hikarin's Siren Song",
   "type": "Topaz"
 },{
-  "id": "MS6",
-  "atk": "3",
-  "atype": "Sun",
-  "batch": "1",
-  "category": "MS",
-  "ctr": "1",
-  "def": "4",
-  "name": "Mizuno Ami",
-  "rarity": "Gold",
-  "skill": "Mercury Aqua Rhapsody",
-  "type": "Aquamarine"
-},{
   "id": "FM6",
   "atk": "5",
   "atype": "Star",
@@ -6586,6 +6562,18 @@
   "rarity": "Rainbow",
   "skill": "RegalStar's Betrayal",
   "type": "Amethyst"
+},{
+  "id": "MS6",
+  "atk": "3",
+  "atype": "Sun",
+  "batch": "1",
+  "category": "MS",
+  "ctr": "1",
+  "def": "4",
+  "name": "Mizuno Ami",
+  "rarity": "Gold",
+  "skill": "Mercury Aqua Rhapsody",
+  "type": "Aquamarine"
 },{
   "id": "SP8",
   "atk": "2",
@@ -6635,18 +6623,6 @@
   "skill": "Chibasa's Gluttony",
   "type": "Ruby"
 },{
-  "id": "SH17",
-  "atk": "6",
-  "atype": "Moon",
-  "batch": "2",
-  "category": "SH",
-  "ctr": "2",
-  "def": "0",
-  "name": "Kochou Shinobu",
-  "rarity": "Gold",
-  "skill": "Butterfly Dance: Caprice",
-  "type": "Amethyst"
-},{
   "id": "FM17",
   "atk": "6",
   "atype": "Star",
@@ -6658,6 +6634,18 @@
   "rarity": "Gold",
   "skill": "Homura's Battering Ram",
   "type": "Topaz"
+},{
+  "id": "SH17",
+  "atk": "6",
+  "atype": "Moon",
+  "batch": "2",
+  "category": "SH",
+  "ctr": "2",
+  "def": "0",
+  "name": "Kochou Shinobu",
+  "rarity": "Gold",
+  "skill": "Butterfly Dance: Caprice",
+  "type": "Amethyst"
 },{
   "id": "FM19",
   "atk": "3",
@@ -6707,18 +6695,6 @@
   "skill": "kukimunstir's Witchery",
   "type": "Sapphire"
 },{
-  "id": "IM32",
-  "atk": "2",
-  "atype": "Star",
-  "batch": "3",
-  "category": "IM",
-  "ctr": "2",
-  "def": "6",
-  "name": "Konoe Kanata",
-  "rarity": "Gold",
-  "skill": "Silent Blaze",
-  "type": "Topaz"
-},{
   "id": "FM30",
   "atk": "4",
   "atype": "Star",
@@ -6731,16 +6707,16 @@
   "skill": "Midnight Jasper's Tutturu",
   "type": "Aquamarine"
 },{
-  "id": "FM32",
-  "atk": "5",
+  "id": "IM32",
+  "atk": "2",
   "atype": "Star",
   "batch": "3",
-  "category": "FM",
-  "ctr": "3",
-  "def": "2",
-  "name": "Kirima Sharo",
+  "category": "IM",
+  "ctr": "2",
+  "def": "6",
+  "name": "Konoe Kanata",
   "rarity": "Gold",
-  "skill": "Starry's Deluge",
+  "skill": "Silent Blaze",
   "type": "Topaz"
 },{
   "id": "FR32",
@@ -6753,7 +6729,19 @@
   "name": "Adachi & Shimamura",
   "rarity": "Gold",
   "skill": "Bonding Cycle",
-  "type": "chicken"
+  "type": "Diamond, Sapphire"
+},{
+  "id": "FM32",
+  "atk": "5",
+  "atype": "Star",
+  "batch": "3",
+  "category": "FM",
+  "ctr": "3",
+  "def": "2",
+  "name": "Kirima Sharo",
+  "rarity": "Gold",
+  "skill": "Starry's Deluge",
+  "type": "Topaz"
 },{
   "id": "FM36",
   "atk": "6",
@@ -6779,18 +6767,6 @@
   "skill": "Lolinekocchi's Network",
   "type": "Sapphire"
 },{
-  "id": "FM46",
-  "atk": "2",
-  "atype": "Star",
-  "batch": "3",
-  "category": "FM",
-  "ctr": "1",
-  "def": "7",
-  "name": "Saionji Sekai",
-  "rarity": "Silver",
-  "skill": "Rakan's Battle Dance",
-  "type": "Aquamarine"
-},{
   "id": "FM44",
   "atk": "2",
   "atype": "Star",
@@ -6801,6 +6777,18 @@
   "name": "Katarina Claes",
   "rarity": "Silver",
   "skill": "Kurogaga's Dedication",
+  "type": "Aquamarine"
+},{
+  "id": "FM46",
+  "atk": "2",
+  "atype": "Star",
+  "batch": "3",
+  "category": "FM",
+  "ctr": "1",
+  "def": "7",
+  "name": "Saionji Sekai",
+  "rarity": "Silver",
+  "skill": "Rakan's Battle Dance",
   "type": "Diamond"
 },{
   "id": "FM48",
@@ -6911,30 +6899,6 @@
   "skill": "IchiSora's Delicate Touch",
   "type": "Amethyst"
 },{
-  "id": "PK179",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "8",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Mareep",
-  "rarity": "Metal",
-  "skill": "Charge",
-  "type": "Topaz"
-},{
-  "id": "PK202",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "8",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Wobbuffet",
-  "rarity": "Metal",
-  "skill": "Counter",
-  "type": "Amethyst"
-},{
   "id": "PK122",
   "atk": "P",
   "atype": "Star",
@@ -6957,6 +6921,30 @@
   "name": "Natu",
   "rarity": "Metal",
   "skill": "Future Sight",
+  "type": "Amethyst"
+},{
+  "id": "PK179",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "8",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Mareep",
+  "rarity": "Metal",
+  "skill": "Charge",
+  "type": "Topaz"
+},{
+  "id": "PK202",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "8",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Wobbuffet",
+  "rarity": "Metal",
+  "skill": "Counter",
   "type": "Amethyst"
 },{
   "id": "PK280",
@@ -6995,18 +6983,6 @@
   "skill": "Thunder Shock",
   "type": "Topaz"
 },{
-  "id": "PK595",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "10",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Joltik",
-  "rarity": "Metal",
-  "skill": "Electroweb",
-  "type": "Emerald"
-},{
   "id": "PK587",
   "atk": "P",
   "atype": "Star",
@@ -7018,6 +6994,18 @@
   "rarity": "Metal",
   "skill": "Volt Switch",
   "type": "Topaz"
+},{
+  "id": "PK595",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "10",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Joltik",
+  "rarity": "Metal",
+  "skill": "Electroweb",
+  "type": "Emerald"
 },{
   "id": "PK835",
   "atk": "P",
@@ -7187,18 +7175,6 @@
   "skill": "Enigmatic Canvas",
   "type": "Amethyst, Topaz"
 },{
-  "id": "MF62",
-  "atk": "3",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "MF",
-  "ctr": "1",
-  "def": "4",
-  "name": "Rentarou & Enju",
-  "rarity": "Silver",
-  "skill": "Cursed Mechanism",
-  "type": "Ruby, Sapphire"
-},{
   "id": "MF54",
   "atk": "5",
   "atype": "Star",
@@ -7223,6 +7199,18 @@
   "skill": "Mad Hatter's Flower Field",
   "type": "Diamond, Ruby"
 },{
+  "id": "MF62",
+  "atk": "3",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "MF",
+  "ctr": "1",
+  "def": "4",
+  "name": "Rentarou & Enju",
+  "rarity": "Silver",
+  "skill": "Cursed Mechanism",
+  "type": "Ruby, Sapphire"
+},{
   "id": "MF66",
   "atk": "3",
   "atype": "Sun",
@@ -7234,18 +7222,6 @@
   "rarity": "Bronze",
   "skill": "Forbidden Love",
   "type": "Ruby, Sapphire"
-},{
-  "id": "MF74",
-  "atk": "1",
-  "atype": "Star",
-  "batch": "1",
-  "category": "MF",
-  "ctr": "5",
-  "def": "4",
-  "name": "Hiro & Miyako",
-  "rarity": "Bronze",
-  "skill": "Stolen Memories",
-  "type": "Amethyst, Topaz"
 },{
   "id": "MF70",
   "atk": "4",
@@ -7259,6 +7235,18 @@
   "skill": "Late Confession",
   "type": "Amethyst, Ruby"
 },{
+  "id": "MF74",
+  "atk": "1",
+  "atype": "Star",
+  "batch": "1",
+  "category": "MF",
+  "ctr": "5",
+  "def": "4",
+  "name": "Hiro & Miyako",
+  "rarity": "Bronze",
+  "skill": "Stolen Memories",
+  "type": "Amethyst, Topaz"
+},{
   "id": "MF78",
   "atk": "6",
   "atype": "Star",
@@ -7271,17 +7259,17 @@
   "skill": "Reminiscience & Reflection",
   "type": "Ruby, Sapphire"
 },{
-  "id": "MF90",
-  "atk": "4",
+  "id": "MF82",
+  "atk": "3",
   "atype": "Star",
   "batch": "1",
   "category": "MF",
-  "ctr": "2",
-  "def": "4",
-  "name": "Gin & Hotaru",
+  "ctr": "4",
+  "def": "3",
+  "name": "Seiji & Shizuku",
   "rarity": "Bronze",
-  "skill": "Together Every Summer",
-  "type": "Diamond, Emerald"
+  "skill": "Concrete Roads",
+  "type": "Diamond, Topaz"
 },{
   "id": "MF86",
   "atk": "3",
@@ -7295,17 +7283,17 @@
   "skill": "Partners in Crime",
   "type": "Amethyst, Topaz"
 },{
-  "id": "MF82",
-  "atk": "3",
+  "id": "MF90",
+  "atk": "4",
   "atype": "Star",
   "batch": "1",
   "category": "MF",
-  "ctr": "4",
-  "def": "3",
-  "name": "Seiji & Shizuku",
+  "ctr": "2",
+  "def": "4",
+  "name": "Gin & Hotaru",
   "rarity": "Bronze",
-  "skill": "Concrete Roads",
-  "type": "Diamond, Topaz"
+  "skill": "Together Every Summer",
+  "type": "Diamond, Emerald"
 },{
   "id": "SP1",
   "atk": "5",
@@ -7391,18 +7379,6 @@
   "skill": "Perfect Copy",
   "type": "Topaz"
 },{
-  "id": "SP10",
-  "atk": "1",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "SP",
-  "ctr": "1",
-  "def": "6",
-  "name": "Sakura Hibiki",
-  "rarity": "Gold",
-  "skill": "Protein Style!",
-  "type": "Topaz"
-},{
   "id": "SP9",
   "atk": "7",
   "atype": "Moon",
@@ -7415,17 +7391,17 @@
   "skill": "King's Toss",
   "type": "Diamond"
 },{
-  "id": "SP12",
-  "atk": "5",
+  "id": "SP10",
+  "atk": "1",
   "atype": "Moon",
   "batch": "1",
   "category": "SP",
   "ctr": "1",
-  "def": "2",
-  "name": "Matsuoka Rin",
+  "def": "6",
+  "name": "Sakura Hibiki",
   "rarity": "Gold",
-  "skill": "Butterfly Stroke",
-  "type": "Amethyst"
+  "skill": "Protein Style!",
+  "type": "Topaz"
 },{
   "id": "SP11",
   "atk": "1",
@@ -7437,6 +7413,18 @@
   "name": "Minato Tomoka",
   "rarity": "Gold",
   "skill": "Shiny Gift",
+  "type": "Amethyst"
+},{
+  "id": "SP12",
+  "atk": "5",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "SP",
+  "ctr": "1",
+  "def": "2",
+  "name": "Matsuoka Rin",
+  "rarity": "Gold",
+  "skill": "Butterfly Stroke",
   "type": "Amethyst"
 },{
   "id": "SP13",
@@ -7451,18 +7439,6 @@
   "skill": "In Regards to Love: Eros",
   "type": "Aquamarine"
 },{
-  "id": "SP15",
-  "atk": "2",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "SP",
-  "ctr": "4",
-  "def": "2",
-  "name": "Aomine Daiki",
-  "rarity": "Silver",
-  "skill": "Formless Shot",
-  "type": "Sapphire"
-},{
   "id": "SP14",
   "atk": "4",
   "atype": "Moon",
@@ -7475,17 +7451,17 @@
   "skill": "Read Block",
   "type": "Topaz"
 },{
-  "id": "SP17",
-  "atk": "6",
+  "id": "SP15",
+  "atk": "2",
   "atype": "Moon",
   "batch": "1",
   "category": "SP",
-  "ctr": "1",
-  "def": "1",
-  "name": "Silence Shizuka",
+  "ctr": "4",
+  "def": "2",
+  "name": "Aomine Daiki",
   "rarity": "Silver",
-  "skill": "The Lead is Mine!",
-  "type": "Amethyst"
+  "skill": "Formless Shot",
+  "type": "Sapphire"
 },{
   "id": "SP16",
   "atk": "4",
@@ -7499,17 +7475,17 @@
   "skill": "Eternal Blizzard",
   "type": "Diamond"
 },{
-  "id": "SP20",
-  "atk": "4",
+  "id": "SP17",
+  "atk": "6",
   "atype": "Moon",
   "batch": "1",
   "category": "SP",
-  "ctr": "0",
-  "def": "4",
-  "name": "Tsukimoto Makoto",
+  "ctr": "1",
+  "def": "1",
+  "name": "Silence Shizuka",
   "rarity": "Silver",
-  "skill": "Emotionless Robot",
-  "type": "Diamond"
+  "skill": "The Lead is Mine!",
+  "type": "Amethyst"
 },{
   "id": "SP18",
   "atk": "0",
@@ -7535,6 +7511,18 @@
   "skill": "Maho Maho Fireworks",
   "type": "Topaz"
 },{
+  "id": "SP20",
+  "atk": "4",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "SP",
+  "ctr": "0",
+  "def": "4",
+  "name": "Tsukimoto Makoto",
+  "rarity": "Silver",
+  "skill": "Emotionless Robot",
+  "type": "Diamond"
+},{
   "id": "SP21",
   "atk": "3",
   "atype": "Moon",
@@ -7558,6 +7546,18 @@
   "rarity": "Bronze",
   "skill": "Plancha ☆ Ganador",
   "type": "Ruby"
+},{
+  "id": "SP23",
+  "atk": "3",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "SP",
+  "ctr": "0",
+  "def": "5",
+  "name": "Makunouchi Ippo",
+  "rarity": "Bronze",
+  "skill": "Fighting Spirit",
+  "type": "Diamond"
 },{
   "id": "SP24",
   "atk": "4",
@@ -7583,18 +7583,6 @@
   "skill": "FInal Gambit",
   "type": "Topaz"
 },{
-  "id": "SP23",
-  "atk": "3",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "SP",
-  "ctr": "0",
-  "def": "5",
-  "name": "Makunouchi Ippo",
-  "rarity": "Bronze",
-  "skill": "Fighting Spirit",
-  "type": "Diamond"
-},{
   "id": "SP26",
   "atk": "0",
   "atype": "Moon",
@@ -7618,6 +7606,18 @@
   "rarity": "Bronze",
   "skill": "Pillar of Support",
   "type": "Sapphire"
+},{
+  "id": "SP28",
+  "atk": "3",
+  "atype": "Moon",
+  "batch": "1",
+  "category": "SP",
+  "ctr": "0",
+  "def": "5",
+  "name": "Matsuoka Gou",
+  "rarity": "Bronze",
+  "skill": "Muscle Fascination",
+  "type": "Ruby"
 },{
   "id": "SP29",
   "atk": "3",
@@ -7643,18 +7643,6 @@
   "skill": "Triangle Hearts",
   "type": "Aquamarine"
 },{
-  "id": "SP28",
-  "atk": "3",
-  "atype": "Moon",
-  "batch": "1",
-  "category": "SP",
-  "ctr": "0",
-  "def": "5",
-  "name": "Matsuoka Gou",
-  "rarity": "Bronze",
-  "skill": "Muscle Fascination",
-  "type": "Ruby"
-},{
   "id": "PK104",
   "atk": "P",
   "atype": "Star",
@@ -7677,30 +7665,6 @@
   "name": "Rhyhorn",
   "rarity": "Metal",
   "skill": "Horn Attack",
-  "type": "Topaz"
-},{
-  "id": "PK333",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "9",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Swablu",
-  "rarity": "Metal",
-  "skill": "Perish Song",
-  "type": "Diamond"
-},{
-  "id": "PK328",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "9",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Trapinch",
-  "rarity": "Metal",
-  "skill": "Sand Tomb",
   "type": "Topaz"
 },{
   "id": "PK231",
@@ -7727,16 +7691,28 @@
   "skill": "Wing Attack",
   "type": "Diamond"
 },{
-  "id": "PK661",
+  "id": "PK328",
   "atk": "P",
   "atype": "Star",
   "batch": "9",
   "category": "PK",
   "ctr": "0",
   "def": "0",
-  "name": "Fletchling",
+  "name": "Trapinch",
   "rarity": "Metal",
-  "skill": "Roost",
+  "skill": "Sand Tomb",
+  "type": "Topaz"
+},{
+  "id": "PK333",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "9",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Swablu",
+  "rarity": "Metal",
+  "skill": "Perish Song",
   "type": "Diamond"
 },{
   "id": "PK529",
@@ -7750,6 +7726,18 @@
   "rarity": "Metal",
   "skill": "Hone Claws",
   "type": "Topaz"
+},{
+  "id": "PK661",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "9",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Fletchling",
+  "rarity": "Metal",
+  "skill": "Roost",
+  "type": "Diamond"
 },{
   "id": "PK731",
   "atk": "P",
@@ -7775,18 +7763,6 @@
   "skill": "Power Trip",
   "type": "Diamond"
 },{
-  "id": "EX1",
-  "atk": "3",
-  "atype": "Star",
-  "batch": "0",
-  "category": "EX",
-  "ctr": "1",
-  "def": "6",
-  "name": "Kirigiri Kyouko",
-  "rarity": "Rainbow",
-  "skill": "Ultimate Deduction",
-  "type": "Amethyst"
-},{
   "id": "DG2",
   "atk": "M",
   "atype": "Star",
@@ -7799,66 +7775,6 @@
   "skill": "Blue Blaster",
   "type": "Sapphire"
 },{
-  "id": "PK2",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "0",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Ivysaur",
-  "rarity": "Metal",
-  "skill": "Vine Whip",
-  "type": "Emerald"
-},{
-  "id": "PK3",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "0",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Venusaur",
-  "rarity": "Metal",
-  "skill": "Solar Beam",
-  "type": "Emerald"
-},{
-  "id": "PK5",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "0",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Charmeleon",
-  "rarity": "Metal",
-  "skill": "Fire Spin",
-  "type": "Ruby"
-},{
-  "id": "PK6",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "0",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Charizard",
-  "rarity": "Metal",
-  "skill": "Flamethrower",
-  "type": "Ruby"
-},{
-  "id": "PK8",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "0",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Wartortle",
-  "rarity": "Metal",
-  "skill": "Water Gun",
-  "type": "Aquamarine"
-},{
   "id": "TF9",
   "atk": "5",
   "atype": "Moon",
@@ -7869,18 +7785,6 @@
   "name": "Katsura Hinagiku",
   "rarity": "Rainbow",
   "skill": "Flower Power",
-  "type": "Aquamarine"
-},{
-  "id": "PK9",
-  "atk": "P",
-  "atype": "Star",
-  "batch": "0",
-  "category": "PK",
-  "ctr": "0",
-  "def": "0",
-  "name": "Blastoise",
-  "rarity": "Metal",
-  "skill": "Hydro Cannon",
   "type": "Aquamarine"
 },{
   "id": "DG10",
@@ -8194,6 +8098,102 @@
   "rarity": "Bronze",
   "skill": "Virtual Infancy",
   "type": "Diamond"
+},{
+  "id": "EX1",
+  "atk": "3",
+  "atype": "Star",
+  "batch": "0",
+  "category": "EX",
+  "ctr": "1",
+  "def": "6",
+  "name": "Kirigiri Kyouko",
+  "rarity": "Rainbow",
+  "skill": "Ultimate Deduction",
+  "type": "Amethyst"
+},{
+  "id": "PK2",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "0",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Ivysaur",
+  "rarity": "Metal",
+  "skill": "Vine Whip",
+  "type": "Emerald"
+},{
+  "id": "PK3",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "0",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Venusaur",
+  "rarity": "Metal",
+  "skill": "Solar Beam",
+  "type": "Emerald"
+},{
+  "id": "PK5",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "0",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Charmeleon",
+  "rarity": "Metal",
+  "skill": "Fire Spin",
+  "type": "Ruby"
+},{
+  "id": "PK6",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "0",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Charizard",
+  "rarity": "Metal",
+  "skill": "Flamethrower",
+  "type": "Ruby"
+},{
+  "id": "PK8",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "0",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Wartortle",
+  "rarity": "Metal",
+  "skill": "Water Gun",
+  "type": "Aquamarine"
+},{
+  "id": "EV1",
+  "atk": "4",
+  "atype": "Star",
+  "batch": "1",
+  "category": "EV",
+  "ctr": "2",
+  "def": "4",
+  "name": "Ichigo",
+  "rarity": "Gold",
+  "skill": "Rain of the Heart",
+  "type": "Aquamarine,Amethyst"
+},{
+  "id": "PK9",
+  "atk": "P",
+  "atype": "Star",
+  "batch": "0",
+  "category": "PK",
+  "ctr": "0",
+  "def": "0",
+  "name": "Blastoise",
+  "rarity": "Metal",
+  "skill": "Hydro Cannon",
+  "type": "Aquamarine"
 },{
   "id": "SH1",
   "atk": "5",
@@ -8677,7 +8677,7 @@
 },{
   "id": "KM4",
   "atk": "2",
-  "atype": "Sun",
+  "atype": "Moon",
   "batch": "1",
   "category": "KM",
   "ctr": "2",
@@ -9549,7 +9549,7 @@
   "name": "Rize & Sharo",
   "rarity": "Rainbow",
   "skill": "Late Night Sleepover",
-  "type": "chicken"
+  "type": "Amethyst, Topaz"
 },{
   "id": "EX2",
   "atk": "4",
@@ -9573,7 +9573,7 @@
   "name": "Komari & Hotaru",
   "rarity": "Rainbow",
   "skill": "Koma-gurumi's Adventure",
-  "type": "chicken"
+  "type": "Amethyst, Ruby"
 },{
   "id": "PF9",
   "atk": "F",
@@ -9621,7 +9621,7 @@
   "name": "Nodoka & Saki",
   "rarity": "Rainbow",
   "skill": "Future Stream",
-  "type": "chicken"
+  "type": "Amethyst, Ruby"
 },{
   "id": "PF12",
   "atk": "F",
@@ -9669,7 +9669,7 @@
   "name": "Remilia & Sakuya",
   "rarity": "Rainbow",
   "skill": "Scarlet Netherworld",
-  "type": "chicken"
+  "type": "Amethyst, Diamond"
 },{
   "id": "PF15",
   "atk": "F",
@@ -9705,7 +9705,7 @@
   "name": "Yuu & Ayumu",
   "rarity": "Gold",
   "skill": "Blossoming Feelings",
-  "type": "chicken"
+  "type": "Emerald, Ruby"
 },{
   "id": "FR22",
   "atk": "3",
@@ -9717,7 +9717,7 @@
   "name": "Akagi & Kaga",
   "rarity": "Gold",
   "skill": "Zero's Supremacy",
-  "type": "chicken"
+  "type": "Diamond, Ruby"
 },{
   "id": "FR29",
   "atk": "0",
@@ -9729,7 +9729,7 @@
   "name": "Renko & Maribel",
   "rarity": "Gold",
   "skill": "Strange Dream",
-  "type": "chicken"
+  "type": "Ruby, Topaz"
 },{
   "id": "FR34",
   "atk": "4",
@@ -9741,7 +9741,7 @@
   "name": "Nanoha & Fate",
   "rarity": "Gold",
   "skill": "Memories Beyond Time",
-  "type": "chicken"
+  "type": "Ruby, Topaz"
 },{
   "id": "FR35",
   "atk": "2",
@@ -9753,7 +9753,7 @@
   "name": "Mokou & Keine",
   "rarity": "Gold",
   "skill": "Imaginary History",
-  "type": "chicken"
+  "type": "Emerald, Ruby"
 },{
   "id": "FR45",
   "atk": "7",
@@ -9765,7 +9765,7 @@
   "name": "Junko & Ai",
   "rarity": "Silver",
   "skill": "No Zombie No Idol",
-  "type": "chicken"
+  "type": "Diamond, Sapphire"
 },{
   "id": "FR46",
   "atk": "1",
@@ -9777,7 +9777,7 @@
   "name": "Katarina & Maria",
   "rarity": "Silver",
   "skill": "Fortune Lover",
-  "type": "chicken"
+  "type": "Ruby, Sapphire"
 },{
   "id": "FR52",
   "atk": "2",
@@ -9789,7 +9789,7 @@
   "name": "Aya & Youko",
   "rarity": "Silver",
   "skill": "Ayaya Intensifies!",
-  "type": "chicken"
+  "type": "Ruby, Sapphire"
 },{
   "id": "FR56",
   "atk": "4",
@@ -9801,7 +9801,7 @@
   "name": "Sae & Hiro",
   "rarity": "Silver",
   "skill": "Under the Same Sky",
-  "type": "chicken"
+  "type": "Amethyst, Ruby"
 },{
   "id": "FR59",
   "atk": "4",
@@ -9813,7 +9813,7 @@
   "name": "Ningguang & Beidou",
   "rarity": "Silver",
   "skill": "Conqueror of Tides",
-  "type": "chicken"
+  "type": "Amethyst, Ruby"
 },{
   "id": "FR62",
   "atk": "3",
@@ -9825,7 +9825,7 @@
   "name": "Coco & Kanata",
   "rarity": "Silver",
   "skill": "Legendary Friend C",
-  "type": "chicken"
+  "type": "Diamond, Ruby"
 },{
   "id": "FR67",
   "atk": "2",
@@ -9837,7 +9837,7 @@
   "name": "Tsubasa & Hitagi",
   "rarity": "Bronze",
   "skill": "Shower Time",
-  "type": "chicken"
+  "type": "Amethyst, Diamond"
 },{
   "id": "FR70",
   "atk": "3",
@@ -9849,7 +9849,7 @@
   "name": "Haruka & Michiru",
   "rarity": "Bronze",
   "skill": "Distant Sky & Rising Sea",
-  "type": "chicken"
+  "type": "Emerald, Topaz"
 },{
   "id": "FR74",
   "atk": "5",
@@ -9861,7 +9861,7 @@
   "name": "Toki & Ryuuka",
   "rarity": "Bronze",
   "skill": "Future Sight",
-  "type": "chicken"
+  "type": "Amethyst, Aquamarine"
 },{
   "id": "FR78",
   "atk": "2",
@@ -9873,7 +9873,7 @@
   "name": "Kirika & Bouquet",
   "rarity": "Bronze",
   "skill": "Love & Assassination",
-  "type": "chicken"
+  "type": "Ruby, Topaz"
 },{
   "id": "FR84",
   "atk": "7",
@@ -9885,7 +9885,7 @@
   "name": "Mai & Sayuri",
   "rarity": "Bronze",
   "skill": "Light and Shadow",
-  "type": "chicken"
+  "type": "Sapphire, Topaz"
 },{
   "id": "FR87",
   "atk": "4",
@@ -9897,7 +9897,7 @@
   "name": "Yuu & Haruka",
   "rarity": "Bronze",
   "skill": "Won(*3*)Chu KissMe!",
-  "type": "chicken"
+  "type": "Ruby, Topaz"
 },{
   "id": "FR92",
   "atk": "8",
@@ -9909,7 +9909,7 @@
   "name": "Yuugi & Parsee",
   "rarity": "Bronze",
   "skill": "The Legend of Hannya",
-  "type": "chicken"
+  "type": "Emerald, Topaz"
 },{
   "id": "PK153",
   "atk": "P",

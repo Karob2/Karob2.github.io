@@ -12,8 +12,27 @@ http://127.0.0.1:8000/index.html
 var cardDB;
 var deckSize = 50;
 var handSize = 7;
+var shinyCount = 3;
 var guiState, gameState;
 var finalCard;
+var statBalance = {
+    points: 3.847,
+    draw: 1.493,
+    stamina: 2.615
+};
+var bonusCard = {
+    "id": "bonus",
+    "atk": "0", //-1
+    "atype": "",
+    "batch": "",
+    "category": "",
+    "ctr": "0",
+    "def": "1", //1
+    "name": "",
+    "rarity": "",
+    "skill": "",
+    "type": ""
+};
 
 var fieldSlots = document.getElementsByClassName('field');
 var handSlots = document.getElementsByClassName('hand');
@@ -24,15 +43,38 @@ var deckSlot;
 var dragSlot;
 
 var elements = ['aquamarine', 'amethyst', 'ruby', 'topaz', 'emerald', 'sapphire', 'diamond'];
+var types = ['sun', 'moon', 'star'];
+var rarities = ['shiny', 'bronze', 'silver', 'gold', 'rainbow'];
+var regularRarities = ['bronze', 'silver', 'gold', 'rainbow'];
+var stats = ['points', 'draw', 'stamina'];
+
 var slots = ['aquamarine', 'amethyst', 'ruby', 'topaz', 'emerald', 'sapphire', 'diamond', 'sun', 'moon', 'free']; //'special'
-const getImageUrl = str => `url('https://isml.moe/c/img/${str}.png')`;
+const getImageUrl = str => {
+    if (str === 'bonus') return 'url(dango.png)';
+    else return `url('https://isml.moe/c/img/${str}.png')`;
+};
 // const getImageUrl = str => 'url(blank.png)';
+// var rarityCombos = {
+//     bronze: { cost: 6, match: ['shiny'] },
+//     silver: { cost: 4, match: ['bronze', 'shiny'] },
+//     gold: { cost: 2, match: ['bronze', 'silver', 'shiny'] },
+//     rainbow: { cost: 0, match: ['bronze', 'silver', 'gold', 'shiny'] },
+//     shiny: { cost: 8, match: ['bronze', 'silver', 'gold', 'rainbow', 'shiny'] }
+// };
+
 var rarityCombos = {
-    bronze: { cost: 9, match: ['shiny'] },
-    silver: { cost: 6, match: ['bronze', 'shiny'] },
-    gold: { cost: 3, match: ['bronze', 'silver', 'shiny'] },
-    rainbow: { cost: 0, match: ['bronze', 'silver', 'gold', 'shiny'] },
-    shiny: { cost: 4, match: ['bronze', 'silver', 'gold', 'rainbow', 'shiny'] }
+    bronze: { cost: 1, match: ['shiny', 'silver', 'gold', 'rainbow'] },
+    silver: { cost: 3, match: ['gold', 'rainbow', 'shiny'] },
+    gold: { cost: 5, match: ['rainbow', 'shiny'] },
+    rainbow: { cost: 7, match: ['shiny'] },
+    shiny: { cost: 9, match: ['bronze', 'silver', 'gold', 'rainbow', 'shiny'] }
+};
+
+var recyclePreference = {
+    bronze: [ 'rainbow', 'gold', 'silver' ],
+    silver: [ 'gold', 'rainbow', 'silver' ],
+    gold: [ 'silver', 'bronze', 'gold' ],
+    rainbow: [ 'bronze', 'silver', 'gold' ]
 };
 
 async function onPageLoad() {
@@ -48,12 +90,13 @@ async function onPageLoad() {
     }
 
     gameState = {
-        points: 1,
-        stamina: 1,
-        turns: 1,
+        points: 5,
+        stamina: 5,
+        turns: 0,
         score: 50, // - 6,
-        turnCost: 1,
+        turnCost: 0,
         unlockCost: 1,
+        hasWon: false,
 
         deck: [],
         hand: [],
@@ -64,7 +107,7 @@ async function onPageLoad() {
     for (let i = 0; i < slots.length; i++) {
         gameState.slot.push(null);
         gameState.slotLocked.push(true);
-        gameState.slotCost.push(0);
+        gameState.slotCost.push(1);
     }
 
     await fetch('cards.json')
@@ -113,11 +156,13 @@ async function onPageLoad() {
     const dbSize = cardDB.length;
     const deckIndices = [];
     // const negativeTest = [ 'EV26', 'VN3', 'EV30', 'FM63' ];
+
+    /*
     for (let i = 0; i < deckSize; i++) {
         let newCard = null;
-        while (newCard == null || deckIndices.includes(newCard) || cardDB[newCard].rarity === 'Metal') newCard = Math.floor(Math.random() * dbSize);
+        while (newCard == null || deckIndices.includes(newCard) || cardDB[newCard].rarity === 'Metal') newCard = arrayRandomIndex(cardDB);
         // if (Math.random() < 0.5) {
-        //     newCardId = negativeTest[Math.floor(Math.random() * negativeTest.length)];
+        //     newCardId = arrayRandom(negativeTest);
         //     newCard = cardDB.findIndex(c => c.id === newCardId);
         // }
         deckIndices.push(newCard);
@@ -132,9 +177,25 @@ async function onPageLoad() {
 
         gameState.deck.push(newCardObject);
     }
+    */
+    cardDB.forEach(card => {
+        if (isNaN(parseInt(card.atk))) card.atk = 3;
+        if (isNaN(parseInt(card.ctr))) card.ctr = 3;
+        if (isNaN(parseInt(card.def))) card.def = 3;
+        if (!slots.includes(card.type.toLowerCase()) && !card.type.includes(',')) card.type = 'Diamond, Amethyst';
+        if (!slots.includes(card.atype.toLowerCase())) card.atype = 'Star';
+    });
+    gameState.deck = arraySortRandom(makeBalancedDeck(cardDB.filter(c => c.rarity !== 'Metal')));
+    console.log('Deck balance check:');
+    console.log(countValues(gameState.deck));
+    const bonusSpacing = 5;
+    const bonusCount = Math.floor(gameState.deck.length / (bonusSpacing - 1));
+    for (let i = 0; i < bonusCount; i++) {
+        gameState.deck.splice((i + 1) * bonusSpacing - 1, 0, bonusCard);
+    }
+
     for (let i = 0; i < 4; i++) {
-        const j = Math.floor(Math.random() * gameState.deck.length);
-        gameState.hand.push(gameState.deck.pop(j));
+        cardDrawMethod();
         // handSlots[i].style.backgroundImage = getImageUrl(gameState.hand[i].id);
     }
 
@@ -144,10 +205,18 @@ async function onPageLoad() {
         fieldSlots[i].addEventListener('mousedown', event => clickDeck(event, 'field', i));
         fieldSlots[i].addEventListener('mouseup', event => releaseClick(event, 'field', i));
     }
+
     discardSlot.addEventListener('mouseover', event => hoverDeck(event.target, 'discard', 0));
     discardSlot.addEventListener('mouseout', event => unHover());
     discardSlot.addEventListener('mousedown', event => clickDeck(event, 'discard', 0));
     discardSlot.addEventListener('mouseup', event => releaseClick(event, 'discard', 0));
+
+    deckSlot.addEventListener('click', event => drawCard(event));
+    deckSlot.addEventListener('mouseover', event => hoverDeck(event.target, 'draw', 0));
+    deckSlot.addEventListener('mouseout', event => unHover());
+    // deckSlot.addEventListener('mousedown', event => clickDeck(event, 'draw', 0));
+    deckSlot.addEventListener('mouseup', event => releaseClick(event, 'draw', 0));
+
     for (let i = 0; i < handSize; i++) {
         handSlots[i].addEventListener('mouseover', event => hoverDeck(event.target, 'hand', i));
         handSlots[i].addEventListener('mouseout', event => unHover());
@@ -159,14 +228,6 @@ async function onPageLoad() {
     document.getElementById('end-turn').addEventListener('click', event => endTurn(event));
     document.getElementById('end-turn').addEventListener('mouseover', event => hoverDeck(event.target, 'boost', 0));
     document.getElementById('end-turn').addEventListener('mouseout', event => unHover());
-
-    // Draw
-    // document.getElementById('draw-card').addEventListener('click', event => drawCard(event));
-    // document.getElementById('draw-card').addEventListener('mouseover', event => hoverDeck(event.target, 'draw', 0));
-    // document.getElementById('draw-card').addEventListener('mouseout', event => unHover());
-    document.getElementById('slot-deck').addEventListener('click', event => drawCard(event));
-    document.getElementById('slot-deck').addEventListener('mouseover', event => hoverDeck(event.target, 'draw', 0));
-    document.getElementById('slot-deck').addEventListener('mouseout', event => unHover());
 
     // Rules
     document.getElementById('show-rules').addEventListener('click', event => showRules(event));
@@ -189,14 +250,15 @@ function updateBoard() {
         let wrongType = false;
         if (guiState.mode === 'waiting') {
             if (guiState.highlightSet === 'field' && guiState.highlightIndex === i) {
-                if (gameState.slotLocked[i]) {
-                    highlight = true;
-                    const moveResult = tryMove(i, -1);
-                    updateScoreboard(moveResult);
-                    scoreUpdated = true;
-                } else {
-                    disable = true;
-                }
+                // if (gameState.slotLocked[i]) {
+                //     highlight = true;
+                //     const moveResult = tryMove(i, -1);
+                //     updateScoreboard(moveResult);
+                //     scoreUpdated = true;
+                // } else {
+                //     disable = true;
+                // }
+                disable = true;
             }
             if (guiState.highlightSet === 'hand' && guiState.highlightIndex < gameState.hand.length) {
                 const moveResult = tryMove(i, guiState.highlightIndex);
@@ -231,7 +293,7 @@ function updateBoard() {
             setClass(slotObject, 'unlocking2', emphasize);
 
             // const spanClass = gameState.points >= gameState.unlockCost ? '' : 'decrement';
-            // slotObject.innerHTML = `${toTitleCase(slots[i])}<br/><br/><span class="${spanClass}">-${gameState.unlockCost}</span>⭐`; //🔒🔓☆
+            // slotObject.innerHTML = `${toTitleCase(slots[i])}<br/><br/><span class="${spanClass}">-${gameState.unlockCost}</span>✨`; //🔒🔓☆
             slotObject.style.backgroundImage = '';
         } else {
             removeClass(slotObject, 'locked');
@@ -249,10 +311,11 @@ function updateBoard() {
         if (guiState.mode === 'waiting' && guiState.highlightSet === 'hand') costSeeker = gameState.hand[guiState.highlightIndex];
         if (guiState.mode === 'hand-move') costSeeker = gameState.hand[guiState.handIndex];
         if (gameState.slotLocked[i]) {
-            if (gameState.points >= gameState.unlockCost) cost.push(`−${gameState.unlockCost}⭐`);
-            else cost.push(`❌−${gameState.unlockCost}⭐`);
+            if (gameState.points >= gameState.unlockCost) cost.push(`−${gameState.unlockCost}✨`);
+            else cost.push(`❌−${gameState.unlockCost}✨`);
         }
-        if (!gameState.slotLocked[i] || costSeeker != null) {
+        // if (!gameState.slotLocked[i] || costSeeker != null) {
+        if (getSlotCost(i) !== 0) {
             if (gameState.stamina >= getSlotCost(i)) cost.push(`−${getSlotCost(i)}🟦`);
             else cost.push(`❌−${getSlotCost(i)}🟦`);
         }
@@ -287,9 +350,12 @@ function updateBoard() {
         let costSeeker = null;
         if (guiState.mode === 'waiting' && guiState.highlightSet === 'hand' && guiState.highlightIndex === i) costSeeker = gameState.hand[guiState.highlightIndex];
         if (costSeeker != null) {
-            cost.push(`${styleSign(getPoints(costSeeker))}⭐`);
-            cost.push(`${styleSign(getStamina(costSeeker))}🟦`);
-            cost.push(`${styleSign(getDraw(costSeeker))} Card`);
+            const points = getPoints(costSeeker);
+            const stamina = getStamina(costSeeker);
+            const draw = getDraw(costSeeker);
+            if (points !== 0) cost.push(`${styleSign(points)}✨`);
+            if (stamina !== 0) cost.push(`${styleSign(stamina)}🟦`);
+            if (draw !== 0) cost.push(`${styleSign(draw)} Card`);
             handCost[i].innerHTML = cost.join('<br/>');
         }
         else handCost[i].innerHTML = '';
@@ -317,12 +383,19 @@ function updateBoard() {
     deckSlot.innerHTML = `<br/>Deck<br/><br/><br/><br/><br/>${gameState.deck.length}`;
     if (gameState.deck.length <= 0) {
         addClass(deckSlot, 'disabled');
+    } else {
+        removeClass(deckSlot, 'disabled');
     }
     if (guiState.mode === 'waiting' && guiState.highlightSet === 'draw') {
         const moveResult = tryDraw();
         updateScoreboard(moveResult);
         scoreUpdated = true;
         setClass(deckSlot, 'highlight', moveResult.success);
+    } else if (guiState.mode === 'hand-move' && guiState.highlightSet === 'draw') {
+        const moveResult = tryRecycle(guiState.handIndex);
+        setClass(deckSlot, 'highlight', moveResult.success);
+        updateScoreboard(moveResult);
+        scoreUpdated = true;
     } else {
         removeClass(deckSlot, 'highlight');
     }
@@ -330,16 +403,20 @@ function updateBoard() {
     // Update scoreboard
     if (!scoreUpdated) updateScoreboard();
 
-    if (guiState.mode !== 'finished' && gameState.slot.findIndex(s => s == null) < 0)
-    {
-        window.alert(`Congrats! You won, with a score of ${gameState.score}.\nFinal card played: [${finalCard.name} - ${finalCard.id}]`);
-        guiState.mode = 'finished'
+    if (!gameState.hasWon && gameState.slot.findIndex(s => s == null) < 0) {
+        gameState.hasWon = true;
+        gameState.score += 50;
     }
+    // if (guiState.mode !== 'finished' && gameState.slot.findIndex(s => s == null) < 0)
+    // {
+    //     window.alert(`Congrats! You won, with a score of ${gameState.score} + ${gameState.points} = ${gameState.score + gameState.points}.\nFinal card played: [${finalCard.name} - ${finalCard.id}]`);
+    //     guiState.mode = 'finished'
+    // }
     // else if (gameState.score <= 0) window.alert('Game Over - Your score reached zero.');
 }
 
 function updateScoreboard(moveResult = null) {
-    let pointsText = `⭐Point: ${gameState.points}`; //☆
+    let pointsText = `✨Power: ${gameState.points}`; //☆⭐
     let staminaText = `🟦Stamina: ${gameState.stamina}`; //▢
     let drawText = `${gameState.hand.length}`;
     let scoreText = `🍡Score: ${gameState.score}`;
@@ -364,6 +441,8 @@ function updateScoreboard(moveResult = null) {
             if (moveResult.final.score > gameState.score) scoreText += `→<span class="increment">${moveResult.final.score.toString()}</span>`;
             if (moveResult.final.score < gameState.score) scoreText += `→<span class="decrementOff">${moveResult.final.score.toString()}</span>`;
         }
+    } else {
+        scoreText = `🍡Score: ${gameState.score} + ${gameState.points} = ${gameState.score + gameState.points}`;
     }
     drawText += ' Card'; //🂠
     document.getElementById('score-points').innerHTML = pointsText;
@@ -381,6 +460,16 @@ function hoverDeck(element, set, n) {
 
 function clickDeck(event, set, n) {
     if (guiState.mode === 'waiting' && guiState.highlightSet === 'hand') {
+        const card = gameState.hand[guiState.highlightIndex];
+        if (card.id === 'bonus') {
+            if (gameState.points >= -getPoints(card) && gameState.stamina >= -getStamina(card)) {
+                gameState.hand.splice(guiState.highlightIndex, 1);
+                gameState.points += getPoints(card);
+                gameState.stamina += getStamina(card);
+                updateBoard();
+            }
+            return;
+        }
         guiState.handIndex = guiState.highlightIndex;
         guiState.handCard = gameState.hand[guiState.handIndex];
 
@@ -394,10 +483,10 @@ function clickDeck(event, set, n) {
         guiState.mode = 'hand-move';
         moveDrag(event);
     }
-    if (guiState.mode === 'waiting' && guiState.highlightSet === 'field' && gameState.slotLocked[n]) {
-        guiState.slotIndex = n;
-        guiState.mode = 'slot-unlock';
-    }
+    // if (guiState.mode === 'waiting' && guiState.highlightSet === 'field' && gameState.slotLocked[n]) {
+    //     guiState.slotIndex = n;
+    //     guiState.mode = 'slot-unlock';
+    // }
     updateBoard();
 }
 
@@ -418,6 +507,10 @@ function releaseClick(event, set, n) {
 
         if (set === 'discard') {
             doDiscard(guiState.handIndex);
+        }
+
+        if (set === 'draw') {
+            doRecycle(guiState.handIndex);
         }
 
         guiState.mode = 'waiting';
@@ -485,8 +578,7 @@ function doDraw(preview = false) {
     result.success = gameState.deck.length > 0 && result.final.score >= 0;
     if (preview || !result.success) return result;
 
-    const j = Math.floor(Math.random() * gameState.deck.length);
-    gameState.hand.push(gameState.deck.pop(j));
+    cardDrawMethod();
     gameState.score = result.final.score;
     return result;
 }
@@ -496,13 +588,51 @@ function doDiscard(handIndex, preview = false) {
     const result = {};
     result.final = {
         points: gameState.points,
-        stamina: gameState.stamina,
+        stamina: gameState.stamina + 1,
         draw: gameState.hand.length - 1,
-        score: gameState.score - 1
+        score: gameState.score // - 1
     }
     result.success = result.final.score >= 0;
     if (preview || !result.success) return result;
     gameState.hand.splice(handIndex, 1);
+    gameState.points = result.final.points;
+    gameState.stamina = result.final.stamina;
+    gameState.score = result.final.score;
+    return result;
+}
+
+const tryRecycle = handIndex => doRecycle(handIndex, true);
+function doRecycle(handIndex, preview = false) {
+    const result = {};
+    result.final = {
+        points: gameState.points - 1,
+        stamina: gameState.stamina - 0,
+        draw: gameState.hand.length, // - 1,
+        score: gameState.score
+    }
+    result.success = result.final.score >= 0 && gameState.deck.length > 0 && gameState.hand[handIndex].rarity !== 'Shiny';
+    result.success = result.success && result.final.points >= 0 && result.final.stamina >= 0;
+    if (preview || !result.success) return result;
+
+    const preferences = recyclePreference[getRarity(gameState.hand[handIndex])];
+    let matches;
+    //for (let q = 0; q < preference.length; q++) {
+    for (const rarityTarget of preferences) {
+        matchesTest = gameState.deck.filter(c => getRarity(c) === rarityTarget);
+        if (matchesTest.length > 0) {
+            matches = matchesTest;
+            break;
+        }
+    }
+    if (matches == null) matches = gameState.deck;
+    const newCard = arrayRandom(matches);
+    const newCardIndex = gameState.deck.findIndex(c => c.id === newCard.id);
+    gameState.deck.splice(newCardIndex, 1);
+    gameState.deck.push(gameState.hand[handIndex]);
+    // gameState.hand.splice(handIndex, 1);
+    gameState.hand[handIndex] = newCard;
+    gameState.points = result.final.points;
+    gameState.stamina = result.final.stamina;
     gameState.score = result.final.score;
     return result;
 }
@@ -528,10 +658,14 @@ function doMove(slotIndex, handIndex, preview = false) {
         result.reward.points += getPoints(card);
         result.reward.stamina += getStamina(card);
         result.reward.draw += getDraw(card);
-        if (card.rarity === 'Shiny') scoreShift += 4;
+        if (card.rarity === 'Shiny') scoreShift += 0;
         else scoreShift += 8;
     }
     if (!gameState.slotLocked[slotIndex] && !cardValid) {
+        result.success = false;
+        // return result;
+    }
+    if (gameState.slotLocked[slotIndex] && !cardValid) {
         result.success = false;
         // return result;
     }
@@ -546,14 +680,24 @@ function doMove(slotIndex, handIndex, preview = false) {
     if (result.cost.stamina > gameState.stamina) result.success = false;
     // if (result.final.draw < 0) result.success = false;
     if (card != null) {
-        const elList = card.type.split(',').map(s => s.trim().toLowerCase());
-        const type = card.atype.toLowerCase();
+        const elList = getElements(card);
+        const type = getType(card);
+        const slotCard = gameState.slot[slotIndex];
+
+        // Block from playing onto mismatched slot.
         if (!elList.includes(slots[slotIndex]) && type !== slots[slotIndex] && slots[slotIndex] !== 'free') {
             result.success = false;
             result.wrongType = true;
         }
-        const slotCard = gameState.slot[slotIndex];
-        if (slotCard != null && !rarityCombos[slotCard.rarity.toLowerCase()].match.includes(card.rarity.toLowerCase())) result.success = false;
+
+        // Block from playing wrong rarity order.
+        if (slotCard != null && !rarityCombos[getRarity(slotCard)].match.includes(getRarity(card))) result.success = false;
+
+        // Block from playing shiny or multiple element onto free slot.
+        if (slots[slotIndex] === 'free' && (elList.length > 1 || card.rarity === 'Shiny')) {
+            result.success = false;
+            result.wrongType = true;
+        }
     }
 
     // if (gameState.slot[slotIndex] != null) result.success = false; // This blocked simultaneous unlock and play.
@@ -566,12 +710,12 @@ function doMove(slotIndex, handIndex, preview = false) {
     // Now update the game state.
     if (gameState.slotLocked[slotIndex]) {
         gameState.slotLocked[slotIndex] = false;
-        gameState.unlockCost += 1;
+        gameState.unlockCost += 2;
         // gameState.score += result.cost.points;
     }
     if (cardValid) {
         if (gameState.slot[slotIndex] == null) gameState.turnCost += 1;
-        // else gameState.slotCost[slotIndex] -= 1;
+        else gameState.slotCost[slotIndex] += 2;
 
         gameState.slot[slotIndex] = card;
         finalCard = card;
@@ -595,7 +739,7 @@ function doMove(slotIndex, handIndex, preview = false) {
     if (result.final.draw < gameState.hand.length) {
         while (result.final.draw < gameState.hand.length) {
             if (gameState.hand.length > 0) {
-                gameState.hand.pop();
+                gameState.deck.push(gameState.hand.pop());
                 continue;
             }
             if (gameState.deck.length > 0) {
@@ -608,8 +752,7 @@ function doMove(slotIndex, handIndex, preview = false) {
     } else {
         for (let i = 0; i < result.reward.draw; i++) {
             if (gameState.deck.length === 0) break;
-            const j = Math.floor(Math.random() * gameState.deck.length);
-            gameState.hand.push(gameState.deck.pop(j));
+            cardDrawMethod();
         }
     }
 
@@ -618,12 +761,17 @@ function doMove(slotIndex, handIndex, preview = false) {
 const getPoints = card => parseInt(card.atk);
 const getDraw = card => parseInt(card.ctr);
 const getStamina = card => parseInt(card.def);
+const getStats = card => ({ points: getPoints(card), draw: getDraw(card), stamina: getStamina(card) });
+const getElements = card => card.type.split(',').map(s => s.trim().toLowerCase());
+const getType = card => card.atype.toLowerCase();
+const getRarity = card => card.rarity.toLowerCase();
 
 function getSlotCost(index) {
     const card = gameState.slot[index];
     if (card == null) return gameState.turnCost;
-    const rarity = card.rarity.toLowerCase();
-    return rarityCombos[rarity].cost;
+    // const rarity = card.rarity.toLowerCase();
+    // return rarityCombos[rarity].cost;
+    return gameState.slotCost[index];
 }
 
 // function getScore(scoreset) {
@@ -637,8 +785,140 @@ function toTitleCase(str) {
     }).join(' ');
 }
 
+const arrayRandom = array => array[Math.floor(Math.random() * array.length)];
+const arrayRandomIndex = array => Math.floor(Math.random() * array.length);
+const arrayRandomPop = array => {
+    const index = Math.floor(Math.random() * array.length);
+    const result = array[index];
+    array.splice(index, 1);
+    return result;
+};
+const arrayIndexPop = (array, index) => {
+    const result = array[index];
+    array.splice(index, 1);
+    return result;
+};
+function arraySortRandom(array) {
+    const randomizer = [];
+    for (let i = 0; i < array.length; i++) {
+        randomizer.push({ index: i, sortKey: Math.random() });
+    }
+    randomizer.sort((a, b) => a.sortKey - b.sortKey);
+    return randomizer.map(r => array[r.index]);
+}
+
 const styleSign = num => num >= 0 ? `+${num}` : `−${-num}`;
 
 const setClass = (obj, className, enabled) => { enabled ? obj.classList.add(className) : obj.classList.remove(className); };
 const addClass = (obj, className) => { obj.classList.add(className); };
 const removeClass = (obj, className) => { obj.classList.remove(className); };
+
+function zeroTable(names) {
+    const table = {};
+    names.forEach(n => table[n] = 0);
+    return table;
+}
+
+function countValues(deck) {
+    const elementCount = zeroTable(elements);
+    const typeCount = zeroTable(types);
+    const rarityCount = zeroTable(rarities);
+    const statCount = zeroTable(stats);
+
+    // Count how much of everything is in the deck so far.
+    deck.forEach(card => {
+        getElements(card).forEach(element => { elementCount[element] += 1; });
+        typeCount[getType(card)] += 1;
+        rarityCount[getRarity(card)] += 1;
+        statCount.points += getPoints(card);
+        statCount.draw += getDraw(card);
+        statCount.stamina += getStamina(card);
+    });
+
+    return { elements: elementCount, types: typeCount, rarities: rarityCount, stats: statCount };
+}
+
+function makeBalancedDeck(cardPool) {
+    const getLowestValues = (names, valueTable) => {
+        const valueArray = names.map(n => valueTable[n]);
+        const lowestValue = Math.min(...valueArray);
+        const highestValue = Math.max(...valueArray);
+        const lowestNames = [];
+        names.forEach(n => {
+            if (valueTable[n] === lowestValue) lowestNames.push(n);
+        });
+        return { names: lowestNames, gap: highestValue - lowestValue };
+    };
+
+    const getLowest = () => {
+        const totals = countValues(deck);
+        totals.stats.points -= statBalance.points * deck.length;
+        totals.stats.draw -= statBalance.draw * deck.length;
+        totals.stats.stamina -= statBalance.stamina * deck.length;
+
+        // let lowestStat = '';
+        // let statTotal = totals.stats.points + totals.stats.draw + totals.stats.stamina;
+        // if (totals.stats.points / statTotal < 0.25) lowestStat = 'points';
+        // if (totals.stats.draw / statTotal < 0.25) lowestStat = 'draw';
+        // if (totals.stats.stamina / statTotal < 0.25) lowestStat = 'stamina';
+
+        return {
+            elements: getLowestValues(elements, totals.elements),
+            types: getLowestValues(types, totals.types),
+            rarities: getLowestValues(regularRarities, totals.rarities),
+            stats: getLowestValues(stats, totals.stats)
+            // stat: lowestStat
+        };
+    };
+
+    const elementMatch = (wantedList, haveList) => {
+        for (const wantedElement of wantedList) {
+            if (haveList.includes(wantedElement)) return true;
+        }
+        return false;
+    };
+
+    const deck = [];
+
+    // Add shinies to deck.
+    const shinyPool = arraySortRandom(cardPool.filter(card => card.rarity === 'Shiny'));
+    for (let i = 0; i < shinyCount; i++) {
+        deck.push(shinyPool.pop());
+    }
+
+    // Add other cards to deck, keeping the types and stats balanced.
+    const randomPool = cardPool.filter(card => card.rarity !== 'Shiny').map(card => ({ card, sortKey: Math.random() }));
+    for (let i = shinyCount; i < deckSize; i++) {
+        // Figure out what is needed.
+        const lowest = getLowest();
+
+        // Score the card pool by need.
+        randomPool.forEach(item => {
+            item.score = 0;
+            if (elementMatch(lowest.elements.names, getElements(item.card))) item.score += lowest.elements.gap;
+            if (lowest.types.names.includes(getType(item.card))) item.score += lowest.types.gap;
+            if (lowest.rarities.names.includes(getRarity(item.card))) item.score += lowest.rarities.gap;
+            const cardStats = getStats(item.card);
+            const statTotal = cardStats.points + cardStats.draw + cardStats.stamina;
+            // if (lowest.stat === 'points' && cardStats.points / statTotal >= 0.5) item.score += 1;
+            // if (lowest.stat === 'draw' && cardStats.draw / statTotal >= 0.5) item.score += 1;
+            // if (lowest.stat === 'stamina' && cardStats.stamina / statTotal >= 0.5) item.score += 1;
+            // if (lowest.stats.names.includes('points') && cardStats.points / statTotal > 0.5) item.score += lowest.stats.gap;
+            // else if (lowest.stats.names.includes('draw') && cardStats.draw / statTotal > 0.5) item.score += lowest.stats.gap;
+            // else if (lowest.stats.names.includes('stamina') && cardStats.stamina / statTotal > 0.5) item.score += lowest.stats.gap;
+            if (lowest.stats.names.includes('points') && cardStats.points > statBalance.points) item.score += lowest.stats.gap;
+            else if (lowest.stats.names.includes('draw') && cardStats.draw > statBalance.draw) item.score += lowest.stats.gap;
+            else if (lowest.stats.names.includes('stamina') && cardStats.stamina > statBalance.stamina) item.score += lowest.stats.gap;
+        });
+
+        // Put the highest scoring card into the deck.
+        randomPool.sort((a, b) => a.score === b.score ? a.sortKey - b.sortKey : a.score - b.score);
+        deck.push(randomPool.pop().card);
+    }
+
+    return deck;
+}
+
+function cardDrawMethod() {
+    gameState.hand.push(arrayIndexPop(gameState.deck, 0));
+}
